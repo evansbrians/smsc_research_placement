@@ -1,0 +1,103 @@
+---
+title: "Activity: Reverse engineering your QHP"
+---
+
+Proposals usually present the **question**, then the **hypothesis**, and then the **prediction**, but developing these elements may be easier in reverse. Begin with the available variables, sketch expected patterns, ask which mechanisms could produce them, and then identify the broader questions those mechanisms answer.
+
+Keep the activities separate. Rough plots, relationship sentences, and possible mechanisms should be easy to revise or discard. Save polishing for after you have explored the alternatives.
+
+## Activity 1: Map and plot expected relationships
+
+Begin with the variables that are available or likely to be available. At this point, do not explain *why* a relationship should occur.
+
+1.  List the variables that could play a meaningful role in the focal system.
+2.  Label possible **predictor** and **response** variables. A variable may play different roles in different relationships.
+3.  Choose one predictor-response pair at a time.
+4.  Place the predictor on the horizontal axis and the response on the vertical axis.
+5.  Draw the pattern that you expect to observe. If more than one pattern seems plausible, draw each one separately.
+6.  Record the unit of measurement for both variables (e.g., percent impervious surface, nightly movement area in hectares, or number of detections). If a variable is categorical, list its categories instead.
+7.  Beneath the plot, write one sentence describing the relationship that you drew. State what happens to the response as the predictor changes, but do not explain *why* yet.
+
+Give each plot a short working title. Directly beneath it, record:
+
+-   The predictor and its unit or categories.
+-   The response and its unit or categories.
+-   The sentence describing the expected relationship.
+
+Keep separate plots when you expect different possible patterns from the same pair of variables.
+
+**Stopping point:** You have at least one interpretable plot or map showing an expected relationship between named variables, and each plot has a sentence describing that relationship. You have not yet added a mechanism.
+
+## Activity 2: Turn each plot into a prediction
+
+A prediction states the observable pattern shown in the plot. For each relationship:
+
+1.  Name the predictor and response variables.
+2.  State the expected direction or shape of the relationship.
+3.  Identify the comparison represented by the prediction.
+4.  Include the units or categories when the reader needs them to understand the comparison.
+
+Use the structure:
+
+> We predict that `[response]` will `[increase/decrease/differ/change in this way]` as `[predictor]` changes from `[comparison value or category]` to `[comparison value or category]`.
+
+Then check the sentence against the plot. Someone reading the prediction should be able to sketch approximately the same relationship.
+
+**Stopping point:** Every plot has a prediction that names a predictor, response, and expected pattern. Save *because* for the hypothesis activity, where you will develop the explanation.
+
+## Activity 3: Generate mechanistic hypotheses
+
+Now ask what could produce each predicted pattern. Generate more than one mechanism when possible because the same prediction can follow from several different hypotheses.
+
+For each prediction:
+
+1.  Make a small ingredient set: the environmental or system condition, an organismal or physical response, and the focal outcome.
+2.  Choose one condition and one response and ask, “Could this response connect the condition to the pattern?” Reject the pairing and try another when it does not make ecological sense.
+3.  Build a because ladder: “The condition changes what the organism or system experiences because ______. That changes the response because ______. That response produces the expected pattern because ______.”
+4.  If you can see the outcome but not the pathway, work backward: “What would have to happen immediately before this outcome for it to occur?”
+5.  Write a mechanistic answer without repeating the directional predictor-response comparison.
+6.  Generate plausible alternative mechanisms that could yield the same prediction before evaluating which explanation is strongest.
+
+Avoid directional phrases such as *increases*, *decreases*, *higher*, and *lower* in the hypothesis. Those words make the hypothesis sound like another prediction or a statistical hypothesis. A scientific hypothesis should explain how or why the phenomenon occurs.
+
+In your notes, place the focal hypothesis and any alternatives directly beneath the prediction they could explain. Keep each mechanism on its own line. This arrangement makes it easier to see when several hypotheses produce the same prediction.
+
+Each *because* should add causal information. If it only restates the condition or the pattern, the middle of the explanation is still missing. Stop extending the ladder when an informed reader can follow the proposed process.
+
+**Stopping point:** Each retained prediction has at least one mechanistic explanation, and the hypothesis can be stated without comparing the predictor and response variables.
+
+## Activity 4: Identify the research questions
+
+Work backward one more step: what broader uncertainty do the hypotheses attempt to resolve?
+
+1.  Place related hypotheses together.
+2.  Ask what question all of the mechanisms could answer.
+3.  Write the question so that the hypotheses are plausible answers to it.
+4.  Avoid simply converting the prediction into “Does X affect Y?” when the real question concerns a broader process.
+5.  Check that the question does not contain its answer.
+
+Write each provisional QHP as a three-part list:
+
+-   **Question:** the broader uncertainty.
+    -   **Hypothesis:** one mechanistic answer to that question.
+        -   **Prediction:** the observable relationship that follows from the hypothesis.
+
+If more than one hypothesis answers the question, list each hypothesis separately and place its prediction beneath it. Then read downward as **Question → Hypothesis → Prediction**. Finally, retrace the route you used to develop it: **Prediction → Hypothesis → Question**.
+
+**Stopping point:** You have one or more provisional QHP sets that can be tested and refined with literature. They are expected to change as you search and review the literature.
+
+::: now_you
+{{< fa user-circle size=2x >}} [Now you!]{style="font-size: 1.25em; padding-left: 0.5em;"}
+
+**Check the reverse path**
+
+Suppose you predict that predation risk will decline as foliage density surrounding a nest increases.
+
+**1.** Which statement is a mechanistic hypothesis that could produce this prediction?
+
+`r longmcq(c("Foliage density will be negatively associated with predation risk.", answer = "Dense foliage obstructs the visual cues predators use to locate nests.", "Predation risk differs among nests.", "Does foliage density affect predation risk?"))`
+
+**2.** Which research question does that hypothesis answer most directly?
+
+`r longmcq(c(answer = "How does vegetation structure alter the ability of predators to locate nests?", "Is foliage density measured as a percentage?", "Will dense nests have lower predation risk?", "How many nests can be monitored?"))`
+:::

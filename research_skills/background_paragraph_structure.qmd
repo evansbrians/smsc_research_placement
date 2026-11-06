@@ -1,0 +1,254 @@
+---
+title: "Paragraph structure"
+engine: knitr
+---
+
+Each paragraph has a specific job within the larger argument. Its internal logic is the sequence of claims, reasoning, evidence, and interpretation that allows it to perform that job.
+
+A strong paragraph is a small argument: it makes a claim, supplies the reasoning and evidence needed to support it, explains what that evidence means, and connects the result to the larger argument.
+
+[Logic in scientific writing](logic_in_scientific_writing.qmd) used logical chains to expose missing or weak connections. The same test applies within a paragraph: its sentences must do recognizable jobs and form a defensible sequence from the topic claim to the endpoint.
+
+In this lesson we will explore the Topic, Reasoning, Evidence, Analysis, and Transition (TREAT) framework to structure paragraphs and identify the jobs performed by sentences in a paragraph. A logical-chain test evaluates the connections among them. These are related but different questions:
+
+-   **Sentence-job question:** What is this sentence doing?
+-   **Logical-chain question:** Why does this sentence belong here, and how does it support or prepare the next step?
+
+A paragraph can contain a topic sentence, evidence, analysis, and a transition and still fail logically. The evidence may not support the claim, the analysis may require an unstated assumption, or the final sentence may introduce a conclusion that the paragraph never established.
+
+## What you will learn
+
+By the end of the lesson, you should be able to:
+
+1.  Identify the job or jobs performed by each sentence in a paragraph using the Topic, Reasoning, Evidence, Analysis, and Transition (TREAT) framework.
+2.  Explain how a paragraph develops a logical chain from its topic claim to its anchor.
+3.  Evaluate whether the reasoning, evidence, and analysis support the paragraph's claim.
+4.  Identify missing steps, unsupported assumptions, and changes in concept, measurement, scale, or level of observation within a paragraph.
+5.  Identify a modification that would strengthen a weak connection within a paragraph.
+6.  Use TREAT flexibly when sentences perform more than one job or paragraph components recur.
+7.  Choose an evidence-analysis sequence that reflects how the evidence supports the claim.
+
+## Paragraphs as logical chains
+
+A useful paragraph-level chain contains:
+
+1.  A **topic claim** that defines what the paragraph is trying to establish.
+2.  **Reasoning, subclaims, and evidence** needed to establish it.
+3.  **Analysis** that explicitly ties the evidence back to the topic claim by explaining why the evidence supports it or how the evidence qualifies, contradicts, or contextualizes it.
+4.  An **anchor** that states where the reasoning has landed.
+5.  A connection from that result to the paragraph's larger purpose or the next part of the argument.
+
+The five parts describe jobs within a logical chain rather than a required number of sentences or a single causal sequence. Relationships between sentences may be causal, evidentiary, definitional, comparative, qualifying, or inferential. The important question is whether each relationship is accurate and visible.
+
+The topic claim and anchor create the boundaries of the chain. The topic claim answers, *What is this paragraph trying to establish?* The anchor answers, *After considering the reasoning and evidence, what can the paragraph now conclude or carry forward?* Material that does not help move the reader between those boundaries may belong elsewhere.
+
+## The TREAT framework
+
+| Component | Job within the paragraph | Logical question to ask |
+|---|---|---|
+| **T: Topic sentence** | States the paragraph's primary claim | What does this paragraph ask the reader to accept? |
+| **R: Reasoning** | Explains why the claim is plausible or how the proposed process works | What missing step connects the claim to the evidence or subclaim that follows? |
+| **E: Evidence** | Provides findings, observations, examples, or other support for the claim | What does this evidence establish, and does it support the claim actually being made? |
+| **A: Analysis** | Explicitly ties the evidence back to the claim by explaining why it supports the claim or how it qualifies, contradicts, or contextualizes it | Why does the evidence matter, and what assumptions connect it to the claim? |
+| **T: Transition or anchor** | States what the paragraph has established and, when useful, connects that result to the larger argument or next idea | Does this endpoint follow from the paragraph, and what work does it make possible next? |
+
+Use TREAT as a planning and diagnostic tool. A paragraph may contain more than one reasoning-evidence-analysis sequence. A transition may occur in the final sentence, in the next paragraph's topic sentence, or across both. Some sentences may perform more than one job. Every sentence should contribute to the paragraph's logic.
+
+::: now_you
+{{< fa user-circle size=2x >}} [Now you!]{style="font-size: 1.25em; padding-left: 0.5em;"}
+
+**Identify overlapping jobs**
+
+Read this short discussion paragraph:
+
+> Within the nine Least Flycatcher nesting clusters we studied, interior nests exhibited significantly higher nest success than peripheral nests. Because 97% of nest failures in our study area failed as a result of predation, we conclude that nest predation was lower at interior nests. This result is the first evidence of reduced predation within nesting clusters of a species that defends all-purpose territories. Combined with results of an earlier study that demonstrated a dramatic response by Least Flycatchers to a live predator, our results lend substantial support to the hypothesis that clustered nesting in Least Flycatchers serves to deter predators.
+
+*Source: Perry et al. (2008), “Reduced predation at interior nests in clustered all-purpose territories of Least Flycatchers.”*
+
+**1.** What is the best description of the first sentence?
+
+`r longmcq(c(answer = "Topic sentence and evidence: it states the paragraph's main result.", "Reasoning only: it explains the mechanism producing the result.", "Analysis only: it explains why the result matters.", "Transition only: it introduces the next paragraph."))`
+
+**2.** What is the best description of the final sentence?
+
+`r longmcq(c("Topic sentence only", "Reasoning only", "Evidence only", answer = "Evidence, analysis, and anchor"))`
+:::
+
+### When is reasoning necessary?
+
+Reasoning provides an intermediate step that the reader needs before the evidence can support the claim. It may define a process, explain why a comparison is relevant, or connect a claim to evidence collected at a different scale or level of observation.
+
+A separate reasoning sentence is unnecessary when the relevance of the evidence is already clear and the analysis adequately explains how that evidence supports or contextualizes the claim. Do not add reasoning simply to complete the acronym. Ask whether the reader needs an intermediate idea to understand why the evidence bears on the claim.
+
+::: now_you
+{{< fa user-circle size=2x >}} [Now you!]{style="font-size: 1.25em; padding-left: 0.5em;"}
+
+**Find the reasoning**
+
+Why is the second sentence in the Perry paragraph necessary?
+
+`r longmcq(c("It supplies a second measurement of nest success.", answer = "It connects the measured pattern in nest success to the process of predation by explaining that predation caused nearly all failures.", "It changes the topic from nests to adult flycatchers.", "It provides a transition to an unrelated claim."))`
+:::
+
+### Choose EEA or EAEA
+
+Evidence and analysis can be arranged in different sequences. The choice depends on whether the pieces of evidence work together or separately.
+
+-   Use **EEA** when two pieces or groups of evidence provide different axes of support that must be considered together. Present both axes, then use the analysis to explain what their combination establishes: **E₁ → E₂ → A**.
+-   Use **EAEA** when each piece of evidence separately supports the claim or requires its own interpretation or qualification. Explain what the first piece establishes before introducing the second: **E₁ → A₁ → E₂ → A₂**.
+
+Several sentences may contribute to one axis of evidence. The sequence should reflect the logic of the support rather than the number of citations or results.
+
+::: now_you
+{{< fa user-circle size=2x >}} [Now you!]{style="font-size: 1.25em; padding-left: 0.5em;"}
+
+**Choose the evidence-analysis sequence**
+
+**1.** A paragraph presents the higher survival of interior nests and the strong alarm response reported in the earlier study. One analysis then explains how the two findings together support predator deterrence. Which sequence fits?
+
+`r longmcq(c(answer = "EEA, because the two findings are interpreted together.", "EAEA, because each finding receives its own analysis.", "REA, because the first finding is reasoning.", "TREAT, because each letter appears once."))`
+
+**2.** A paragraph interprets what higher survival implies before presenting the alarm-response finding and explaining what that second finding adds. Which sequence fits?
+
+`r longmcq(c("EEA, because both findings are interpreted together.", answer = "EAEA, because each finding receives its own analysis.", "REA, because the first finding is reasoning.", "TREAT, because each letter appears once."))`
+:::
+
+### The job of the last sentence
+
+The last sentence states what the paragraph has established. It returns to the topic claim with an enhanced perspective by telling the reader what can now be understood after considering the evidence and analysis.
+
+The last sentence may:
+
+-   State the inference supported by the evidence and analysis.
+-   Qualify the topic claim by identifying a condition, limitation, or caveat revealed by the evidence.
+-   Connect the paragraph's result to the next step in the larger argument.
+
+The strongest last sentence states the insight earned by the paragraph. A short paragraph rarely needs a summary of the sentences the reader has just read. A new claim belongs in a later paragraph where it can receive evidence and analysis.
+
+A transition can occur in the last sentence, the next paragraph's topic sentence, or across both. When the last sentence provides a transition, the connection should grow from what the paragraph has established. When the next topic sentence provides the transition, it can look back to that result while introducing the next claim.
+
+Ask three questions when evaluating a last sentence:
+
+1.  What can the reader now understand that the topic sentence alone did not establish?
+2.  Does this sentence follow from the evidence and analysis?
+3.  Does it close the paragraph's claim or provide a defensible bridge to the next claim?
+
+::: now_you
+{{< fa user-circle size=2x >}} [Now you!]{style="font-size: 1.25em; padding-left: 0.5em;"}
+
+**Choose and strengthen a last sentence**
+
+A paragraph has established two findings:
+
+-   Interior nests had higher nest success than peripheral nests.
+-   Predation caused 97% of the observed nest failures.
+
+**1.** Which sentence best states what these findings establish?
+
+`r longmcq(c(answer = "Together, these findings indicate that nest predation was lower at interior nests.", "Interior nests had higher nest success than peripheral nests.", "Predators can affect nesting birds in many ways.", "The researchers monitored nine nesting clusters."))`
+
+**2.** Why is the selected sentence stronger than *Interior nests did better*?
+
+`r longmcq(c("It is longer and uses more scientific words.", answer = "It names the process inferred from the evidence and identifies where the difference occurred.", "It introduces a new explanation for clustered nesting.", "It provides a transition to the methods."))`
+
+*Example adapted from Perry et al. (2008).*
+:::
+
+After identifying the TREAT labels, test the connection between each pair of sentences. Try completing the relationship with language such as *because*, *therefore*, *however*, *for example*, *is measured by*, or *is inferred from*. If no accurate relationship fits, the chain may contain a missing step. If several contradictory relationships fit, the writer may not yet know whether the next sentence supports, limits, or opposes the preceding claim.
+
+## An identified example from the literature
+
+Doak et al. (2014) respond to claims associated with what they call new conservation science (NCS), including the claim that contemporary conservation has failed. Read their paragraph first as an argument rather than as a template:
+
+> The NCS claim that contemporary conservation has failed is overly simplistic, if not directly misleading. First, it ignores how the creation of parks, innovative resource management regimens, and other conservation work has slowed the pace of biodiversity decline. Although it is difficult to quantify averted declines and extinctions, several recent studies have concluded that, if the conservation community had not been trying for decades to protect land and water resources and biodiversity, losses would have been far greater than they have been to date [23--26]. Second, it ignores the creation of legislation and public support for nature conservation that set the stage for arguments over conservation and development [27,28]; the need to weigh tradeoffs between conservation impacts and economic gains is a central legacy of the conservation movement.
+
+*Source: Doak et al. (2014), “What is the future of conservation?”*
+
+| Sentence | TREAT component | Contribution to the logical chain |
+|---|---|---|
+| The NCS claim that contemporary conservation has failed is overly simplistic, if not directly misleading. | **T: Topic sentence** | States the claim the paragraph will defend. |
+| First, it ignores how the creation of parks, innovative resource management regimens, and other conservation work has slowed the pace of biodiversity decline. | **R: Reasoning** | Gives the first reason the broad failure claim is inadequate and identifies the process that matters. |
+| Although it is difficult to quantify averted declines and extinctions, several recent studies have concluded that losses would have been greater without conservation work [23--26]. | **E: Evidence and qualification** | Supports the first reason while acknowledging the difficulty of estimating outcomes that did not occur. |
+| Second, it ignores the creation of legislation and public support for nature conservation that set the stage for arguments over conservation and development [27,28]. | **R/E: Reasoning supported by citations** | Gives a second, distinct consequence of past conservation. The citations carry the evidentiary burden. |
+| The need to weigh tradeoffs between conservation impacts and economic gains is a central legacy of the conservation movement. | **A/T: Analysis and anchor** | Interprets the second line of support and states what the paragraph carries forward. |
+
+Paragraphs do not necessarily contain one sentence for each TREAT letter. Here, one sentence both qualifies and reports evidence, another combines reasoning with cited support, and the final sentence provides analysis while anchoring the paragraph. TREAT helps us identify the work being done without erasing work that overlaps.
+
+### Test the labels and connections
+
+Now read the example as a chain:
+
+1.  **Topic claim to first reason:** The second sentence identifies one way in which the failure claim omits relevant outcomes.
+2.  **Reason to evidence:** The third sentence reports research that estimates what losses conservation may have prevented and also qualifies the inference.
+3.  **First line of support to second:** “Second” signals that the paragraph is adding an independent reason rather than extending the first causal pathway.
+4.  **Second reason to anchor:** The final clause interprets legislation and public support as a legacy that still structures conservation decisions.
+
+The third sentence also reveals the inferential bottleneck: averted losses cannot be observed directly. They must be estimated by comparing the observed world with a defensible counterfactual. The authors acknowledge this difficulty before using the evidence. Evaluating the chain therefore helps us see both what a sentence contributes and where its conclusion remains vulnerable.
+
+Use these questions when testing any paragraph:
+
+-   Does each sentence add information rather than restate the preceding sentence?
+-   Can you name the relationship between each pair of sentences?
+-   What would have to be true for the evidence to support the claim?
+-   Does the analysis connect backward to the evidence and upward to the topic claim?
+-   Has the paragraph changed concepts, measurements, or scale without a bridge?
+-   Does the anchor follow from the paragraph without introducing an unsupported conclusion?
+-   Can any sentence be removed without weakening or interrupting the chain?
+
+## Diagnose a published paragraph
+
+Published paragraphs can also show us what to modify. In the following discussion paragraph, identify its destination before evaluating the order of its sentences.
+
+::: now_you
+{{< fa user-circle size=2x >}} [Now you!]{style="font-size: 1.25em; padding-left: 0.5em;"}
+
+**Find and unbury the claim**
+
+> This study addresses the impact of urbanization on the dispersal syndromes of birds through environments of varying urban intensity—we assess patterns of settlement of migrant and resident birds one or more years after banding to evaluate dispersal, and the return time of Northern Cardinals translocated across rural, suburban, and high-intensity urban environments to explore the influence of urban land cover on movement. The settlement patterns of banded Gray Catbird and Northern Cardinal in relation to the habitat suitability and permeability of the landscape provide support for our prediction that landscape permeability impacts the dispersal of individuals within urbanized environments. In conjunction with the results of our translocation experiment, these findings provide evidence for a link between the structural and functional connectivity of urban landscapes.
+
+*Source: Evans et al. (2017), “Dispersal in the urban matrix.” Used here as a paragraph-revision example.*
+
+**1.** Which sentence contains the paragraph's primary claim?
+
+`r longmcq(c("The first sentence, which describes the study design.", answer = "The second sentence, which states what the settlement patterns support.", "The third sentence, which carries the result to a broader inference.", "The paragraph does not contain a claim."))`
+
+**2.** Which modification would most strengthen the paragraph's structure?
+
+`r longmcq(c("Add a broad opening sentence about the importance of urbanization.", "Combine the first two sentences into one longer sentence.", answer = "Move the primary claim to the topic position, then retain only the method details needed to interpret its support.", "Replace the final inference with more information about banding methods."))`
+:::
+
+Use the same process to plan and diagnose the paragraphs in your writing outline.
+
+**Stopping point:** You are ready to move on when you can identify the job or jobs of each sentence, name the relationship between adjacent sentences, choose an evidence-analysis sequence that fits the support, recognize a change in scale or level of observation, and identify a modification that would strengthen a weak connection.
+
+## Take-home points
+
+-   Each paragraph has a specific job within the larger argument, and its sentences must form a defensible sequence that performs that job.
+-   TREAT identifies five paragraph jobs: topic sentence, reasoning, evidence, analysis, and transition or anchor.
+-   Assigning the correct TREAT labels does not establish that a paragraph is logical. Each connection must show how one sentence supports, qualifies, or prepares the next.
+-   The topic claim defines what the paragraph is trying to establish, while the anchor states what the paragraph has established and can carry forward.
+-   A separate reasoning sentence is useful when the reader needs an intermediate step connecting the claim and evidence. Evidence followed by analysis may be sufficient when that connection is already clear.
+-   EEA allows one analysis to tie together different axes of support, while EAEA gives separately supporting evidence its own analysis.
+-   The last sentence states the insight earned by the paragraph and may connect that result to the next claim.
+-   Paragraph components may overlap, recur, or appear in a different order. Their arrangement should follow the needs of the argument.
+-   A useful paragraph diagnosis identifies the weakest connection, the support it needs, and the revision that would repair it.
+
+## References
+
+Brandeis University Writing Program. n.d. [Constructing effective body paragraphs](https://www.brandeis.edu/writing-program/resources/students/academic/drafting-revision/body-paragraphs.html).
+
+Doak, D. F., et al. 2014. What is the future of conservation? *Trends in Ecology & Evolution* 29:77--81.
+
+Evans, B. S., A. M. Kilpatrick, A. H. Hurlbert, and P. P. Marra. 2017. Dispersal in the urban matrix: Assessing the influence of landscape permeability on the settlement patterns of breeding songbirds. *Frontiers in Ecology and Evolution* 5:63.
+
+Harvard College Writing Center. n.d. [Anatomy of a body paragraph](https://writingcenter.fas.harvard.edu/anatomy-body-paragraph).
+
+Perry, E. F., J. C. Manolis, and D. E. Andersen. 2008. Reduced predation at interior nests in clustered all-purpose territories of Least Flycatchers (*Empidonax minimus*). *The Auk* 125:643--650.
+
+Schimel, J. 2012. Paragraphs. In *Writing science: How to write papers that get cited and proposals that get funded*, 104--111. Oxford University Press.
+
+Swarthmore College Writing Center. n.d. [Handout describing the topic sentence, evidence, analysis, and transition framework].
+
+University of Michigan Sweetland Center for Writing. n.d. [Traditional academic essays in three parts](https://lsa.umich.edu/sweetland/undergraduates/writing-guides/traditional-academic-essays.html).
+
+University of Oregon. n.d. [Body paragraphs](https://opentext.uoregon.edu/writingasinquiry/chapter/body-paragraphs/). *Writing as Inquiry*.

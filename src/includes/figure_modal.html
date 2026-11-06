@@ -1,0 +1,123 @@
+<style>
+img.zoomable { cursor: zoom-in; }
+img.zoomable:focus-visible { outline: 3px solid #292093; outline-offset: 3px; }
+
+.figure-modal {
+  position: fixed; inset: 0; z-index: 2000;
+  background: rgba(20, 22, 40, 0.72);
+  display: none; align-items: center; justify-content: center;
+}
+.figure-modal.is-open { display: flex; }
+.figure-modal__panel {
+  background: #ffffff; border-radius: 10px;
+  width: 90vw; max-height: 94vh;
+  display: flex; flex-direction: column;
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.35);
+}
+.figure-modal__bar {
+  display: flex; align-items: center; gap: 0.75rem;
+  padding: 0.6rem 0.9rem; border-bottom: 1px solid #dbe4ff;
+}
+.figure-modal__title {
+  margin-right: auto; font-weight: 700; color: #292093; font-size: 1rem;
+}
+.figure-modal__btn {
+  font: inherit; font-size: 0.9rem; line-height: 1.2;
+  border: 1px solid #292093; border-radius: 6px;
+  background: #eaf0ff; color: #292093;
+  padding: 0.4rem 0.75rem; cursor: pointer; text-decoration: none;
+}
+.figure-modal__btn:hover { background: #dbe4ff; }
+.figure-modal__close { border-color: #b9b9c9; background: #ffffff; color: #333333; }
+.figure-modal__body { overflow: auto; padding: 1rem; }
+.figure-modal__body img { width: 100%; height: auto; display: block; }
+</style>
+
+<script>
+// Click a figure marked .zoomable to open it in a wide modal.
+// Optional attributes on the image:
+//   data-title    -- heading shown in the modal bar
+//   data-pdf-key  -- key into window.figurePdfs, giving a PDF for the download button
+(function () {
+  if (window.__figureModalReady) return;   // safe if included more than once
+  window.__figureModalReady = true;
+
+  function init() {
+    var figures = document.querySelectorAll("img.zoomable");
+    if (!figures.length) return;
+
+    var modal = document.createElement("div");
+    modal.className = "figure-modal";
+    modal.setAttribute("role", "dialog");
+    modal.setAttribute("aria-modal", "true");
+    modal.innerHTML =
+      '<div class="figure-modal__panel">' +
+        '<div class="figure-modal__bar">' +
+          '<span class="figure-modal__title"></span>' +
+          '<a class="figure-modal__btn figure-modal__pdf" download>Download PDF</a>' +
+          '<button type="button" class="figure-modal__btn figure-modal__close">Close</button>' +
+        '</div>' +
+        '<div class="figure-modal__body"><img alt=""></div>' +
+      '</div>';
+    document.body.appendChild(modal);
+
+    var panelImg = modal.querySelector(".figure-modal__body img");
+    var pdfLink  = modal.querySelector(".figure-modal__pdf");
+    var titleEl  = modal.querySelector(".figure-modal__title");
+    var closeBtn = modal.querySelector(".figure-modal__close");
+    var opener   = null;
+
+    function openModal(img) {
+      opener = img;
+      panelImg.src = img.currentSrc || img.src;
+      panelImg.alt = img.getAttribute("alt") || "";
+      titleEl.textContent = img.dataset.title || "";
+      modal.setAttribute("aria-label", img.dataset.title || "Figure");
+
+      var pdf = (window.figurePdfs || {})[img.dataset.pdfKey];
+      if (pdf) {
+        pdfLink.href = pdf;
+        pdfLink.setAttribute("download", (img.dataset.pdfKey || "figure") + ".pdf");
+        pdfLink.hidden = false;
+      } else {
+        pdfLink.hidden = true;
+      }
+
+      modal.classList.add("is-open");
+      closeBtn.focus();
+    }
+
+    function closeModal() {
+      modal.classList.remove("is-open");
+      panelImg.removeAttribute("src");
+      if (opener) opener.focus();
+    }
+
+    figures.forEach(function (img) {
+      img.tabIndex = 0;
+      img.setAttribute("role", "button");
+      img.addEventListener("click", function () { openModal(img); });
+      img.addEventListener("keydown", function (event) {
+        if (event.key === "Enter" || event.key === " ") {
+          event.preventDefault();
+          openModal(img);
+        }
+      });
+    });
+
+    modal.addEventListener("click", function (event) {
+      if (event.target === modal || event.target === closeBtn) closeModal();
+    });
+    document.addEventListener("keydown", function (event) {
+      if (event.key === "Escape" && modal.classList.contains("is-open")) closeModal();
+    });
+  }
+
+  // run now if the document is already parsed, otherwise wait
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", init);
+  } else {
+    init();
+  }
+})();
+</script>

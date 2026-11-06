@@ -1,0 +1,185 @@
+---
+title: "How to write an abstract"
+---
+
+An abstract allows a reader to understand why a study was conducted, what was done, what was found, and why the findings matter. Its length, structure, and content vary by purpose and venue.
+
+Follow the professor's or venue's required word limit, headings, and content first. The framework and word allocations below are planning tools for decisions the instructions leave open. They do not replace the assignment prompt.
+
+An abstract preserves the study's complete argument while removing details the reader does not need. Use the claim-train, inferential-bridge, and removal tests developed earlier in the book: compression reduces how much can be said while leaving each sentence responsible for necessary work and preparation for the next part of the argument.
+
+## One framework for the abstract
+
+Use the following seven-part framework for planning and revising an abstract. The word allocations provide one workable 235-word budget for an abstract capped at 250 words. They are examples rather than independent maximums, so scale or rebalance them for the available space and the needs of the study.
+
+| Part | Job | Example word budget |
+|---|---|---:|
+| 1. Context | Establish the problem space and why it matters | 25 |
+| 2. Gap | Identify the specific limitation that motivates the study | 20 |
+| 3. Objective and QHP | State what the study asked and, when central, the hypothesis and predictions | 30 |
+| 4. Methods | Describe the design, scope, variables, and analytical approach at a high level | 40 |
+| 5. Key results | Report the findings needed to answer the question | 70 |
+| 6. Interpretation | Explain what the findings mean and why they matter | 35 |
+| 7. Final message | Leave the reader with the central contribution | 15 |
+| **Total** | Complete abstract | **235** |
+
+Results receive the largest share because the abstract should report what this study found. For a proposed rather than completed study, use that space for the expected patterns, what each possible outcome would mean, and the contribution that the test could make.
+
+## Outline your abstract with prompts
+
+Use these prompts to draft the seven parts before writing sentences. Make the logic complete before compressing it to meet the word budget.
+
+**Instruction**: Fill in the bullets -- try to avoid writing full sentences (unless you really want to).
+
+**1. Background / Context**
+
+*What problem space is this paper in?*
+
+-   Broad ecological / conservation issue this paper addresses
+
+-   Why this issue matters
+
+-   The minimum information a reader needs to understand the gap
+
+**2. Knowledge Gap / Motivation**
+
+*What is missing that this paper addresses (i.e., why does this paper exist)?*
+
+-   What is currently uncertain, contested, or fragmented in the literature
+
+-   What existing studies have not resolved
+
+-   What type of gap is this? One of:
+
+    -   Conflicting results
+
+    -   Lack of synthesis
+
+    -   Scale mismatch
+
+    -   Response metric mismatch
+
+-   Why this gap limits inference or decision-making
+
+This is not a miniature literature review. Include only the background needed to establish the gap.
+
+**3. Objective(s)**
+
+*What did you set out to do (use "we aimed to ..." logic)?*
+
+-   Primary objective (1 clear goal)
+
+-   Secondary objective(s), if any
+
+-   Hypothesis or proposed mechanism, if central to the paper
+
+-   Predicted pattern, if the prediction is necessary to interpret the results
+
+**4. Methods (High-level only)**
+
+*What did you do (stay high-level)?*
+
+-   Type of study or analysis
+
+-   Scope (e.g., spatial and temporal extent)
+
+-   Response and predictor variables needed to understand the test
+
+-   Analytical approach, at the level needed to interpret the findings
+
+-   What makes the approach appropriate for the question?
+
+**5. Key Results**
+
+*What did you find (only the most important patterns)?*
+
+-   Finding that answers the primary objective
+
+-   Direction and magnitude of the most important patterns
+
+-   Uncertainty or statistical support when it materially affects interpretation
+
+-   Secondary finding only if it changes the interpretation or conclusion
+
+**6. Interpretation / Implications**
+
+*Why do these results matter?*
+
+-   What the findings imply for ecological understanding and/or conservation
+
+-   Trade-offs or tensions revealed
+
+-   How this changes how the problem should be approached
+
+**7. Final message**
+
+*What is the most important thing you want your readers to know?*
+
+-   One core take-home message for your readers
+
+-   Next step only if it is more important than another implication and space permits
+
+## Draft and revise in three passes
+
+### Pass 1: Make the argument complete
+
+Turn the outline into sentences. Read the abstract without looking at the paper and ask whether a reader can identify:
+
+1.  Why the study exists.
+2.  What the study asked.
+3.  What was done.
+4.  What was found.
+5.  Why the findings matter.
+
+If one of those elements is missing, add it before cutting words.
+
+Next, read one sentence per part as a claim train. Name why each sentence prepares the next. If the move from result to interpretation requires an idea that the abstract never states, add or revise the bridge before compressing.
+
+### Pass 2: Match emphasis to importance
+
+Count the words devoted to each of the seven parts. The exact allocation may differ from the example budget, but methods and results should generally occupy more space than broad background. Cut background that does not directly establish the gap and methodological detail that is not necessary to interpret the findings.
+
+### Pass 3: Compress without breaking the logic
+
+Work sentence by sentence:
+
+-   Remove phrases that repeat information.
+-   Replace vague phrases with specific nouns and verbs.
+-   Combine sentences that have the same subject or purpose.
+-   Remove objectives, methods, or results that do not contribute to the final message.
+-   Keep findings and interpretation distinct: first state what happened, then explain what it means.
+
+Use the removal test: temporarily delete a sentence and ask whether the abstract's argument becomes weaker or incomplete. If not, the sentence may be expendable or its job may be unclear. Protect the inferential bottleneck—the sentence that connects the measured result to the interpretation—rather than cutting it merely because it requires careful wording.
+
+Do not solve the word limit by deleting the gap, the primary finding, or the interpretation. Those elements are the spine of the abstract.
+
+## Activity: the 25-word test
+
+Write one sentence of no more than 25 words for each of the seven parts. You now have a rough abstract of no more than 175 words. Use the remaining word budget to add the methodological and quantitative detail that the reader most needs, especially in the methods and results.
+
+Then exchange abstracts with someone unfamiliar with the project. Ask that reader to underline the gap, objective, primary finding, and final message. Revise anything they cannot identify without your explanation.
+
+## Activity: compress an overlong abstract
+
+The abstract below is intentionally repetitive and over-detailed. Reduce it to no more than 250 words while preserving the gap, test, primary quantitative results, cautious interpretation, and final message.
+
+::: {.callout-note collapse="true" title="Overlong abstract for revision"}
+Nest predation is a major source of reproductive failure in birds, and predators must locate a nest before they can depredate its eggs or nestlings. Vegetation surrounding a nest may affect that process by obscuring the nest itself or the movements of attending adults. Previous studies have related vegetation near nests to nest fate, but the direction and strength of those relationships vary among species, habitats, and foliage measurements. Many nest-fate studies also do not identify the predators responsible for failure, even though predators differ in the sensory cues they use while searching. We therefore investigated whether foliage density could explain variation in predation risk and whether the relationship depended on predator identity. We proposed that dense foliage obstructs the visual cues that predators use to locate nests. We predicted that predation risk would decline as foliage density increased and that the relationship would be strongest for visually hunting predators. We monitored 180 songbird nests across six forest sites for two breeding seasons. We visited nests on a regular schedule, installed cameras to record predation events, measured foliage density within a standardized radius, and recorded nest height, distance to the forest edge, date, and study site. Models of daily predation risk included foliage density, predator group, nest height, edge distance, date, and site. Predation risk declined by an estimated 7% for each 10-percentage-point increase in foliage density. The relationship was strongest for failures attributed to avian predators and weak for failures attributed to snakes or mammals. Cameras identified the predator at 68% of failed nests, which made predator-specific estimates less precise than the overall relationship. These results are consistent with visual concealment because foliage density was most strongly related to failures caused by visually hunting predators. The mensurative design cannot establish that foliage caused the difference because unmeasured nest-site characteristics may influence both vegetation and predation. Standardized foliage measurements and predator identification can help explain why relationships between nest-site vegetation and survival differ among studies. A manipulative test of visual access would provide a stronger test of the proposed mechanism.
+:::
+
+After revising, list the three largest cuts or combinations you made and explain why each preserved the argument. Compare the result with the model abstract, but do not assume that there is only one successful 250-word version.
+
+## Final self-check
+
+Before considering the abstract complete, confirm that:
+
+-   The context leads directly to the gap.
+-   The objective addresses that gap.
+-   The methods are sufficient to understand how the objective was addressed.
+-   Every major result corresponds to an objective, hypothesis, or prediction.
+-   The interpretation does not claim more than the results support.
+-   The final message follows from the study rather than introducing a new topic.
+-   Abbreviations, specialist terminology, and statistical detail are used only when necessary.
+-   The abstract contains no citations unless the target venue requires them.
+-   The abstract stands alone without figures, tables, or the main text.
+-   The final word count meets the target limit.

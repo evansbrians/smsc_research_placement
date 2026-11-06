@@ -1,0 +1,174 @@
+<style>
+/* "Click here to see my answer" link inside a Now you! box */
+.answer_link {
+  display: inline-block;
+  margin-top: 0.6rem;
+  color: #292093;
+  font-weight: 600;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.answer_link:hover { color: #1a1566; }
+.answer_link:focus-visible { outline: 3px solid #292093; outline-offset: 3px; }
+
+/* The authored answer, hidden until the modal borrows it */
+.answer_body { display: none; }
+
+.answer-modal {
+  position: fixed; inset: 0; z-index: 2000;
+  background: rgba(20, 22, 40, 0.72);
+  display: none; align-items: center; justify-content: center;
+}
+.answer-modal.is-open { display: flex; }
+.answer-modal__panel {
+  box-sizing: border-box;
+  background: #eeffff;
+  border-left: 8px solid #292093;
+  border-radius: 6px;
+  width: 90vw;                 /* replaced at open time by the Now you! box width */
+  max-width: 96vw; max-height: 92vh;
+  display: flex; flex-direction: column;
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.35);
+}
+.answer-modal__bar {
+  display: flex; align-items: center; gap: 0.75rem;
+  padding: 0.6rem 0.9rem; border-bottom: 1px solid #b9c4ec;
+}
+.answer-modal__title { margin-right: auto; font-weight: 700; color: #292093; }
+.answer-modal__close {
+  font: inherit; font-size: 0.9rem;
+  border: 1px solid #b9b9c9; border-radius: 6px;
+  background: #ffffff; color: #333333;
+  padding: 0.4rem 0.75rem; cursor: pointer;
+}
+.answer-modal__close:hover { background: #efefef; }
+.answer-modal__body { overflow: auto; padding: 1rem 1.1rem; }
+.answer-modal__body > :first-child { margin-top: 0; }
+.answer-modal__body > :last-child { margin-bottom: 0; }
+</style>
+
+<script>
+// [Click here to see my answer]{.answer_link data-answer="<id>"} opens the hidden
+// ::: {.answer_body #<id>} block in a modal as wide as its Now you! box.
+(function () {
+  if (window.__answerModalReady) return;
+  window.__answerModalReady = true;
+
+  function init() {
+    var links = document.querySelectorAll(".answer_link");
+    if (!links.length) return;
+
+    var modal = document.createElement("div");
+    modal.className = "answer-modal";
+    modal.setAttribute("role", "dialog");
+    modal.setAttribute("aria-modal", "true");
+    modal.setAttribute("aria-label", "Answer");
+    modal.innerHTML =
+      '<div class="answer-modal__panel">' +
+        '<div class="answer-modal__bar">' +
+          '<span class="answer-modal__title">My answer</span>' +
+          '<button type="button" class="answer-modal__close">Close</button>' +
+        '</div>' +
+        '<div class="answer-modal__body"></div>' +
+      '</div>';
+    document.body.appendChild(modal);
+
+    var panel  = modal.querySelector(".answer-modal__panel");
+    var body   = modal.querySelector(".answer-modal__body");
+    var closeBtn = modal.querySelector(".answer-modal__close");
+    var opener = null;
+    var borrowed = null;
+
+    // The question a link belongs to -- its list item when the box numbers its
+    // questions, otherwise the Now you! box itself. Used to name the dialog.
+    function questionText(link) {
+      var item = link.closest("li");
+      var scope = item || link.closest(".now_you");
+      if (!scope) return "";
+      var clone = scope.cloneNode(true);
+      clone.querySelectorAll(".answer_link, .answer_body").forEach(function (el) {
+        el.remove();
+      });
+      // A whole box carries its "Now you!" title as its first line; a list item
+      // does not.
+      if (!item && clone.firstElementChild) clone.firstElementChild.remove();
+      return (clone.textContent || "").replace(/\s+/g, " ").trim().slice(0, 120);
+    }
+
+    // Put a borrowed answer back in the page it came from.
+    function returnAnswer() {
+      if (!borrowed) return;
+      while (body.firstChild) borrowed.appendChild(body.firstChild);
+      borrowed = null;
+    }
+
+    function openModal(link) {
+      var answer = document.getElementById(link.getAttribute("data-answer"));
+      if (!answer) return;
+      returnAnswer();
+      opener = link;
+
+      var question = questionText(link);
+      modal.setAttribute("aria-label", question ? "Answer to: " + question : "Answer");
+
+      // Move the answer into the modal rather than copying its markup. An
+      // interactive map is a live element, and a copy of it carries no map.
+      while (answer.firstChild) body.appendChild(answer.firstChild);
+      borrowed = answer;
+
+      // match the width of the Now you! box this link sits in
+      var host = link.closest(".now_you");
+      panel.style.width = host ? host.getBoundingClientRect().width + "px" : "90vw";
+
+      modal.classList.add("is-open");
+      body.scrollTop = 0;
+      closeBtn.focus();
+
+      // A Leaflet map built inside a hidden box has no size and draws nothing.
+      // Resizing it once the box is open makes it draw.
+      requestAnimationFrame(function () {
+        requestAnimationFrame(function () {
+          window.dispatchEvent(new Event("resize"));
+        });
+      });
+    }
+
+    function closeModal() {
+      modal.classList.remove("is-open");
+      returnAnswer();
+      if (opener) opener.focus();
+    }
+
+    links.forEach(function (link) {
+      link.tabIndex = 0;
+      link.setAttribute("role", "button");
+      link.setAttribute("aria-haspopup", "dialog");
+      link.addEventListener("click", function () { openModal(link); });
+      link.addEventListener("keydown", function (event) {
+        if (event.key === "Enter" || event.key === " ") {
+          event.preventDefault();
+          openModal(link);
+        }
+      });
+    });
+
+    modal.addEventListener("click", function (event) {
+      if (event.target === modal || event.target === closeBtn) closeModal();
+    });
+    document.addEventListener("keydown", function (event) {
+      if (event.key === "Escape" && modal.classList.contains("is-open")) closeModal();
+    });
+    window.addEventListener("resize", function () {
+      if (!modal.classList.contains("is-open") || !opener) return;
+      var host = opener.closest(".now_you");
+      if (host) panel.style.width = host.getBoundingClientRect().width + "px";
+    });
+  }
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", init);
+  } else {
+    init();
+  }
+})();
+</script>

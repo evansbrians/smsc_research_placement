@@ -1,0 +1,216 @@
+---
+title: "Building a research presentation"
+---
+
+A research presentation needs a strong narrative, deliberate choices about what to leave out, and visuals that help the audience follow the argument in real time.
+
+The professor or presentation venue determines the actual time limit, required content, format, and evaluation criteria. Use those requirements first. The slide counts and timings below illustrate how a scientific argument might be distributed. They are not an assignment specification or a checklist that every presentation must reproduce.
+
+By the end, you should be able to:
+
+-   Adapt the proposal's umbrella, gap, and QHPT for an audience listening in real time.
+-   Build a slide-level storyboard before formatting slides.
+-   Design readable, accessible visuals that support the spoken narrative.
+-   Rehearse, diagnose, and revise a presentation using evidence from an audience.
+
+## Start with the audience and the story
+
+Before opening PowerPoint, Keynote, or Google Slides, answer three questions:
+
+1.  **Who is the audience?** What can you reasonably assume they already know?
+2.  **What is the one thing they should remember tomorrow?** This is your take-home message.
+3.  **What must the audience understand for that message to make sense?** Those are the essential steps in your narrative.
+
+A research presentation adapts a written argument for an audience following it in real time. Because listeners cannot reread the previous paragraph, the relationships among the umbrella, gap, question, evidence, and conclusion must be especially visible.
+
+Treat the storyboard as a **claim train**. Each slide should establish something the audience needs before the next slide will make sense. Between slide jobs, name the relationship: continuation, cause, contrast, qualification, example, change in scale, or movement from evidence to interpretation. If no relationship fits, the talk may be missing a slide or asking one slide to do too much.
+
+The claim-train and removal tests used for outlines and paragraphs transfer directly to presentations. The unit changes from a claim or sentence to a slide job, while the question remains whether each part is necessary and prepares the audience for what follows.
+
+::: {.callout-tip title="Storyboard before slides"}
+Create one index card, sticky note, or bullet for each proposed slide. Give each slide a one-sentence job, such as "establish why the problem matters" or "show the predicted relationship." Arrange those jobs until someone can follow the argument without seeing the finished slides.
+:::
+
+## Design readable and accessible slides
+
+These are principles, not commandments. A design choice is successful when it helps the audience understand the research.
+
+-   **Text size**:
+
+    -   Begin with 24-point text as a practical minimum, including figure axes, legends, labels, and citations. Then test the slides on the screen and in the room where you will present.
+
+    -   Use a small, consistent hierarchy of text sizes. For example, headings might be 40-48 point and supporting text 24-32 point.
+
+    -   Prefer short phrases over paragraphs. A complete sentence is fine when the sentence itself is the message that you want the audience to remember.
+
+-   **Fonts and contrast**:
+
+    -   Use a readable font that will be available on the presentation computer. A familiar sans-serif font is usually a safe choice.
+
+    -   Maintain strong contrast between text and its background. Dark and light backgrounds can both work. Choose the one that best fits your figures and test it on a projector.
+
+    -   Do not rely on color alone to distinguish categories. Combine color with labels, shapes, line types, or direct annotation, and use palettes that remain distinguishable for people with common forms of color-vision deficiency.
+
+-   **Images and figures**:
+
+    -   Make the important visual large enough to interpret from the back of the room. Remove unnecessary legends, grid lines, labels, and other clutter.
+
+    -   Use multiple images only when their comparison contributes to the argument. Align and size comparable images consistently unless the difference is intentional.
+
+    -   Crop empty space and use alignment tools or numeric position controls when they help you maintain consistency. PowerPoint's shape and drawing tools are perfectly acceptable when they communicate the idea clearly. Use a vector-drawing program when the figure genuinely requires more control.
+
+    -   Briefly describe the important pattern in each visual aloud. If an audience member cannot see the figure, they should still be able to follow the central claim.
+
+    -   Cite the source of photographs, data, and adapted figures in a readable location. Use images only when you have permission or an appropriate license to do so.
+
+-   **Layout and movement**:
+
+    -   Place recurring elements consistently so that the audience's attention goes to what changed.
+
+    -   White space is part of the design. It separates ideas and makes the important element easier to find.
+
+    -   Use animation only when revealing information in stages contributes to the explanation. Avoid movement that is merely decorative.
+
+    -   Use a 16:9 aspect ratio unless the venue specifies another format, and compress very large images before sharing the file.
+
+## Build a visual narrative
+
+-   **Maintain consistency between slides:** When adjacent slides address the same subject, keep shared elements in the same position and modify only what has changed. This allows the audience to see the change rather than having to reorient itself.
+
+-   **Use visual structure to carry meaning:** Wes Anderson is a fun example: his colors, object placement, and framing form a visual narrative alongside the script. A presentation can do the same thing more subtly. A consistent color can represent the same variable, mechanism, or study group across the entire talk.
+
+-   **Use conceptual diagrams:** A simple diagram can make a mechanism, prediction, sampling design, or sequence much easier to understand. Judge it by the clarity of the explanation.
+
+-   **Give each slide one primary job:** A slide may contain several related elements, but the audience should be able to tell why the slide is present. Write that job as a sentence in your storyboard before formatting it.
+
+## An outline for a short research presentation
+
+The sequence below is a planning tool: retain, combine, reorder, or omit components according to the purpose and length of the talk. For a very short talk, one primary slide may be enough, while longer talks may need several. Choose the minimum information the audience needs for the available time.
+
+1.  **The umbrella**: The context of your research in the broadest terms possible.
+
+2.  **Minimum conceptual background**: Establish only what the audience must understand before the gap and QHP will make sense.
+
+3.  **Gap and QHP**: State what the existing understanding does not resolve, then provide the research question, the mechanism or mechanisms that could answer it, and the directional relationships expected between predictor and response variables.
+
+4.  **Proposed methods/test**: Describe your study area, the data you will use to address your question, and how you will test your predictions.
+
+5.  **Conclusion**: Describe why this study is important, linking back to the umbrella statement (e.g., \"\... this study will help us solve the problem of \...\") and call for questions.
+
+### Activity: build the short-talk storyboard
+
+1.  Write the talk's take-home message in one sentence.
+2.  Give each of the five parts above one sentence in your storyboard.
+3.  Mark the one part that the audience absolutely must remember.
+4.  Assign time to each part and leave a small buffer appropriate to the length of the talk.
+5.  Remove or combine content until the talk can breathe. If you have to rush, the talk contains too much.
+
+**Completion self-check:** Someone unfamiliar with the project can explain the gap, question, proposed mechanism, expected pattern, test, and importance after hearing the talk once.
+
+## Example outline for a 12-15 minute research presentation
+
+*This section illustrates one way to plan a 12-15 minute talk. Scale or reorganize the example for the time available, the audience, and the purpose of the presentation. For a 15-minute slot, 11-13 minutes of planned spoken content can leave room for transitions, small delays, and a handoff to questions.*
+
+### I. Introduction
+
+1.  **Title slide **(1 slide): You don\'t have to say anything over this one.
+
+2.  **The set-up** (1 slide, 30 seconds max): Use one or two sentences to establish the problem and give the audience a reason to care about it. A short pause can give the audience time to process the opening before you move into the broader context. Avoid clichés or a dramatic opening that does not prepare the research argument. A relevant image without text can work when it makes the problem immediately visible.
+
+3.  **The umbrella** (1 slide, 30 seconds max): After establishing the problem, provide the broad context needed to understand it.
+
+4.  **Mini literature review** (1-2 slides, 1-1.5 minutes): Without yet giving away your research question, provide a background in what we know about the system that you are researching.
+
+5.  **Gap** (1 slide, about 30 seconds): State the specific limitation in current understanding that the study will address and why resolving it would matter.
+
+6.  **QHPT** (1-2 slides, 1-1.5 minutes): Move from the gap to the research question, the mechanism that may answer it, the expected pattern, and the proposed test. A plot of the predicted relationship is often an effective visual.
+
+### II. Methods
+
+1.  **Study area and site selection **(1 slide, 1-1.5 minutes): Describe the region that you are focusing on, paying special attention to why it is appropriate for addressing your research question. This region represents the extent of your full study --- for example, if you are sampling from multiple cities distributed across the conterminous US, the study area is the entire conterminous US. If you are sampling a subset of locations in your study area, describe how you chose the subsets and how these subsets are appropriate for your QHPT. Conversely, perhaps you are sampling contiguous polygons across your study extent (e.g., census tracts in Washington, DC) --- if this is the case, describe how those polygon boundaries were determined and why these boundaries are appropriate for investigating your QHPT.
+
+2.  **Data acquisition, description, and processing** (1 slide, 1-1.5 minutes): Describe where the data came from, the features the audience needs in order to understand the test, and the processing choices that materially affect what the data represent. Relevant features might include sample size, units, temporal coverage, grouping, or measurement resolution. For spatial data, include properties such as the number and type of features, coordinate reference system, resolution, or extent only when they are needed to understand the comparison, scale, or limitations. Do not inventory every file or narrate mundane tasks (e.g., "I then used pivot_wider to change the data from long to wide form ..."). Focus on consequential processing steps and choices that are unique to the study or necessary for the narrative of the talk.
+
+3.  **Statistical tests** (1 slide, 0.5-1.0 minutes): Because we will barely touch on statistics, these can take the form of summary statistics, data visualization, or formal statistical analyses. These are the tests of your predictions. Here, you describe how you carried them out and what to watch for when interpreting your output.
+
+### III. Results and discussion
+
+If the study is still at the proposal stage, replace results with expected outcomes: show the patterns that would support or challenge each hypothesis, discuss what each possible result would mean, and identify the most important limitations of the proposed design.
+
+1.  **General overview** (1 slide, about 30 seconds): Use only the summary statistics or distributional information that the audience needs to interpret the test.
+
+2.  **Results and interpretation** (1-2 slides, 1.5-2 minutes): Describe the outcome of each test, connect it to the prediction, and explain what it supports or challenges about the proposed mechanism. Keep observations distinct from interpretation and identify the design limitations that constrain the conclusion.
+
+3.  **Return to the research question and gap** (1 slide, about 1 minute): Explain how the findings inform the research question and what part of the original gap remains unresolved.
+
+4.  **Next steps** (1 slide, 0.5-1 minute): Identify the next study, measurement, or comparison needed to address the remaining uncertainty. Derive it from the limitations and alternatives already discussed.
+
+5.  **Conclusions** (1 slide, about 30 seconds): Place your research back into the context of the umbrella statement that started out your talk. This can also be used to request questions from the audience.
+
+### Activity: test the full-talk storyboard
+
+Before formatting slides, write the job of each proposed slide as a single sentence. Then:
+
+1.  Read only those sentences from beginning to end.
+2.  Ask whether the audience can follow the argument from the umbrella to the gap, QHPT, test, findings or expected outcomes, and conclusion.
+3.  Name the relationship between each pair of slide jobs. Add a missing step when the audience would otherwise have to supply the connection.
+4.  Remove a slide temporarily. If the argument does not weaken, combine it with another slide, move it to backup slides, or clarify its job.
+5.  Mark the talk's inferential bottleneck: the connection that requires the most explanation, evidence, or qualification. Protect time for it.
+6.  Add a rough transition wherever the relationship between two slides is not obvious.
+7.  Check the total planned time. Protect time for the QHPT, evidence, and interpretation rather than allowing the background to consume the talk.
+
+**Completion self-check:** The slide jobs form a complete argument, and each slide contributes something that the talk would lose if it were removed.
+
+## Activity: rescue an overloaded slide
+
+Imagine a methods slide containing a paragraph that describes site selection, three maps at different scales, a table of every variable, a workflow diagram, and citations in 12-point text.
+
+1.  Write the single most important job of the slide.
+2.  Circle the visual that best performs that job.
+3.  Move information needed later to the slide where it will be interpreted.
+4.  Move useful but nonessential detail to backup slides.
+5.  Redesign the remaining content so that the audience can identify the sampling units, comparison, and scale within five seconds.
+
+A possible repair is two slides: one map explaining the sampling design and one diagram connecting variables to predictions. The correct repair depends on the talk's argument, not on a universal limit on objects per slide.
+
+## Rehearse, diagnose, and revise
+
+Use each rehearsal to answer a question about the presentation.
+
+### Round 1: Does the story work?
+
+Present from the storyboard or rough slides without worrying about polish. Ask a listener to report:
+
+-   The research question in their own words.
+-   The proposed mechanism and expected pattern.
+-   Why the study is needed.
+-   The main conclusion or expected contribution.
+
+If the listener cannot recover one of those elements, revise the narrative before spending more time on design.
+
+### Round 2: Do the visuals work?
+
+Show the slides without giving the talk. Ask a listener to identify the main point of each slide and any element that is difficult to read or interpret. Revise slides whose purpose is unclear, whose figures require excessive explanation, or whose text cannot be read comfortably.
+
+### Round 3: Does the timing work?
+
+Give the complete talk aloud with a timer. Record the time at the end of each major section. Do not solve an overlong talk by speaking faster. Remove detail that is not necessary for the audience to understand the take-home message.
+
+### Round 4: Can you recover?
+
+Practice once without relying on the presenter view. Be able to continue if an animation fails, a video does not play, or a question interrupts the planned sequence. Bring a PDF backup of the slides when possible.
+
+## Final self-check
+
+Before presenting, confirm that:
+
+-   The opening establishes the problem without requiring specialized knowledge.
+-   The gap leads logically to the question, hypotheses, and predictions.
+-   Each method or result is connected to a prediction.
+-   Every slide has one identifiable primary job.
+-   Text, figure labels, citations, and legends are readable in the presentation room.
+-   Important categories remain distinguishable without relying solely on color.
+-   Photographs, figures, and data sources are credited.
+-   Important visual patterns are also described aloud.
+-   The conclusion answers the question and returns to the umbrella.
+-   A timed rehearsal finishes comfortably within the limit.

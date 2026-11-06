@@ -1,0 +1,22 @@
+# Data and scripts {.unnumbered}
+
+All of the files used in these lessons are bundled in [r_skills_data.zip](r_skills_data.zip){download="r_skills_data.zip"}. Extracting it creates a folder called `r_skills` that contains an RStudio project (`r_skills.Rproj`) and the `data` and `scripts` folders. Lesson 1.2 walks you through opening the project.
+
+If you only need a single file, download it below and save it to the folder listed beside it, inside your `r_skills` folder.
+
+| File | Save to | Size |
+|:-----|:--------|-----:|
+| [API_EN.ATM.CO2E.PC_DS2_en_csv_v2_2764620.csv](data/raw/API_EN.ATM.CO2E.PC_DS2_en_csv_v2_2764620.csv){download="API_EN.ATM.CO2E.PC_DS2_en_csv_v2_2764620.csv"} | `data/raw/` | 281 KB |
+| [angola_ungulates.rds](data/raw/angola_ungulates.rds){download="angola_ungulates.rds"} | `data/raw/` | 27 KB |
+| [badNameDataFrame.csv](data/raw/badNameDataFrame.csv){download="badNameDataFrame.csv"} | `data/raw/` | 2 KB |
+| [bird_counts.xlsx](data/raw/bird_counts.xlsx){download="bird_counts.xlsx"} | `data/raw/` | 22 KB |
+| [chickadees.csv](data/raw/chickadees.csv){download="chickadees.csv"} | `data/raw/` | 69 KB |
+| [coqui_counts.rds](data/raw/coqui_counts.rds){download="coqui_counts.rds"} | `data/raw/` | 8 KB |
+| [district_birds.rds](data/raw/district_birds.rds){download="district_birds.rds"} | `data/raw/` | 1.1 MB |
+| [messy_weather.csv](data/raw/messy_weather.csv){download="messy_weather.csv"} | `data/raw/` | 35 KB |
+| [my_covid_garden.csv](data/raw/my_covid_garden.csv){download="my_covid_garden.csv"} | `data/raw/` | 2 KB |
+| [my_covid_garden.rds](data/raw/my_covid_garden.rds){download="my_covid_garden.rds"} | `data/raw/` | 2 KB |
+| [my_covid_garden.xlsx](data/raw/my_covid_garden.xlsx){download="my_covid_garden.xlsx"} | `data/raw/` | 12 KB |
+| [portal.csv](data/raw/portal.csv){download="portal.csv"} | `data/raw/` | 1.4 MB |
+| [problem_set_1.R](scripts/problem_set_1.R){download="problem_set_1.R"} | `scripts/` | 5 KB |
+| [problem_set_2.R](scripts/problem_set_2.R){download="problem_set_2.R"} | `scripts/` | 7 KB |

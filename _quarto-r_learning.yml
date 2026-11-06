@@ -1,0 +1,48 @@
+project:
+  output-dir: _book/r_learning
+  render:
+    - index.qmd
+    - modules/**/*.qmd
+    - problem_sets/**/*.qmd
+    - data_and_scripts.qmd
+  resources:
+    - /r_skills_data.zip
+    - /data/raw/*
+    - /scripts/*
+    - /src/images/**
+    - /src/js/*
+    - /src/lib/**
+
+book:
+  title: "R learning materials"
+  chapters:
+    - index.qmd
+    - part: modules/module_0/module_0_intro.qmd
+      chapters:
+        - modules/module_0/0.1_intro_to_r_and_rstudio.qmd
+        - modules/module_0/0.2_environment_and_functions.qmd
+        - modules/module_0/0.3_values.qmd
+        - modules/module_0/0.4_objects.qmd
+        - modules/module_0/0.5_indexing.qmd
+    - part: modules/module_1/1.0_module_intro.qmd
+      chapters:
+        - modules/module_1/1.2_getting_started.qmd
+        - modules/module_1/1.3_objects.qmd
+        - modules/module_1/1.4_importing_exploring_exporting.qmd
+        - modules/module_1/1.5_assignments.qmd
+        - problem_sets/problem_set_1/problem_set_1.qmd
+    - part: modules/module_2/2.0_module_intro.qmd
+      chapters:
+        - modules/module_2/2.1_subsetting_and_extraction.qmd
+        - modules/module_2/2.2_mutation.qmd
+        - modules/module_2/2.3_grouped_operations_and_summarize.qmd
+        - modules/module_2/2.4_reshaping_data_frames.qmd
+        - modules/module_2/2.5_intro_to_data_vis.qmd
+        - modules/module_2/2.6_tidy_data.qmd
+        - modules/module_2/2.7_iteration.qmd
+        - problem_sets/problem_set_2/problem_set_2.qmd
+  appendices:
+    - data_and_scripts.qmd
+    - modules/resources/course_style_guide.qmd
+    - modules/resources/solving_and_submitting_problem_sets.qmd
+    - modules/resources/using_an_ai_assistant.qmd

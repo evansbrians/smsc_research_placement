@@ -1,0 +1,179 @@
+---
+title: "The four-stage outline process"
+---
+
+The four-stage process separates idea generation, organization, evaluation, and sentence planning so that each can be practiced deliberately. With experience, the stages will overlap.
+
+The most important separation is between **generation** and **evaluation**. If you judge, organize, and phrase each idea while trying to retrieve it, brainstorming becomes drafting. Early ideas should be easy to revise, combine, or discard. Work privately during the first stage if expecting an immediate reader makes you edit too soon.
+
+## Stage 1. Brainstorming
+
+**Goal**: Generate raw material without judgment.
+
+**Instructions**. Do:
+
+-   Use top-level bullets only
+
+-   Include one idea per bullet
+
+-   Fragments are encouraged!
+
+-   Redundancy is allowed!
+
+**Restrictions**. Do not:
+
+-   Arrange, group, evaluate, or delete ideas
+
+-   Evaluate relevance or importance
+
+-   Write sentences
+
+-   Edit language
+
+*Note: If your brain starts judging relevance, jot the idea down and keep going. Your job at this stage is to postpone relevance, not eliminate it.*
+
+If the blank page still feels too large, use a bounded ingredient set. List material under a few concrete prompts: important conditions, organismal or system responses, evidence, measurements, possible outcomes, uncertainties, and alternative explanations. Select and connect ingredients rather than trying to retrieve the entire argument at once.
+
+**Observable output**: A flat list of bullets that is messy and potentially repetitive!
+
+**I am done when** ... the relevant ingredient categories have material in them and the task no longer depends on holding all of the ideas in working memory.
+
+## Stage 2. Grouping and arranging
+
+**Goal**: Reveal structure in the brainstormed material. This stage addresses which ideas belong together. It involves categorization and pattern recognition, but not judgment about strength, importance, or inclusion.
+
+**Instructions**. Do:
+
+-   Reorder bullets
+
+-   Group related bullets together
+
+-   Add headers or labels, if helpful
+
+-   Duplicate bullets if they belong in more than one group
+
+-   Mark possible relationships among groups without deciding whether they are correct
+
+**Restrictions**. Do not:
+
+-   Delete bullets
+
+-   Select the "best" ideas
+
+-   Write sentences
+
+*Note: If you feel the urge to delete something, that's a sign that you're doing the next stage too early.*
+
+**Observable output**: A bulleted list where bullets are clustered into loose groups. Groups may overlap, feel redundant, and it's totally okay if the end product is messy!
+
+**I am done when** ... every bullet has a category, even if the classification is awkward.
+
+## Stage 3. Conceptual pre-writing outline
+
+**Goal**: Define the paragraph's job and boundaries, including the rhetorical work it will do. In this phase you will decide on the scope and limits of the paragraph. ***Important**: This stage identifies scope, not quality!*
+
+**Instructions**. Do:
+
+-   Provide a brief description of the claim or function the topic sentence will serve (not a full sentence)
+
+-   Provide a brief anchor fragment describing what the reader should understand at the paragraph's end
+
+-   Move non-essential bullets to a clearly labeled Recycling Bin
+
+-   Keep only the bullets that directly support the paragraph descriptor
+
+**Restrictions**. Do not:
+
+-   Write sentences (topic or otherwise)!
+
+-   Polish or edit your wording
+
+-   Add any new ideas
+
+*Note: The Recycling Bin may contain strong ideas whose role falls outside the current paragraph's job.*
+
+**Observable output**: A bulleted list that includes a short paragraph descriptor and a tight set of bullets that clearly belong. At this point you should also have a Recycling Bin!
+
+**I am done when** ... I know what the paragraph is about and every retained bullet is there for a reason.
+
+## Stage 4. Writing outline
+
+**Goal**: Convert your outline into a sentence-ready execution plan. *Note: Not all paragraphs require all of the elements listed below. Use only what is appropriate for the purpose of the paragraph.*
+
+**Instructions**. Do:
+
+-   Write a full topic sentence that directly expresses what the paragraph is about (*Note: The sentence doesn't have to be perfect, but it should be able to guide all of the elements in the paragraph*)
+
+-   Write a complete but deliberately messy anchor sentence that states where the paragraph's reasoning should land
+
+-   Provide subclaims as fragments (if applicable)
+
+-   Provide evidence/support bullets as fragments
+
+-   Provide evaluation/interpretation bullets as fragments
+
+-   Provide limitation or caveat bullets as fragments (if applicable)
+
+-   Provide placeholders wherever useful (e.g., "\[TBD\]", "\[citation\]", "\[?\]")
+
+-   Provide a transition fragment when the anchor does not already connect the paragraph to the next claim
+
+**Restrictions**. Do not:
+
+-   Write sentences other than the topic and anchor sentences!
+
+-   Polish or edit your wording
+
+-   Add any new ideas
+
+*Note: Fragments are expected below the topic sentence.*
+
+**Observable output**: A bulleted list bounded by a complete-but-messy topic sentence and anchor sentence, with evidence/support and evaluation fragments between them.
+
+**I am done when** ... Future Me could draft the paragraph without having to solve the argument again.
+
+### The draftability threshold
+
+Outlining is useful while it resolves reasoning. Begin drafting when the remaining difficulty is primarily how to express the ideas.
+
+You may be **under-outlined** if you would still need to decide what the paragraph means, discover why the evidence matters, or rebuild the sequence while writing sentences. You may be **over-outlining** if you are polishing fragments, adding every possible qualification, or turning the outline into near-final prose before testing the whole argument.
+
+The outline should make drafting possible, not make drafting redundant.
+
+As these decisions become internalized, the stages may overlap. The framework is temporary scaffolding for judgment, not a permanent workflow.
+
+::: now_you
+{{< fa user-circle size=2x >}} [Now you!]{style="font-size: 1.25em; padding-left: 0.5em;"}
+
+**Choose the outline stage**
+
+**1.** You are recording one rough idea per bullet without judging relevance. Which stage are you using?
+
+`r longmcq(c(answer = "Stage 1: Brainstorming", "Stage 2: Grouping and arranging", "Stage 3: Conceptual pre-writing outline", "Stage 4: Writing outline"))`
+
+**2.** You are deciding the paragraph's job, retaining only material that performs that job, and moving other ideas to the Recycling Bin. Which stage are you using?
+
+`r longmcq(c("Stage 1: Brainstorming", "Stage 2: Grouping and arranging", answer = "Stage 3: Conceptual pre-writing outline", "Stage 4: Writing outline"))`
+:::
+
+## Activity: outline the proposal introduction
+
+Use the four stages with a literature-synthesis packet, a tentative gap, and a literature-informed QHP.
+
+1.  **Brainstorm:** List the broad context, working synthesis statements, evidence, qualifications, gap reasoning, question, mechanistic hypothesis, prediction, proposed test, and implications.
+2.  **Group and arrange:** Group material into the umbrella, literature review, gap, and QHP components. Keep the question, hypothesis, and prediction distinct.
+3.  **Define paragraph jobs:** Decide how many paragraphs each component needs. Give each paragraph a short job and retain only the material needed to perform it.
+4.  **Build writing outlines:** Write provisional topic and anchor sentences for each paragraph, retain supporting material as fragments, and use `[TBD]`, `[citation]`, and `[?]` where work remains.
+
+::: {.callout-warning collapse="false" title="Literature-review paragraphs"}
+When outlining the literature review:
+
+-   Include the background needed to understand the focal relationship and QHP.
+-   Synthesize studies around ideas and relationships among findings.
+-   Reserve the novelty argument and unresolved limitation for the gap paragraph.
+-   Introduce the study design and predictions in the QHP and methods components.
+-   Paraphrase the evidence in your own words.
+-   Cite the original study for a finding rather than a paper that reports it secondhand.
+:::
+
+**Stopping point:** Someone reading only the paragraph jobs, topic sentences, and anchors can follow the argument from the broad context through the current understanding, gap, and QHP. Future You could draft without solving the argument again. The outline is ready to diagnose using the tests introduced in [Paragraph structure](background_paragraph_structure.qmd).

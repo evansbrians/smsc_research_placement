@@ -1,0 +1,182 @@
+---
+title: "Gap hunting"
+---
+
+Here, a **gap** is *an unexplored or inadequately explored variable, relationship, process, or perspective that is expected to change our understanding of the system in a meaningful way*.
+
+Treat a gap as an argument about whether the literature review reveals an important limitation in the current explanation of the system. Searching for a hidden fact that nobody has reported leads instead to a stressful, never-ending search.
+
+**An important stopping rule:** The goal is to determine whether the literature has adequately incorporated the focal variable, mechanism, or perspective into its explanation of the relationship. The goal is not to prove that nobody has ever studied your exact combination of organism, variable, and location.
+
+## How published papers construct gaps
+
+Each passage below organizes what is known so that a specific uncertainty becomes visible.
+
+### Conflicting results and missing explanatory information
+
+Stracey (2011) begins with a hypothesis, summarizes the inconsistent evidence, and then identifies the information needed to interpret that inconsistency:
+
+> Evidence for this hypothesis is mixed. Some studies have documented reduced rates of urban nest predation [...], whereas others have documented increased urban nest predation rates [...] or no differences [...]. Thus, the general applicability of the predator refuge hypothesis as an explanation for the success of urban-positive species is far from clear. Our ability to interpret these conflicting results is hampered by our lack of knowledge about (1) how different potential nest predator populations respond to urbanization and (2) the relative importance of these different potential predators in determining nest predation rates.
+
+The gap is not “urban nest predation has not been studied.” Many studies exist. The gap is that conflicting patterns cannot be explained without knowing how predator communities change and which predators account for nest losses. That gap prepares hypotheses about predator identity, prey switching, and nest defense.
+
+### A mechanism that varies among study systems
+
+Sperry et al. (2012) use inconsistent relationships to ask what differs among species:
+
+> The two studies that have examined the association between snake activity and nest survival have produced mixed results, however, with nest survival highly correlated with snake activity for some species, but only weakly correlated for others [...]. It is unclear why bird species vary in the degree to which their reproductive success is tied to snake activity, but this difference may result from differences in their timing of breeding or choice of nesting habitat.
+
+Here, the gap is an unexplained difference among species. The proposed mechanisms—breeding timing and nest-site choice—turn the inconsistency into hypotheses that can produce distinct predictions.
+
+### Competing explanations with incomplete support
+
+Perry et al. (2008) summarize several explanations for clustered nesting before selecting one for further study:
+
+> Several hypotheses to explain clustered nesting in the forest-nesting Least Flycatcher [...] have been proposed: (1) habitat heterogeneity, (2) food-resources heterogeneity, (3) competitive exclusion, (4) hidden lek, and (5) predator deterrence. The first three have been evaluated at least once without garnering support [...]. The hidden-lek hypothesis [...] received mixed support [...]. Perry and Andersen (2003) found evidence of predator deterrence in Least Flycatcher clusters, whereas Tarof and Ratcliffe (2004) did not. Here, we further investigate the predator-deterrence hypothesis.
+
+Existing tests have rejected some explanations and produced conflicting evidence for others. The unresolved competition among hypotheses justifies another test of predator deterrence.
+
+Across the three passages, the gap follows a similar claim train:
+
+1.  A phenomenon has one or more plausible explanations.
+2.  Existing evidence does not resolve which explanation applies, when it applies, or why results differ.
+3.  A particular variable, mechanism, or comparison could resolve part of that uncertainty.
+4.  The study develops a QHP that addresses that unresolved part directly.
+
+::: now_you
+{{< fa user-circle size=2x >}} [Now you!]{style="font-size: 1.25em; padding-left: 0.5em;"}
+
+**Identify the defensible gap**
+
+Which statement makes the strongest gap argument?
+
+`r longmcq(c("Nobody has studied vegetation and nest survival.", "Few studies have measured foliage around nests.", answer = "Relationships between foliage and nest survival vary among systems, while inconsistent measurements and limited predator identification leave the proposed concealment mechanism unresolved.", "Nest concealment should be studied in another city."))`
+:::
+
+## Begin with the literature review
+
+Bring forward the outputs from [Synthesizing the literature](literature_review.qmd):
+
+-   The working synthesis statements that describe the current understanding.
+-   The evidence, disagreements, measurements, and boundaries attached to each statement.
+-   The literature-synthesis table and full-text notes.
+-   The literature-informed QHP.
+
+Do not begin by inventing something that the literature might have overlooked. Begin with what the literature review establishes, then ask where that explanation remains incomplete.
+
+## Activity 1: Identify candidate gaps in the synthesis
+
+Read across the working synthesis statements and their evidence notes. Look for a limitation that recurs across papers or becomes visible when papers are considered together:
+
+-   Findings disagree and the literature does not explain when or why.
+-   A proposed mechanism has incomplete or conflicting support.
+-   Studies examine connected parts of a process separately.
+-   A broad measurement or proxy obscures the process needed for explanation.
+-   An explanation changes across scales, contexts, systems, or groups.
+-   Competing explanations make the same prediction and have not been distinguished.
+
+For each possible limitation, write five statements:
+
+1.  What does the literature currently establish?
+2.  Where does the explanation become incomplete, inconsistent, or too broad?
+3.  What evidence shows that this is a pattern across the literature rather than a limitation of one paper?
+4.  What understanding would change if the limitation were resolved?
+5.  Which part of the QHP could address it?
+
+The consequence for explanation, inference, prediction, or decision-making turns a missing study into a potential gap.
+
+**Stopping point:** You have at least two candidate gaps derived from the literature-review synthesis. Each is connected to evidence and to a consequence for understanding.
+
+## Activity 2: Test each candidate gap
+
+For each candidate, record:
+
+-   The evidence that supports the gap.
+-   Evidence that weakens or contradicts it.
+-   The scope within which the gap appears to hold.
+-   What additional paper or result would make you revise or abandon it.
+-   A decision to retain, revise, or abandon it.
+
+Do not search only for confirming evidence. A paper that partly addresses the candidate may narrow the gap, reveal an important boundary, or show that the gap should be abandoned.
+
+::: {.callout-note collapse="true" title="Partial example: testing a candidate gap"}
+**Candidate gap:** Differences in foliage measurement and limited information about predator identity leave the visual-concealment mechanism unresolved.
+
+-   **Supporting pattern:** Studies relate nest-site vegetation to nest fate using different foliage measurements, while many do not identify the predators responsible for failure.
+-   **Evidence that would weaken the gap:** Several studies use standardized foliage measurements and nest cameras to test whether visual concealment explains predator-specific differences in nest fate.
+-   **Scope:** The gap concerns visual concealment as an explanation of songbird nest predation, rather than every relationship between nest-site vegetation and survival.
+
+This candidate is testable because the literature could show that the proposed explanatory connection has already been made.
+:::
+
+**Stopping point:** Every retained candidate gap is supported by a pattern across papers, bounded to an appropriate scope, and vulnerable to evidence that would revise or reject it.
+
+## Activity 3: Align the gap and QHP
+
+Evaluate the literature-informed QHP against each retained candidate:
+
+1.  **Question:** Does it ask about the unresolved understanding identified by the gap?
+2.  **Hypothesis:** Does it provide a mechanistic answer rather than restating the missing variable or expected pattern?
+3.  **Prediction:** Does it identify an observable relationship that follows from the mechanism?
+4.  **Test:** Can the available measurements, comparison, and analysis evaluate that prediction?
+
+Revise or abandon a QHP that does not address the gap directly. Do not broaden the gap merely to make it fit the study.
+
+**Stopping point:** You can trace the gap to the question, the question to a mechanistic hypothesis, the hypothesis to a prediction, and the prediction to the proposed test.
+
+## Activity 4: State the tentative gap
+
+For a retained or revised gap, complete:
+
+> Existing explanations of `[focal relationship]` remain incomplete because `[meaningful variable, mechanism, scale, or perspective]` has not been adequately incorporated, which limits our ability to understand `[consequence]`.
+
+Then test the gap as a short claim train:
+
+1.  **What do we know?** State the current understanding supported by the literature.
+2.  **What do current approaches fail to capture?** Identify what is held fixed, disconnected, implicit, or represented too broadly.
+3.  **What therefore remains unresolved?** State the missing understanding and explain how the limitation produces it.
+4.  **Why does the unresolved knowledge matter?** Explain how it changes interpretation, prediction, or decision-making.
+
+Each step should prepare the next. If the final gap introduces an idea that the preceding steps did not establish, the claim train is incomplete.
+
+::: {.callout-note collapse="true" title="Partial example: a tentative gap claim train"}
+1.  **What do we know?** Vegetation surrounding a nest is sometimes associated with nest fate, but the relationship varies among study systems.
+2.  **What may current approaches fail to capture?** Foliage measurements represent different properties and spatial scales, and nest-fate studies often do not identify the predator.
+3.  **What therefore remains unresolved?** We do not yet know when foliage reduces nest predation by obstructing the visual cues predators use to locate nests.
+4.  **Why does this matter?** Identifying the operative mechanism would help explain why relationships between nest-site vegetation and survival differ among studies.
+
+This is still tentative. The literature synthesis must establish whether the third statement accurately represents the field.
+:::
+
+Then check:
+
+-   Does the gap matter for explanation rather than merely novelty?
+-   Is it supported by a pattern across the literature?
+-   Does the revised QHP address it directly?
+-   Can you avoid claims such as *nobody has studied*, *unexplored*, or *underexplored* unless the evidence truly warrants them?
+
+**Stopping point:** You have one or more tentative gaps, the evidence behind them, and an aligned QHP. The gap remains tentative until it has been reviewed with your mentor and tested in the introduction outline.
+
+::: {.callout-warning collapse="false" title="Conceptual holes paragraph"}
+What to avoid when writing this paragraph:
+
+-   Revisiting papers from the literature-review paragraphs
+
+-   Saying "few studies have ...", "unexplored", or "underexplored" without describing why it matters
+
+-   Treating limitations or logistical constraints as "research gaps"
+
+-   Including gaps that your study does not directly address
+
+-   Ending the paragraph without clearly setting up the research question, hypotheses, or predictions
+
+**Important!** Every gap listed in this section must be traceable to the study design. Point to the variables, measurements, comparisons, or analyses that address it. One gap may require several linked parts of the methods, and one analysis may inform more than one part of the gap. **If you cannot show how the study addresses it, it does not belong in the paragraph.**
+:::
+
+## References
+
+Perry, E. F., J. C. Manolis, and D. E. Andersen. 2008. Reduced predation at interior nests in clustered all-purpose territories of Least Flycatchers (*Empidonax minimus*). *The Auk* 125:643--650.
+
+Sperry, J. H., D. G. Barron, and P. J. Weatherhead. 2012. Snake behavior and seasonal variation in nest survival of northern cardinals *Cardinalis cardinalis*. *Journal of Avian Biology* 43:496--502.
+
+Stracey, C. M. 2011. Resolving the urban nest predator paradox: The role of alternative foods for nest predators. *Biological Conservation* 144:1545--1552.

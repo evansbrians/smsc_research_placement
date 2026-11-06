@@ -1,0 +1,28 @@
+# R
+.Rhistory
+.RData
+.Rproj.user/
+
+# Quarto
+/.quarto/
+_book/
+**/*.quarto_ipynb
+*_files/
+
+# Files written while lessons render
+data/raw/temp.*
+data/processed/*
+!data/processed/.gitkeep
+
+# macOS
+.DS_Store
+.fuse_hidden*
+
+# Scratch
+_to_delete/
+
+# Not published
+literature_references/
+recycling_bin/
+logic_and_logical_chains_work.md
+_freeze/research_proposal/

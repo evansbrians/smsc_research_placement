@@ -1,0 +1,212 @@
+---
+title: "Planning and writing a methods section"
+---
+
+The methods section must make visible where information comes from, how observations are produced, and how they will address the research question. You and your mentor will work through the design and analysis together. The writer's task is to organize those decisions and flag what remains unresolved.
+
+## The parts of a methods section
+
+The organization of a methods section depends on the project. The parts below are common, but they do not always require separate headings or paragraphs. Combine, separate, or reorder them when that makes the procedure easier to follow.
+
+### Study system, area, and timing
+
+Orient the reader to where and when the work will occur and why the system is appropriate for the research question. Depending on the project, include:
+
+-   The study region or system.
+-   The spatial and temporal extent.
+-   Characteristics needed to understand the design.
+-   A brief rationale for using this system.
+
+Do not turn this part into a general natural-history description. Include only context needed to understand the sampling, measurements, or limits of the study.
+
+### Study design and sampling
+
+Explain what will be observed and how those observations will be selected. Identify:
+
+-   The observational or experimental units.
+-   How sites, individuals, records, or time periods will be selected.
+-   The number and arrangement of observations, if known.
+-   Treatments, comparison groups, gradients, or repeated observations.
+-   Important nesting or grouping, such as nights within individuals or plots within sites.
+
+This part should allow the reader to distinguish the **study area**, the **sampling units**, and the **unit of analysis**. These are often not the same thing.
+
+### Data sources and acquisition
+
+Describe where the data will come from. This may include field observations, sensors, existing databases, surveys, spatial layers, laboratory measurements, or combinations of sources. Include:
+
+-   The source or collection procedure.
+-   Dates or versions when they matter.
+-   Relevant spatial and temporal resolution.
+-   Inclusion and exclusion criteria.
+-   Citations for established datasets or protocols.
+
+Avoid software commands and routine file-management details. Include choices that affect what the data represent or which observations enter the study.
+
+### Variables and measurements
+
+Define the variables needed to test each prediction. For each important variable, make clear:
+
+-   The underlying concept.
+-   How that concept will be measured or represented.
+-   The units and scale of measurement.
+-   Whether it serves as a predictor, response, grouping variable, or important alternative explanation.
+-   Any limitation in how the measurement represents the concept.
+
+For example, impervious surface represents one feature of urban development. Human activity, food subsidies, noise, and vegetation require other measurements. Explain both the dimension represented by a variable and the dimensions it leaves unmeasured.
+
+### Trace the process into a measurement
+
+When a study uses an observable variable to represent a broader process, make the operational chain explicit:
+
+1.  **Phenomenon:** What part of the system are you trying to understand?
+2.  **Process:** What causal pathway is proposed to produce the response?
+3.  **Measurement or proxy:** What observable variable represents that process?
+4.  **Analysis:** What comparison or estimate will be made from the variable?
+5.  **Claim:** What will that result allow you to conclude?
+
+The weakest connection is often between the process and its measurement. Ask what assumptions make the measurement a useful indicator, which dimensions it misses, and whether it operates at the same spatial and temporal scale as the proposed process. Do not let the conclusion silently expand from the measured variable to the entire phenomenon.
+
+### Data preparation
+
+Describe processing steps that materially change the meaning, scale, or comparability of the data. Examples include:
+
+-   Defining the area around a sampling unit.
+-   Aggregating repeated observations.
+-   Aligning spatial or temporal resolution.
+-   Calculating a derived variable.
+-   Applying a biologically meaningful inclusion rule.
+-   Addressing missing observations.
+
+Do not narrate routine data wrangling. Instead, explain which records were linked, by what identifier, and why that linkage was necessary.
+
+### Analysis
+
+Connect each analysis to a prediction. A reader should be able to identify:
+
+-   The response and predictor variables.
+-   The comparison or relationship being evaluated.
+-   The unit of analysis.
+-   Grouped or repeated observations that the analysis must account for.
+-   Important alternative explanations or covariates.
+-   The output that will be interpreted.
+-   Assumptions or limitations that materially affect inference.
+
+The name of a statistical model is not an explanation of the analysis. State what the analysis will allow you to compare or estimate and how that output relates to the prediction.
+
+Return to [Scientific inference](scientific_inference.qmd) while planning this part. Ask whether the proposed comparison can distinguish the focal mechanism from important alternatives, whether the measurements operate at the same scale as the claim, and whether the conclusion you hope to draw stays within what the design can support.
+
+## Make a methods-section map
+
+Before outlining paragraphs, list the jobs that the methods section needs to perform. Begin with decisions already made with your mentor or evident from the project materials. Flag unresolved details instead of guessing.
+
+Create one note for each proposed paragraph or subsection. Record:
+
+-   Its working name.
+-   The job it must perform.
+-   Decisions already made.
+-   Details still needed.
+
+A useful starting set is:
+
+-   **Study system and sampling:** Orient the reader and define the observations.
+-   **Data sources and acquisition:** Explain where the information comes from.
+-   **Variables and preparation:** Define what will be measured and how it will be represented.
+-   **Analysis:** Explain how the predictions will be evaluated.
+
+Add, remove, split, or combine notes to match the project. The map describes the writing work. You will decide the methods with your mentor.
+
+Use the working flags introduced in the outlining lesson:
+
+-   **`[TBD]`**: a decision or factual detail that still needs to be worked out.
+-   **`[citation]`**: a dataset, protocol, method, or claim that needs a source.
+-   **`[?]`**: material whose meaning, accuracy, or place in the section is uncertain.
+
+Keep the flags visible while meeting with your mentor. Replace them only when the question has actually been resolved.
+
+## Transfer TREAT to methods paragraphs
+
+TREAT still helps in a methods section, but the letters perform somewhat different work than they do in a literature-review paragraph. A methods paragraph explains and justifies a procedure. Interpretation of the results belongs later in the paper.
+
+| TREAT element | Its job in a methods paragraph |
+|---|---|
+| **T: Topic sentence** | State the paragraph's procedural job or the design choice it explains. |
+| **R: Reasoning** | Explain why the choice is appropriate for the question, prediction, scale, or study system. |
+| **E: Evidence or execution detail** | Supply the concrete information needed to understand or reproduce the procedure: sampling units, dates, sources, measurements, criteria, or protocol citations. |
+| **A: Analysis or alignment** | Explain how the details operationalize a concept, address a prediction, support a comparison, or limit the inference. Do not discuss findings here. |
+| **T: Transition** | Connect this procedure to the next stage of the workflow or to the analysis it makes possible. |
+
+Not every methods paragraph needs all five elements, and they do not need to occur once each. A straightforward procedural paragraph may be mostly **T-E-E-A**. A paragraph explaining an unusual design choice may need more **R**. An analysis paragraph may cycle through prediction, model details, and the output that will be interpreted.
+
+### Example: a study-system and sampling paragraph outline
+
+This fictional outline uses the running nest-concealment example. It demonstrates paragraph structure rather than a study design to copy.
+
+-   **T:** We will monitor songbird nests across sites selected to represent variation in foliage density while maintaining comparable monitoring effort.
+-   **R:** Variation in foliage density is needed to evaluate the predicted relationship between visual concealment and predation risk.
+-   **E:** Study region, site boundaries, and focal species `[TBD]`
+-   **E:** Site-selection criteria and range of foliage density `[TBD]`
+-   **E:** Number of sites and nests, nest-finding procedure, and monitoring period `[TBD]`
+-   **A:** The design provides observations across the focal foliage gradient while recording nest height, edge distance, date, and site as possible alternative explanations.
+-   **T:** We will measure nest fate, predator identity, and foliage density using the procedures described below.
+
+The outline leaves the number of sites and nests, focal species, monitoring period, and analysis flagged for discussion. Its completed work is identifying the paragraph's job and the information the finished paragraph will need.
+
+### Example: an analysis paragraph outline
+
+-   **T:** We will evaluate whether daily predation risk changes with foliage density in the direction stated by the prediction.
+-   **R:** Nests within the same study site may share conditions that make their outcomes more similar.
+-   **E:** Response = daily predation risk and predictor = foliage density
+-   **E:** Grouped structure = nests within study sites
+-   **E:** Predator group = visually hunting predators or other identified predators
+-   **E:** Important alternative explanations `[TBD with mentor]`
+-   **E:** Model family and software `[TBD]` and methodological source `[citation]`
+-   **A:** The foliage-density coefficient, its uncertainty, and its relationship with predator group will be used to evaluate the prediction. The mensurative design will not by itself establish that visual concealment caused any difference in predation risk.
+-   **T:** The results can then be compared with the overall prediction and its predator-specific extension.
+
+Here, the **A** tells the reader how an eventual result would connect to the prediction and what inference the design can support.
+
+::: now_you
+{{< fa user-circle size=2x >}} [Now you!]{style="font-size: 1.25em; padding-left: 0.5em;"}
+
+**Place the methods detail**
+
+**1.** Where does the statement “Foliage density will be recorded as percent cover within 1 m of each nest” primarily belong?
+
+`r longmcq(c("Study-system rationale", answer = "Variables and measurements", "Data preparation", "Interpretation of results"))`
+
+**2.** Where does the statement “The analysis must account for nests grouped within study sites” primarily belong?
+
+`r longmcq(c("Study-system rationale", "Variables and measurements", "Data acquisition", answer = "Analysis"))`
+:::
+
+## Activity: outline the methods section
+
+Work from project notes, available data documentation, and decisions made with your mentor.
+
+1.  Create a methods-section map and give each proposed paragraph one job.
+2.  Place the information already available beneath the appropriate paragraph.
+3.  For each important variable, trace the phenomenon, process, measurement or proxy, analysis, and allowable claim. Mark the weakest connection.
+4.  Mark unresolved decisions with `[TBD]`, missing sources with `[citation]`, and uncertain material with `[?]`.
+5.  Choose one paragraph and convert it into a TREAT writing outline.
+6.  Write only the topic and anchor sentences in full. Keep the remaining material as labeled fragments.
+7.  Use the section map, operational chains, flagged questions, and TREAT outline to focus discussion with your mentor.
+
+Add the mapped methods paragraphs to the proposal outline. Use [Testing your outline's logic](outlining_logic_test.qmd) to check the combined outline for missing or repeated work and to refine its topic sentences.
+
+## Methods-section check
+
+Before drafting prose, ask:
+
+-   Does every paragraph have a distinct job?
+-   Can the reader distinguish the study system, sampling units, and unit of analysis?
+-   Are data sources, measurements, and consequential processing steps visible?
+-   Can each prediction be traced to measurements and an analysis?
+-   Are processes distinguished from their measurements or proxies, and are the assumptions connecting them visible?
+-   Does each proposed claim remain within what the design and measurement can support?
+-   Does the rationale explain important choices without turning into an introduction?
+-   Does the section avoid results, interpretation of findings, and routine software narration?
+-   Are unresolved decisions flagged rather than guessed?
+-   Could a mentor quickly identify what still needs to be decided?
+
+**Stopping point:** The outline is ready for discussion when the planned paragraphs are visible, known information is in the correct place, and unresolved methodological decisions are easy to find.

@@ -1,0 +1,347 @@
+---
+title: "Writing cheat sheet"
+---
+
+This is not our text. What follows is copied-and-pasted writing help and fill-in-the-blank prompts from ***They Say / I Say: The Moves That Matter in Academic Writing*** (6^th^ edition; Graff and Birkenstein 2024). I think we can improve on this greatly!
+
+## Verbs
+
+### Making a claim
+
+-   argue
+
+-   assert
+
+-   believe
+
+-   claim
+
+-   emphasize
+
+-   insist
+
+-   observe
+
+-   remind us
+
+-   report
+
+-   suggest
+
+### Expressing agreement
+
+-   acknowledge
+
+-   admire
+
+-   admit
+
+-   agree
+
+-   celebrate
+
+-   concede
+
+-   corroborate
+
+-   do not deny
+
+-   endorse
+
+-   extol
+
+-   praise
+
+-   reaffirm
+
+-   support
+
+-   verify
+
+### Questioning or disagreeing
+
+-   complain
+
+-   complicate
+
+-   contend
+
+-   contradict
+
+-   deny
+
+-   deplore the tendency to
+
+-   qualify
+
+-   question
+
+-   refute
+
+-   reject
+
+-   renounce
+
+-   repudiate
+
+### Making recommendations
+
+-   advocate
+
+-   call for
+
+-   demand
+
+-   encourage
+
+-   exhort
+
+-   implore
+
+-   plead
+
+-   recommend
+
+-   urge
+
+-   warn
+
+## Transitions
+
+### Addition
+
+-   also
+
+-   and
+
+-   besides
+
+-   furthermore
+
+-   in addition
+
+-   in fact
+
+-   indeed
+
+-   moreover
+
+-   so too
+
+### Elaboration
+
+-   actually
+
+-   by extension
+
+-   in other words
+
+-   in short
+
+-   that is
+
+-   ultimately
+
+### Example
+
+-   as an illustration
+
+-   consider
+
+-   for example
+
+-   for instance
+
+-   specifically
+
+### Cause and effect
+
+-   accordingly
+
+-   as a result
+
+-   because
+
+-   consequently
+
+-   hence
+
+-   since
+
+-   so
+
+-   then
+
+-   therefore
+
+-   thus
+
+### Comparison
+
+-   along the same lines
+
+-   in the same way
+
+-   likewise
+
+-   similarly
+
+### Contrast
+
+-   although
+
+-   but
+
+-   by contrast
+
+-   conversely
+
+-   despite
+
+-   even though
+
+-   however
+
+-   in contrast
+
+-   nevertheless
+
+-   nonetheless
+
+-   on the contrary
+
+-   on the other hand
+
+-   regardless
+
+-   whereas
+
+-   while
+
+-   yet
+
+### Concession
+
+-   admittedly
+
+-   although it is true
+
+-   granted
+
+-   naturally
+
+-   of course
+
+-   to be sure
+
+### Conclusion
+
+-   as a result
+
+-   consequently
+
+-   hence
+
+-   in conclusion
+
+-   in short
+
+-   in sum
+
+-   therefore
+
+-   thus
+
+-   to sum up
+
+-   to summarize
+
+## Scientific paper sections
+
+### Introduction
+
+-   To test the hypothesis that \_\_\_\_\_\_\_\_\_\_, X measured \_\_\_\_\_\_\_\_\_\_ and found that \_\_\_\_\_\_\_\_\_\_. Therefore, X concluded \_\_\_\_\_\_\_\_\_\_.
+
+-   Although most scientists attribute \_\_\_\_\_\_\_\_\_\_ to \_\_\_\_\_\_\_\_\_\_, X's result \_\_\_\_\_\_\_\_\_\_ leads to the possibility that \_\_\_\_\_\_\_\_\_\_.
+
+-   Experiments showing \_\_\_\_\_\_\_\_\_\_ and \_\_\_\_\_\_\_\_\_\_ have led scientists to propose \_\_\_\_\_\_\_\_\_\_.
+
+### Methods
+
+-   We evaluated \_\_\_\_\_\_\_\_\_\_ to determine whether \_\_\_\_\_\_\_\_\_\_.
+
+-   Because \_\_\_\_\_\_\_\_\_\_ does not account for \_\_\_\_\_\_\_\_\_\_, we instead used \_\_\_\_\_\_\_\_\_\_.
+
+### Results
+
+-   We measured \_\_\_\_\_\_\_\_\_\_ (sample size) subjects, and the average response was \_\_\_\_\_\_\_\_\_\_ (mean with units), with a range of \_\_\_\_\_\_\_\_\_\_ (lower value) to \_\_\_\_\_\_\_\_\_\_ (upper value).
+
+-   Before training, average running speed was \_\_\_\_\_\_\_\_\_\_ ± \_\_\_\_\_\_\_\_\_\_ kilometers per hour, \_\_\_\_\_\_\_\_\_\_ kilometers per hour slower than running speed after training.
+
+### Discussion
+
+**Interpreting results**:
+
+-   The data suggest / hint / imply \_\_\_\_\_\_\_\_\_\_.
+
+-   Our results show / demonstrate \_\_\_\_\_\_\_\_\_\_.
+
+-   Our data support / confirm / verify the work of X by showing that \_\_\_\_\_\_\_\_\_\_.
+
+-   By demonstrating \_\_\_\_\_\_\_\_\_\_, X's work extends the findings of Y.
+
+-   The results of X contradict / refute Y's conclusion that \_\_\_\_\_\_\_\_\_\_.
+
+-   X's findings call into question the widely accepted theory that \_\_\_\_\_\_\_\_\_\_.
+
+-   Our data are consistent with X's hypothesis that \_\_\_\_\_\_\_\_\_\_.
+
+**Results differ from previous findings**:
+
+-   One explanation for X's finding of \_\_\_\_\_\_\_\_\_\_ is that \_\_\_\_\_\_\_\_\_\_. An alternative explanation is \_\_\_\_\_\_\_\_\_\_.
+
+-   The difference between \_\_\_\_\_\_\_\_\_\_ and \_\_\_\_\_\_\_\_\_\_ is probably due to \_\_\_\_\_\_\_\_\_\_.
+
+**Disagree with previous research**:
+
+-   The work of Y and Z appears to show that \_\_\_\_\_\_\_\_\_\_, but their experimental design does not control for \_\_\_\_\_\_\_\_\_\_.
+
+-   While X and Y claim that \_\_\_\_\_\_\_\_\_\_, their finding of \_\_\_\_\_\_\_\_\_\_ actually shows that \_\_\_\_\_\_\_\_\_\_.
+
+**Disagree with previous research by delineating boundaries**:
+
+-   While X's work clearly demonstrates \_\_\_\_\_\_\_\_\_\_, \_\_\_\_\_\_\_\_\_\_ will be required before we can determine whether \_\_\_\_\_\_\_\_\_\_.
+
+-   Although Y and Z present firm evidence for \_\_\_\_\_\_\_\_\_\_, their data cannot be used to argue that \_\_\_\_\_\_\_\_\_\_.
+
+-   In summary, our studies show that \_\_\_\_\_\_\_\_\_\_, but the issue of \_\_\_\_\_\_\_\_\_\_ remains unresolved.
+
+**Suggesting further work**:
+
+-   Now that \_\_\_\_\_\_\_\_\_\_ has been established, scientists will likely turn their attention toward \_\_\_\_\_\_\_\_\_\_.
+
+-   X's work leads to the question of \_\_\_\_\_\_\_\_\_\_. Therefore, we investigated \_\_\_\_\_\_\_\_\_\_.
+
+-   To see whether these findings apply to \_\_\_\_\_\_\_\_\_\_, we propose to \_\_\_\_\_\_\_\_\_\_.
+
+**Anticipating reader objections**:
+
+-   Scientists who take a \_\_\_\_\_\_\_\_\_\_ (reductionist / integrative / biochemical / computational / statistical) approach might view our results differently.
+
+-   This interpretation of the data might be criticized by X, who has argued that \_\_\_\_\_\_\_\_\_\_.
+
+-   Some may argue that this experimental design fails to account for \_\_\_\_\_\_\_\_\_\_.
+
+**Relevance (say why this matters)**:
+
+-   These results open the door to studies that \_\_\_\_\_\_\_\_\_\_.
+
+-   The methodologies developed by X will be useful for \_\_\_\_\_\_\_\_\_\_.
+
+-   Our findings are the first step toward \_\_\_\_\_\_\_\_\_\_.
+
+-   Further work in this area may lead to the development of \_\_\_\_\_\_\_\_\_\_.
+
+-   This discovery will have significant applications in \_\_\_\_\_\_\_\_\_\_ as well as in \_\_\_\_\_\_\_\_\_\_.
+
+-   These findings have important implications for the broader domain of \_\_\_\_\_\_\_\_\_\_.

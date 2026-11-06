@@ -1,0 +1,18 @@
+<!-- js-parsons: vendored from https://github.com/js-parsons/js-parsons
+     (commit 790f46e09586172ddae39e8163883cce7e04da5c, MIT license -- see
+     src/lib/js-parsons/LICENSE) -- powers the drag-and-drop "Parsons
+     problem" exercises in this module. Only wired into the live-html
+     format (module_0) in _quarto.yml, so other modules are unaffected. -->
+<script>
+(function () {
+  var root = (document.querySelector('meta[name="quarto:offset"]') || {content: './'}).content;
+  document.write('<link rel="stylesheet" href="' + root + 'src/lib/js-parsons/parsons.css" />');
+  document.write('<script src="' + root + 'src/lib/js-parsons/lib/jquery.min.js"><\/script>');
+  document.write('<script src="' + root + 'src/lib/js-parsons/lib/jquery-ui.min.js"><\/script>');
+  document.write('<script src="' + root + 'src/lib/js-parsons/lib/jquery.ui.touch-punch.min.js"><\/script>');
+  document.write('<script src="' + root + 'src/lib/js-parsons/lib/underscore-min.js"><\/script>');
+  document.write('<script src="' + root + 'src/lib/js-parsons/lib/lis.js"><\/script>');
+  document.write('<script src="' + root + 'src/lib/js-parsons/parsons.js"><\/script>');
+  document.write('<script src="' + root + 'src/js/parsons_init.js"><\/script>');
+})();
+</script>

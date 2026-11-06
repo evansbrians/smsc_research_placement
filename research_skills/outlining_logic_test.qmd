@@ -1,0 +1,169 @@
+---
+title: "Testing your outline's logic"
+---
+
+Use these tests with an introduction outline or with a combined proposal outline. They reveal missing logic, incomplete support, repeated work, and topic sentences that do not advance the argument.
+
+Complete the three rounds in order: test the topic-sentence claims, test the claim train across paragraphs, and then test the support within each paragraph. Delay sentence-level polishing until the structure works.
+
+::: now_you
+{{< fa user-circle size=2x >}} [Now you!]{style="font-size: 1.25em; padding-left: 0.5em;"}
+
+**Choose the first diagnosis**
+
+**1.** A paragraph begins, “This paragraph discusses urban nest predators.” What is the primary problem?
+
+`r longmcq(c(answer = "It announces a topic without advancing a claim.", "It contains too much evidence.", "It states a prediction rather than a hypothesis.", "It changes spatial scale."))`
+
+**2.** Two adjacent topic sentences are individually defensible, but the reader cannot explain why the second follows from the first. What should you test first?
+
+`r longmcq(c("Whether both sentences use the same number of words.", answer = "Whether a missing claim or hidden assumption is needed to connect them.", "Whether the second paragraph contains enough citations.", "Whether either sentence can be made more forceful."))`
+:::
+
+## Round 1: Are the topic sentences claims?
+
+A topic sentence should advance a claim rather than announce a topic. Test each sentence with the following questions:
+
+-   Could a reasonable ecologist disagree with this sentence?
+
+-   Is the sentence saying something about a relationship, interpretation, or consequence?
+
+-   Could a reader understand the claim by itself (without reading the paragraph)?
+
+-   Does the claim tell you what the paragraph now has to demonstrate?
+
+-   Does the claim move the proposal's argument forward?
+
+**Activity:** Evaluate each topic sentence as a claim.
+
+1.  In a new document tab, generate a single-level bullet point list where each bullet point is a topic sentence from the paragraphs of your introduction.
+
+2.  For each topic sentence, answer each of the questions above with "Yes," "No," "Maybe," or "Not yet."
+
+3.  If you answer \"No\", \"Maybe\", or "Not yet" to one or more questions, revise the sentence until you think that it functions as a claim.
+
+**Stopping point:** Each topic sentence advances a proposition that a reasonable ecologist could disagree with and tells the reader what the paragraph must demonstrate. Paragraph support and wording have not yet been evaluated.
+
+## Round 2: Do the topic sentences form a complete claim train?
+
+A **claim train** is a sequence in which each claim establishes the basis or need for the next. The topic sentences should therefore function as a compressed version of the introduction, carrying the reader from the broad problem to the gap and QHP without the details of each paragraph. Test the sequence with these questions:
+
+-   Do the topic sentences form a logical sequence?
+
+-   Does each sentence follow from the one before it (try adding words like *therefore* or *because* when testing)?
+
+-   Are there any major logical steps missing between two sentences (see below)?
+
+-   Does a given sentence add something new or does it repeat an earlier claim?
+
+-   Does the sequence progressively narrow towards the specific research problem?
+
+-   By the final topic sentence, is the need for the QHP apparent?
+
+-   If you remove one topic sentence, would the argument lose an important step?
+
+We can look for missing steps in our logic with the questions below. A missing logical step is an idea that the reader has to supply for one claim to follow from another. It is not necessarily a missing fact or piece of evidence.
+
+-   Can I complete "A, therefore B" without having to explain anything else?
+
+-   Can I explain the connection with a single *because* statement (B is true/relevant because A tells us \_\_\_\_.)?
+
+-   Is there anything else that must be true for B to follow A (if so, there's likely something missing)?
+
+-   Did you change concepts without explaining the connection?
+
+-   Could a skeptical reader reasonably ask why B follows A?
+
+**Activity:** Test and repair the claim train.
+
+1.  Copy-and-paste the single-level bullet-point list of topic sentences from Round 1.
+
+2.  Read the topic sentences aloud from beginning to end.
+
+3.  Between each pair of topic sentences, add a short phrase describing why a claim follows from the previous one:
+
+    -   Positive connections: because, therefore, specifically, which means that
+
+    -   Negative connections: despite, although, while, however
+
+    -   Other relationships: is measured by, is associated with, is inferred from, or changes the scale from ______ to ______
+
+4.  For each connection, ask the questions above to evaluate whether:
+
+    -   The connection is clear
+
+    -   A logical step is missing
+
+    -   The connection requires an unstated assumption
+
+    -   A broad process has silently become a measurement or proxy
+
+    -   The spatial, temporal, or organizational scale has changed without a bridge
+
+    -   The claims are in the wrong order
+
+    -   The claim repeats something that has already been established
+
+5.  If a logical step is missing, add it to the outline as a *rough claim fragment*. The fragment does not need to become a new paragraph or a polished sentence.
+
+6.  Test the necessity of each claim by removing it temporarily. If the argument still works without it, ask whether that claim is redundant or whether it serves a different purpose that has not yet been made clear.
+
+7.  Reorder, add, remove, or revise claims until you can read the topic sentences alone and follow the argument from the broad problem to the specific gap (and need for the QHP).
+
+**Stopping point:** The topic sentences form a complete path from the broad problem to the gap and QHP. Paragraph support and sentence-level wording have not yet been evaluated.
+
+## Round 3: Does each paragraph support its claim?
+
+Round 3 tests whether each paragraph outline supports its claim. Reduce each element to a short fragment that identifies the job it performs in the paragraph.
+
+Use the following labels when outlining:
+
+-   **TS = topic sentence/claim**: The proposition the paragraph is trying to establish
+
+-   **R = reasoning**: Reasoning behind the topic sentence (claim) or sub-claim. This can also be used to define any ambiguous terms in your claim.
+
+-   **E = evidence/example**: Information used to support the claim
+
+-   **A = bridge/analysis**: The reasoning that explains how the evidence supports the claim or why it matters
+
+-   **T = transition/anchor**: What the paragraph has established and how that result becomes available to the larger argument
+
+-   **?** = The sentence does not yet have a clear job in the paragraph
+
+Questions to evaluate this:
+
+-   Does each sentence have a clear job in the paragraph?
+
+-   Does each piece of evidence or each example actually support the paragraph's claim?
+
+-   Is the connection between the evidence and the claim explained, or does the reader have to supply the reasoning?
+
+-   Are there any logical steps missing within the paragraph?
+
+-   Does any sentence seem to support a different claim or belong in a different paragraph?
+
+-   Is any information repetitive, unnecessary, or interesting but not needed to establish the claim?
+
+-   By the end of the paragraph, has the claim in the topic sentence actually been established?
+
+-   Does the anchor follow from the evidence and analysis without introducing a new idea?
+
+**Activity:** Test and repair each paragraph outline.
+
+1.  Work through the document one paragraph at a time. Place the revised topic-sentence claim from Round 2 above the paragraph you are evaluating.
+
+2.  Evaluate your sentence fragment bullets, and label each fragment TS, R, E, A, T, or ?.
+
+3.  Ask whether the sequence of fragments provides a clear path from the paragraph's claim through its evidence and reasoning.
+
+4.  For each E, complete the statement: "This supports the claim because \_\_\_\_." If you cannot complete that statement without adding a new idea, identify the missing bridge or ask whether the evidence actually belongs in this paragraph.
+
+5.  For each A, ask whether the evidence actually supports the inference being made. If the bridge requires another unstated idea, add that idea as a rough fragment.
+
+6.  Identify fragments that are out of order, redundant, unnecessary, or better suited to a different paragraph. Reorder, remove, or move the fragments in the outline before changing the prose.
+
+7.  If support or reasoning is missing, add a rough R, E, or A fragment to the outline. Do not worry about writing a polished sentence yet.
+
+8.  Write or revise the anchor so that it states what the reader can now understand and connects that result upward to the paragraph's larger job.
+
+**Stopping point:** Each paragraph has a clear claim, relevant evidence, visible reasoning, and an anchor that follows from the support. Every fragment has a necessary job. Sentence-level polishing comes after these relationships work.

@@ -1,0 +1,40 @@
+project:
+  output-dir: _book/research_skills
+  render:
+    - index.qmd
+    - /research_skills/*.qmd
+    - presentations/*.qmd
+    - abstracts/*.qmd
+  resources:
+    - /src/images/**
+    - /src/js/*
+    - /src/lib/**
+    - /research_skills/images/*
+
+book:
+  title: "Research skills"
+  chapters:
+    - index.qmd
+    - part: "Background"
+      chapters:
+        - research_skills/exploring_qhpt.qmd
+        - research_skills/scientific_inference.qmd
+    - part: "Developing a research proposal"
+      chapters:
+        - research_skills/research_proposal_overview.qmd
+        - research_skills/logic_in_scientific_writing.qmd
+        - research_skills/background_paragraph_structure.qmd
+        - research_skills/developing_qhp_activities.qmd
+        - research_skills/literature_search.qmd
+        - research_skills/literature_review.qmd
+        - research_skills/gap_hunting.qmd
+        - research_skills/writing_outlines.qmd
+        - research_skills/outlining_logic_test.qmd
+        - research_skills/methods_planning.qmd
+        - research_skills/introduction_examples.qmd
+    - part: "Scientific presentations"
+      chapters:
+        - presentations/research_presentation_guide.qmd
+    - part: "Writing an abstract"
+      chapters:
+        - abstracts/abstract_guide.qmd

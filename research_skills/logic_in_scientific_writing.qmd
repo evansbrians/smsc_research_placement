@@ -1,0 +1,570 @@
+---
+title: "Logic in scientific writing"
+engine: knitr
+---
+
+Logic is at the center of great scientific writing. **Logic** is a set of principles for evaluating how well a conclusion follows from the statements offered as evidence or support. Using logic explicitly in our writing helps us build well-supported arguments that allow a reader to move from what is known, observed, or assumed to a conclusion. Making those connections visible allows us to test whether each step is supported and repair steps that are missing or weak.
+
+## What you will learn
+
+By the end of the lesson, you should be able to:
+
+1.  Identify claims, distinguish them from topics, questions, and objectives, and evaluate whether a claim is strong enough to guide an argument.
+2.  Separate the evidence and support in a scientific argument from its conclusion.
+3.  Identify assumptions that must be true for the conclusion to follow.
+4.  Build the missing steps between a broad claim and a specific outcome.
+5.  Identify the job and evidentiary status of each connection in a logical chain.
+6.  Distinguish a process from its measurement or proxy.
+7.  Arrange claims into a sequence that a reader can follow and evaluate.
+
+::: {.callout-note title="Logic takes practice!"}
+Learning logic can be challenging at first. With practice, however, using logic in your own writing and evaluating the writing of others will become second nature. Once it does, you will find that it is an awesome tool for developing effective arguments and streamlining the writing process.
+:::
+
+## Claims, evidence, and conclusions
+
+An **argument** is a set of statements in which evidence or other support is offered as a reason to accept a **conclusion**. A conclusion is the claim that an argument is intended to establish. **Evidence** consists of observations, measurements, results, or other empirical findings offered in favor of the conclusion. **Support** is broader: it includes evidence as well as definitions, established knowledge, and reasons that help the conclusion follow. In formal logic, each statement offered in support is called a **premise**. We will use *evidence* and *support* because those terms describe more directly what the statements are doing in scientific writing. You may still encounter *premise* when reading about logic.
+
+Arguments are built from **statements**, sentences that are either true or false, even if we do not yet know which. Many sentences are not statements:
+
+| Sentence | Type | Can it be true or false? |
+|---|---|---|
+| Rat snakes depredate more nests at forest edges than in forest interiors. | Statement and claim | Yes |
+| Do rat snakes depredate more nests at forest edges? | Question | No |
+| Check every nest at least once every four days. | Command | No |
+
+### What is a claim?
+
+A **claim** is a declarative statement: it advances a proposition rather than naming a topic, asking a question, or giving an instruction. A useful practical test is: *Could a reasonable person disagree with this sentence?* Disagreement need not mean that the statement is controversial. It may concern the relationship, interpretation, scope, or consequence being asserted. Those assertions need support.
+
+| Text | What is it? | Why? |
+|---|---|---|
+| Nest concealment and survival | Topic | It names the subject but is not a declarative statement. |
+| Does nest concealment affect survival? | Research question | It asks rather than asserts. |
+| Compare survival between concealed and exposed nests. | Instruction | It tells someone what to do rather than advancing a proposition. |
+| This paragraph discusses nest concealment and survival. | Topic announcement | It is declarative, but it announces a subject rather than making a substantive claim about the system. |
+| We will compare survival between concealed and exposed nests. | Objective | It states what the study will do rather than what the study proposes about the system. |
+| Nests with greater concealment will have higher survival. | Claim about a pattern | A reasonable person could disagree about the expected relationship. |
+| Concealment reduces the ability of visual predators to find nests. | Claim about a mechanism | A reasonable person could disagree about whether this mechanism operates. |
+
+### What makes a claim strong?
+
+An arguable statement can still be too vague or broad to guide an argument. For example, “Nest concealment is important” gives the reader no specific relationship, interpretation, or consequence to evaluate. A strong claim gives the reader a substantive proposition to dispute and has four additional qualities:
+
+-   **Precise:** The reader can identify exactly what relationship, interpretation, or judgment is being asserted.
+-   **Appropriately scoped:** The claim names the relevant organisms, processes, places, times, or conditions rather than extending beyond its support.
+-   **Consequential:** Accepting the claim changes what the reader should understand or establishes something the larger argument needs.
+-   **Supportable:** The claim is framed so that evidence and reasoning could count for or against it.
+
+Argumentative strength comes from precision and defensibility. Sweeping or forceful language often weakens a claim by extending it beyond its support, while an accurate qualification defines where the claim applies.
+
+Compare claims from the reference papers:
+
+| Claim | Evaluation |
+|---|---|
+| “A dynamic and imperfect baseline is better than no baseline at all” (Noss 1991). | **Strong conceptual claim.** A reasonable person could dispute whether an imperfect baseline is useful. The comparison is clear, consequential to the argument, and open to support or challenge. |
+| “Conservation must occur within human-altered landscapes” (Kareiva and Marvier 2012). | **Weak as written.** It is declarative and sounds consequential, but *occur* does not identify what conservation action or priority is proposed. The implied claim that resources should be redirected from relatively undisturbed areas may be disputed, but this sentence does not state that claim clearly enough to evaluate it. |
+| “Ecosystems that have undergone extensive human modification have traditionally been neglected by conservationists” (Kareiva and Marvier 2012). | **Weak through unsupported scope.** It is disputable, but *ecosystems*, *traditionally*, and *conservationists* make the claim too broad to know which practices, periods, or people would have to be evaluated. Disputability alone does not make it strong. |
+| A well-managed matrix cannot be assumed to conserve biodiversity unless land use is kept compatible with conservation objectives through binding and enforced regulation (Noss et al. 2012). | **Strong conditional claim.** It identifies the proposed limit, the condition under which the conclusion may change, and the evidence needed to evaluate it. |
+
+When evaluating a topic sentence, ask two questions in order:
+
+1.  Could a reasonable person disagree with this statement?
+2.  If so, is the statement precise, appropriately scoped, consequential, and supportable enough to guide the paragraph?
+
+A sentence can also perform different jobs at different levels of an argument. "Nest failures were concentrated in nests with little overhead cover" is an empirical claim that must be supported by data. Once established, it can serve as evidence for the larger claim that concealment reduces the ability of visual predators to find nests. Establishing that mechanism also requires reasoning that explains the connection and evidence that addresses other processes capable of producing the same pattern.
+
+Claims are therefore hierarchical. A document may have a central claim, sections establish major supporting claims, paragraphs establish local claims, and sentences provide subclaims, evidence, analysis, limitations, and connections. A conclusion established at one level may become support for a claim at the next.
+
+### Indicator words
+
+Writers often signal support and conclusions with indicator words. **Conclusion indicators** tell the reader that what follows is inferred. **Support indicators** tell the reader that what follows is a reason or evidence.
+
+| Conclusion indicators | Support indicators |
+|---|---|
+| therefore, thus, hence, so | because, since, given that |
+| consequently, it follows that | as shown by, the reason is that |
+| we conclude that, these results indicate that | for, as |
+
+In the sentence "Because predators accounted for most nest failures, and failures were concentrated in nests with little overhead cover, we conclude that concealment reduces predation risk," the word *because* introduces two pieces of support and *we conclude that* introduces the conclusion.
+
+Many arguments have no indicator words. When we read an argument without them, we ask what the author most wants us to believe—the conclusion—and then what evidence or reasons they provide as support.
+
+::: {.callout-warning title="Writing mistake: missing signposts"}
+Noss (1991) writes, “Simply put, no place is pristine and every place is continuously changing. **But** a dynamic and imperfect baseline is better than no baseline at all.” The word *but* marks the second sentence as a limit on the conclusion drawn from the first. The signpost makes their relationship visible.
+:::
+
+## Lay out the reasoning and find hidden assumptions
+
+Stracey (2011) describes an “urban nest predator paradox”: nest predation is sometimes lower in urban habitats even though potential nest predators are more abundant there. The apparent paradox can be laid out as an argument:
+
+-   **Evidence:** Potential nest predators are often more abundant in urban than non-urban habitats.
+-   **Expected pattern:** Places with more potential nest predators should experience more nest predation.
+-   **Observation:** Some urban populations experience lower nest predation.
+-   **Conclusion:** Predator abundance and nest predation appear to conflict.
+
+The expected pattern depends on a hidden assumption: total abundance of potential predators is a useful measure of predation pressure. Stracey makes that assumption visible and then challenges it. Predator species differ in how often they depredate nests, and an abundant predator may switch to anthropogenic food. The paradox weakens once predator identity and behavior are separated from total abundance.
+
+Many arguments depend on **hidden support**: an assumption so familiar to the author that it seems not worth stating. This is described more formally as an **implicit premise**. To find one, ask: *What else would have to be true for the stated evidence and support to lead to this conclusion?* Once stated, the assumption becomes available for evaluation with the study design, measurements, or prior evidence.
+
+::: now_you
+{{< fa user-circle size=2x >}} [Now you!]{style="font-size: 1.25em; padding-left: 0.5em;"}
+
+Please choose the hidden assumption that each argument depends on.
+
+**1.** Stracey (2011) asks why nest predation can be low where potential nest predators are abundant. Which hidden assumption is required to treat that pattern as a paradox?
+
+`r longmcq(c("Every urban predator is native", answer = "The abundance of potential predators should track the predation pressure experienced by nests", "Urban birds build more nests", "Predator communities are identical in every habitat"))`
+
+**2.** Sperry et al. (2012) compare cardinal nest survival with seasonal rat-snake activity but did not identify the predator at each failed nest. Which hidden assumption is required to interpret a close seasonal association as evidence about rat-snake predation?
+
+`r longmcq(c("All cardinal nests fail during summer", "Rat snakes are the only predators in the study area", answer = "Rat snakes account for enough cardinal nest failures for their activity to influence the seasonal pattern", "Every active rat snake encounters a cardinal nest"))`
+:::
+
+::: {.callout-note collapse="true" title="Explanations"}
+-   **Argument 1** depends on a relationship between potential-predator abundance and actual predation pressure. Stracey shows why that relationship can fail when predator species differ in importance or switch to other foods.
+-   **Argument 2** depends on rat snakes being important predators of cardinal nests. Sperry et al. state this assumption explicitly and explain that a missing association could reflect either a failed hypothesis or a faulty assumption about predator identity.
+:::
+
+The most dangerous support in an argument is often the assumption that nobody states. Stracey and Sperry et al. are useful models because they expose assumptions that could otherwise remain buried inside a prediction or interpretation.
+
+## Build the missing middle
+
+A **logical chain** makes the middle of an explanation visible: what changes first, why that change affects the next part of the system, what process carries the effect forward, and how the sequence reaches the focal outcome.
+
+Begin with the **claim** whose reasoning needs to be made visible. Write it as one sentence and identify the focal outcome it asserts. Then work backward:
+
+1.  What must happen immediately before that outcome?
+2.  What response or process would produce that change?
+3.  What condition would initiate the process?
+4.  What assumptions are required at each connection?
+5.  Can the statements be reordered from the initiating condition to the outcome without leaving a missing step?
+
+For example, begin with the claim: *Increasing patch isolation changes nest predation by altering predator movement.* A possible forward chain is:
+
+1.  Patches become more isolated.
+2.  Moving among patches requires more time and energy.
+3.  Predators change how long they remain within a patch.
+4.  The area searched and the opportunities to encounter nests change.
+5.  Patterns of nest predation may change.
+
+A process in one part of a chain can become a condition in the next. The durable rule is:
+
+> **Every connection needs a defensible reason.**
+
+### Give each connection a job
+
+For each pair of statements, ask: *Why should the first produce or support the second?* Replace the vague connection with an accurate verb or phrase:
+
+-   **Causes**, **changes**, **permits**, **constrains**, or **increases the cost of** describe proposed causal relationships.
+-   **Is composed of** defines or decomposes a concept.
+-   **Is measured by** connects a concept to an observable variable.
+-   **Is associated with** states a pattern without claiming its cause.
+-   **Is inferred from** connects evidence to an interpretation.
+
+These relationships do different work. For example, saying that landscape heterogeneity *is composed of* variation in composition and configuration defines the concept while leaving its causal relationship to an ecological response unestablished. A chain can sound mechanistic while only unpacking definitions.
+
+For each connection, also ask:
+
+1.  Does it add new information or merely restate the previous step?
+2.  Is an organismal response, physical interaction, resource change, cost, constraint, or information pathway missing?
+3.  Does the connection require an unstated condition?
+4.  Is the relationship supported by evidence, interpretation, or assumption?
+
+### Separate pattern, process, and explanation
+
+Distinguish an observed pattern from its explanation with three questions:
+
+-   **Pattern or state:** What is different?
+-   **Process:** What is changing, or what are organisms or systems doing?
+-   **Explanation:** Why does the prior condition generate that response?
+
+For example, *predators remain longer in isolated patches* describes a behavioral pattern. A fuller explanation might connect isolation to residence time through the increased cost of leaving a patch or a change in the expected payoff from searching elsewhere.
+
+### Use a because ladder
+
+When classifying every step becomes distracting, use ordinary language:
+
+> `[Condition]` affects `[response]` because ______.  
+> That changes the next part of the system because ______.  
+> That matters for the focal outcome because ______.
+
+You can begin from whichever part you understand best. If you can see the outcome but not the pathway leading to it, work backward:
+
+> **What would have to happen immediately before this step for it to be true?**
+
+Stop when an informed reader can follow the connection. Each *because* should add causal information rather than rephrase the preceding statement.
+
+Perry et al. (2008) propose one mechanism connecting alarm calling to nest predation:
+
+> “A chorus of alarm calls may ... reduce predation at interior nests by confusing predators.”
+
+The components form a causal sequence:
+
+> **Stronger alarm-call chorus** → **Lower predator hunting success** → **Fewer nests found and depredated** → **Lower predation at interior nests**
+
+A because statement explains each arrow:
+
+1.  **Stronger alarm-call chorus** → **Lower predator hunting success** **because** many calls may interfere with a predator's ability to locate or approach a nest.
+2.  **Lower predator hunting success** → **Fewer nests found and depredated** **because** fewer searches end with the predator locating a nest.
+3.  **Fewer nests found and depredated** → **Lower predation at interior nests** **because** the unsuccessful encounters accumulate across nests in the cluster interior.
+
+The ladder exposes what evidence the argument needs. Perry et al. provide evidence that alarm responses are stronger inside clusters and that interior nests experience less predation. The proposed connection through predator confusion remains an explanation that would require observations of predator behavior to evaluate directly.
+
+::: now_you
+{{< fa user-circle size=2x >}} [Now you!]{style="font-size: 1.25em; padding-left: 0.5em;"}
+
+Stracey (2011) writes, “Prey switching may therefore result in reduced nest predation rates despite abundant nest predators.” The proposed explanation can be arranged from cause to consequence:
+
+> **Abundant anthropogenic food** → **Predators consume fewer bird eggs and nestlings** → **Fewer nests are attacked** → **Lower nest predation**
+
+The arrows point from a proposed cause to its consequence. Complete each sentence by selecting the explanation that makes the connection defensible.
+
+**1. Abundant anthropogenic food** → **Predators consume fewer bird eggs and nestlings**
+
+Predators may consume fewer bird eggs and nestlings **because**:
+
+`r longmcq(c(answer = "Anthropogenic food provides an alternative energy source", "Urban habitats contain fewer nesting birds", "Every urban predator avoids bird nests", "Nestlings require less energy than anthropogenic food"))`
+
+**2. Predators consume fewer bird eggs and nestlings** → **Fewer nests are attacked**
+
+Fewer nests may be attacked **because**:
+
+`r longmcq(c("Birds build fewer nests when predators are present", answer = "Predators spend less time searching for or returning to nests", "Anthropogenic food makes nests more concealed", "Predators become less abundant in every urban habitat"))`
+
+**3. Fewer nests are attacked** → **Lower nest predation**
+
+Nest predation may decline **because**:
+
+`r longmcq(c("Every attacked nest survives", "Nest predators stop reproducing", answer = "Fewer nesting attempts end when a predator consumes eggs or nestlings", "Anthropogenic food increases the number of nests"))`
+
+Which connection most directly requires evidence that predators consume anthropogenic food in place of bird eggs and nestlings?
+
+`r longmcq(c(answer = "Connection 1", "Connection 2", "Connection 3"))`
+:::
+
+::: {.callout-note collapse="true" title="One possible ladder"}
+Urban predators may consume fewer bird eggs and nestlings **because** anthropogenic food provides an alternative energy source. Fewer nests may be attacked **because** predators spend less time searching for or returning to nests. Nest predation may consequently decline **because** fewer nesting attempts end when a predator consumes eggs or nestlings. The first connection most directly requires evidence about predator diets or foraging behavior.
+:::
+
+### Decompress broad concepts
+
+A broad concept can store several distinct properties inside one label. That compression is useful for naming a topic, but it makes an argument difficult to build. The writer cannot specify a mechanism until the property that produces the proposed response is visible.
+
+Stracey (2011) first presents the compressed idea that “the absolute abundance of potential nest predators may not be a good predictor of actual predation rates.” She then separates an important source of variation:
+
+> “Certain species likely only infrequently depredate nests, whereas other species are consistently important nest predators.”
+
+*Potential-predator abundance* combines the abundance of each predator species with its tendency to attack nests in that setting. Once those parts are separated, the proposed mechanism becomes visible: a habitat may contain many potential predators while experiencing little nest predation if the abundant species seldom attack nests or switch to other foods.
+
+To decompress a concept:
+
+1.  Name the broad concept used in the claim.
+2.  List the properties combined under that label.
+3.  Identify which property changes in the proposed explanation.
+4.  State how that property could produce the focal response.
+
+Decompress until the active property and its pathway are clear. Additional detail should earn its place by changing the explanation, prediction, or measurement.
+
+::: now_you
+{{< fa user-circle size=2x >}} [Now you!]{style="font-size: 1.25em; padding-left: 0.5em;"}
+
+Perry et al. (2008) write that “collective antipredator behavior” may reduce predation. Which claim best decompresses that broad concept into one causal pathway?
+
+`r longmcq(c("Collective antipredator behavior is important for Least Flycatchers.", answer = "A chorus of alarm calls alerts nearby flycatchers, whose responses make nests harder for an approaching predator to find.", "Interior nests experience less predation than peripheral nests.", "Predators and Least Flycatchers interact within nesting clusters."))`
+:::
+
+::: {.callout-note collapse="true" title="One possible answer"}
+The selected claim replaces *collective antipredator behavior* with a specific signal, response, and consequence. The other options name the broad concept or state a pattern without making the proposed pathway visible.
+:::
+
+### Check changes in scale and level of observation
+
+A chain changes **scale** when it moves among physical areas or periods of time. A chain changes the **level of observation** when it moves among an individual, pair, local population, community, or ecosystem. Each change needs a bridge that explains how the effect carries from one step to the next.
+
+For changes in scale, ask:
+
+-   What physical unit or area does each step represent, such as a nest, territory, nesting cluster, or study site?
+-   What period does each step represent, such as one movement, one day, a breeding season, or several years?
+-   What process connects the smaller or shorter scale to the larger or longer one?
+
+For changes in level of observation, ask:
+
+-   Is each claim about an individual, pair, local population, community, or ecosystem?
+-   What repeated process, interaction, or aggregation carries an effect from one level to the next?
+
+A short-term individual response can explain a long-term population condition only when the chain includes the accumulation, persistence, survival, or reproduction that connects the two.
+
+Perry et al. (2008) predicted that “nests on the periphery of clusters experience higher predation than interior nests.” The comparison is made at the **nest** level and within the spatial boundary of a **nesting cluster**. Repeated differences in the outcomes of peripheral and interior nests can produce a cluster-level pattern. Connecting that pattern to the broader claim that clustering benefits Least Flycatchers also requires evidence that lower nest predation improves reproduction and recurs across clusters or years.
+
+Sperry et al. (2012) propose that a seasonal pattern of nest survival depends on “how [a bird's] nesting season coincides with predator activity.” Their argument connects movements recorded for individual snakes over days to survival observed across many nests over a breeding season. The bridge requires simultaneous observations, enough snakes and nests to represent the seasonal pattern, and a reason to believe rat snakes account for an important share of nest failures.
+
+::: now_you
+{{< fa user-circle size=2x >}} [Now you!]{style="font-size: 1.25em; padding-left: 0.5em;"}
+
+Perry et al. (2008) write that “a stronger chorus in the interior would interfere to a greater extent with a predator's ability to hunt.”
+
+**1. At what level is the chorus observed?**
+
+`r longmcq(c("An individual flycatcher", "A breeding pair", answer = "A local group of flycatchers", "The bird community"))`
+
+**2. At what level is hunting ability observed?**
+
+`r longmcq(c(answer = "An individual predator", "A predator population", "The nesting cluster", "The ecosystem"))`
+
+**3. Which bridge connects those responses to a cluster-wide pattern of nest predation?**
+
+`r longmcq(c("One predator enters one cluster once.", answer = "Choruses repeatedly reduce predator success across encounters with many interior nests.", "Every predator responds identically to every call.", "The number of territories equals the number of predators."))`
+:::
+
+::: {.callout-note collapse="true" title="One possible answer"}
+The chorus is a group-level response, while hunting ability is a response of an individual predator. Repeated encounters in which choruses reduce a predator's hunting success could produce lower predation across many interior nests.
+:::
+
+### Separate the process from its measurement
+
+An ecological **process** is an event or interaction proposed to generate an outcome. A **measurement** is the observation recorded to represent the process, its causes, or its consequences. When a measurement stands in for a process that cannot be observed directly, it acts as a proxy. The inference depends on the connection between the proxy and the process.
+
+Keep five parts distinct:
+
+1.  The phenomenon being explained.
+2.  The causal process proposed to explain it.
+3.  The observable variable used to represent that process.
+4.  The model or rule applied to that variable.
+5.  The claim made from the analysis.
+
+The reference papers provide three examples:
+
+| Proposed process or property | Measurement | Connection that must be evaluated |
+|---|---|---|
+| Seasonal change in rat-snake activity | Sperry et al. calculated daily straight-line distance between successive locations observed through radio tracking. | The authors report that this distance is positively related to movement frequency, which supports its use as an index of activity. It still does not record the snake's complete path. |
+| Vegetation conceals a nest | Sperry et al. visually estimated the mean percentage of the nest hidden by vegetation when viewed from four directions. | The estimate represents visual concealment from the chosen distance and directions. It may represent the view available to some predators better than others. |
+| Alarm calls deter predators | Perry et al. related nest position within a cluster to predation hazard and drew on earlier observations of alarm responses. | A lower hazard at interior nests supports the proposed process only if alarm calls, rather than another difference between interior and peripheral nests, produced the pattern. |
+
+The claim must remain aligned with the measurement. A relationship between daily straight-line distance and nest survival is directly a relationship between a movement index and survival. Interpreting it as evidence that snake activity affects nest survival requires the additional argument that the index represents biologically relevant snake activity.
+
+::: now_you
+{{< fa user-circle size=2x >}} [Now you!]{style="font-size: 1.25em; padding-left: 0.5em;"}
+
+For each new example, choose **measurement** or **process**.
+
+**1.** “Nest height was estimated using a measuring tape or clinometer” (Sperry et al. 2012).
+
+`r longmcq(c(answer = "Measurement", "Process"))`
+
+**2.** “Active nest defense can be an effective means of decreasing rates of nest predation” (Stracey 2011).
+
+`r longmcq(c("Measurement", answer = "Process"))`
+:::
+
+::: {.callout-note collapse="true" title="Answers"}
+The first statement describes how nest height was observed, so it is a **measurement**. The second proposes that defensive behavior changes nest predation, so it is a **process**.
+:::
+
+::: now_you
+{{< fa user-circle size=2x >}} [Now you!]{style="font-size: 1.25em; padding-left: 0.5em;"}
+
+Noss et al. (2012) write:
+
+> Large contiguous reserves should be functionally connected to allow movement of organisms and genes, for example the migratory and dispersal movements of large animals [...] and distributional shifts of multiple species in response to climate change.
+
+The statement connects functional connectivity to movement, but it compresses the steps between movement and the conservation outcome. Reconstruct the missing middle:
+
+1.  Begin with the claim the passage asks the reader to accept: *Functionally connected reserves help species persist as environmental conditions change.*
+2.  Work backward from persistence: what must happen immediately before a population can persist under changed conditions?
+3.  Continue working backward until you reach the change in environmental conditions that initiates the sequence.
+4.  Reorder the steps from the initiating condition to population persistence, then use a because ladder to test each connection.
+5.  Replace each *because* with an accurate relationship verb or phrase.
+6.  Mark the connection that most needs evidence or depends on a hidden assumption.
+:::
+
+::: {.callout-note collapse="true" title="One possible chain"}
+One reconstruction of the missing middle is:
+
+1.  Environmental conditions change across places and through time.
+2.  A species may lose suitable conditions in part of its current range.
+3.  Persisting may therefore require individuals or populations to reach newly suitable areas.
+4.  Large, connected areas provide more possible destinations and movement pathways than isolated remnants.
+5.  Species occupying those networks have more opportunities to persist as conditions change.
+
+This reconstruction paraphrases the proposed reasoning. Each connection still requires support: species differ in their ability to move, suitable conditions may not occur inside the network, and the network may not remain usable as conditions change. The connection from individual movement to population persistence requires especially careful support because reaching another area does not ensure survival and reproduction there. The chain makes the proposed reason visible enough to evaluate.
+:::
+
+## Build a claim train
+
+The preceding activity reconstructed a **logical chain**: how connectivity could affect movement and, eventually, persistence. A **claim train** shows how an author arranges major claims so that each provides support or creates the need for the next.
+
+A claim train is the shortest sequence of major claims needed to reach the destination of a paragraph, section, or full document. At the paragraph level, it traces local claims to the paragraph's endpoint. At larger scales, it traces how paragraph or section claims build the paper's central argument. Evidence, examples, definitions, and qualifications attach to the relevant claims without becoming separate links unless they make an additional claim that the sequence requires.
+
+### Worked example: reconstruct a Noss claim train
+
+Read the full paragraph from Noss et al. (2012):
+
+> Large contiguous reserves should be functionally connected to allow movement of organisms and genes, for example the migratory and dispersal movements of large animals [...] and distributional shifts of multiple species in response to climate change. Although a well-managed landscape matrix may provide connectivity and other conservation benefits [...], it cannot be assumed to conserve biodiversity unless legally binding and enforced regulations keep land use compatible with conservation objectives. This is usually not the case.
+
+First identify the paragraph's destination:
+
+> **Destination claim:** A managed matrix cannot be assumed to substitute for functionally connected reserves.
+
+Then reconstruct only the claims needed to reach it:
+
+1.  Migration, dispersal, and climate-driven distributional shifts require movement across landscapes.
+2.  Functionally connected reserves provide routes for that movement.
+3.  A well-managed matrix may also provide connectivity and conservation benefits.
+4.  The matrix can reliably serve this function only when land use remains compatible with conservation objectives.
+5.  Binding and enforced protections that maintain this compatibility are usually absent.
+6.  Therefore, the matrix cannot be assumed to substitute for functionally connected reserves.
+
+Now name the relationships:
+
+-   Claims 1--2 establish the need and the proposed response.
+-   Claim 3 introduces a reasonable alternative.
+-   Claims 4--5 qualify that alternative by identifying a necessary condition and evaluating whether the condition is usually met.
+-   Claim 6 follows from the failed condition and returns to the paragraph's destination.
+
+The paragraph acknowledges that the matrix can contribute to conservation. Its logic depends on the narrower distinction between *may provide* and *can be assumed to provide*. Claim 3 introduces the alternative, while claims 4 and 5 supply the conditions needed to limit it.
+
+### Activity: reconstruct a Kareiva and Marvier claim train {#km-claim-train}
+
+::: now_you
+{{< fa user-circle size=2x >}} [Now you!]{style="font-size: 1.25em; padding-left: 0.5em;"}
+
+Read this paragraph from Kareiva and Marvier (2012). Reconstruct its claim train before evaluating whether the chain is sound.
+
+> First, conservation must occur within human-altered landscapes. Ecosystems that have undergone extensive human modification have traditionally been neglected by conservationists. However, the desire to focus efforts solely on pristine places is becoming increasingly unrealistic. Because of anthropogenic climate change, extensive conversion of habitats for human use, and a flood of introduced species, the world increasingly consists of novel ecosystems and working landscapes.
+
+1.  Write the paragraph's destination claim in one sentence.
+2.  List the major supporting claims separately. Do not add support that the authors did not provide.
+3.  Arrange the claims in the order needed to reach the destination, which may differ from their order in the paragraph.
+4.  Name the relationship between each pair of claims.
+5.  Mark any connection for which the necessary evidence or support is absent.
+6.  Apply the removal test: identify any claim whose removal does not weaken the supported part of the argument.
+:::
+
+::: {.callout-note collapse="true" title="One reconstruction"}
+**Destination claim:** Conservation must redirect attention toward human-altered landscapes.
+
+One possible reconstruction is:
+
+1.  Climate change, habitat conversion, and introduced species are increasing the prevalence of novel ecosystems and working landscapes.
+2.  Conservation must therefore occur within human-altered landscapes.
+3.  Conservationists have traditionally neglected extensively modified ecosystems.
+4.  That neglect reflects a desire to focus solely on pristine places.
+5.  Because pristine places are increasingly uncommon, that focus is unrealistic.
+6.  Therefore, conservation must redirect attention toward human-altered landscapes.
+
+The connection from claim 1 to claim 2 supports the need to conduct conservation in altered landscapes. Claims 3 and 4, which characterize the history and motives of conservationists, remain unsupported. Removing claims 3--5 leaves a defensible but much less consequential argument: human-altered landscapes are common, so conservation must also occur within them. The larger criticism of conservation science depends on the unsupported links.
+
+The task here is reconstruction: represent what the paragraph argues without silently repairing it. The argument audit evaluates the unsupported links against evidence from Doak et al. and Noss et al.
+:::
+
+When reconstructing any claim train, state the destination, retain only the major claims needed to reach it, name the relationship between each pair, and mark the connection that most needs evidence, qualification, or revision.
+
+## Matching language to evidence
+
+The verbs in a scientific paper make claims about the strength of the evidence. A writer who says that results "prove" a hypothesis makes a stronger claim than a writer who says that results "are consistent with" it. Many logical errors are visible as phrases that claim more than the evidence supports:
+
+| Error | What it is | Red-flag phrase | Repair |
+|---|---|---|---|
+| Treating a prediction as proof | A hypothesis is inferred from observing its predicted pattern | "confirms that," "proves" | Name rival mechanisms and show where their predictions differ |
+| Correlation as causation | An association is treated as a cause | "X drives Y" | Write "is associated with" and address confounding variables |
+| Hasty generalization | A broad claim rests on few or unrepresentative cases | "Species X cannot ..." | Match the claim to the sites, years, and species sampled |
+| Absence of evidence | An imprecise or nonsignificant result is treated as evidence of no meaningful effect | "X had no effect" | Report the effect estimate and uncertainty, and state what effect sizes the data can and cannot rule out |
+| Appeal to authority | A claim is treated as true because of who made it | "Experts agree" | Cite the evidence, not the reputation |
+| Cherry-picking | Only supporting evidence is cited | Every citation agrees | Represent conflicting results fairly |
+
+*Note:* Excessive hedging is also an error. A paragraph full of "may," "might," and "possibly" is as inaccurate as one full of "proves," because the reader cannot tell which claims the evidence supports.
+
+::: now_you
+{{< fa user-circle size=2x >}} [Now you!]{style="font-size: 1.25em; padding-left: 0.5em;"}
+
+A student found that nest survival was lower near trails than far from trails. Which sentence best matches the strength of this evidence?
+
+`r longmcq(c("Trails cause nest failure.", "Our results prove that trails increase nest predation.", answer = "Nest survival was lower near trails, which is consistent with the hypothesis that trails increase predator access to nests.", "Trails may possibly have some kind of effect on nests."))`
+:::
+
+::: {.callout-note collapse="true" title="Explanation"}
+The first two sentences treat an association as a demonstrated cause. The fourth sentence is so hedged that it makes no claim a reader could evaluate. The third sentence reports the pattern and names the mechanism that the pattern supports without claiming proof. A stronger paper would also address rival explanations, such as differences in vegetation or edge proximity between trailside and interior nests.
+:::
+
+## The argument audit
+
+An **argument audit** is a sequence of questions that we can apply to any paragraph, whether it is in a published paper or in your own draft:
+
+1.  **Claim.** What is the conclusion? Can you write it as one declarative sentence?
+2.  **Evidence and support.** What observations, findings, examples, or reasons are offered? Can you list each as a separate statement?
+3.  **Hidden assumptions.** What else must be true for the stated evidence and support to justify the claim?
+4.  **Connections.** What relationship connects each step: cause, definition, measurement, association, or inference? Does each connection add information?
+5.  **Scale, level of observation, and measurement.** Has the argument shifted spatial or temporal scale without a bridge? Has it moved among individuals, pairs, local populations, communities, or ecosystems without explaining how the effect carries from one level to the next? Is a proxy being treated as the process itself?
+6.  **Alternative explanations.** What other mechanism would produce the same pattern? Does the evidence distinguish between them?
+7.  **Claim train.** Does each claim prepare the next, and does the sequence reach its intended destination?
+8.  **Language.** Does the strength of the verbs match the strength of the evidence?
+
+The audit also maps onto paragraph structure. The topic sentence states the claim, the reasoning and evidence provide support, and the analysis explains what that support allows the writer to conclude (see [Paragraph structure](background_paragraph_structure.qmd)).
+
+Some arguments require rejection or reconstruction. Careful wording cannot repair false central support or a misrepresentation of another position.
+
+## Activity: Audit an argument whose support should be rejected
+
+::: now_you
+{{< fa user-circle size=2x >}} [Now you!]{style="font-size: 1.25em; padding-left: 0.5em;"}
+
+Return to the [Kareiva and Marvier claim train](#km-claim-train) that you reconstructed above. Now evaluate whether its connections are supported.
+
+Now compare the argument with evidence and support from Doak et al. (2014):
+
+> Conservation's concern for biodiversity has always been accompanied by concern for human well-being and ecosystem services; these human-centered goals form one pillar of a diverse mix of motivations and strategies dating back at least a century [...].
+
+Noss et al. (2012) also address the matrix directly:
+
+> Although a well-managed landscape matrix may provide connectivity and other conservation benefits [...], it cannot be assumed to conserve biodiversity unless legally binding and enforced regulations keep land use compatible with conservation objectives.
+
+They report that scientific studies and reviews generally estimate that 25--75% of a typical region must be managed with nature conservation as a primary objective to meet biodiversity goals.
+
+Run the argument audit on the Kareiva and Marvier passage:
+
+1.  State the conclusion that the paragraph asks the reader to accept.
+2.  List the evidence and support actually offered for that conclusion.
+3.  Identify where the paragraph moves from the defensible observation that human influence is widespread to a characterization of what conservationists believed and did.
+4.  Use Doak et al. and Noss et al. to evaluate that characterization.
+5.  Decide whether the argument can be repaired through narrower wording or whether its central support must be rejected.
+6.  Write a short diagnosis of the argument. Do not rewrite it into a position that you do not accept.
+:::
+
+::: {.callout-note collapse="true" title="Audit and diagnosis"}
+**Audit:**
+
+-   **Conclusion:** Conservation must shift its attention toward human-altered landscapes because earlier conservation neglected those landscapes in favor of places imagined to be pristine.
+-   **Stated support:** Human influence is widespread, and novel ecosystems and working landscapes are increasingly common. This supports studying and conserving human-altered landscapes. The claims about what conservationists previously considered and why they prioritized particular areas remain unsupported.
+-   **False characterization:** The paragraph replaces the actual position with a more easily dismissed one: that conservationists wanted to focus *solely* on pristine, people-free places. Doak et al. document a long history of attention to human well-being and ecosystem services. Noss et al. explicitly discuss management of the surrounding matrix.
+-   **The sleight of hand:** The paragraph moves from “human influence is widespread” to “prioritizing relatively undisturbed areas is outdated,” although the first claim provides no support for the second. A landscape can have a history of human influence and still retain substantially more biodiversity than a plantation or urban area.
+-   **Ignored evidence:** Conservation scientists prioritized relatively undisturbed, large, and connected areas because empirical studies, models, and assessments showed that those areas are necessary for maintaining viable populations and reducing extinction risk. Accounting for the matrix and prioritizing areas of high conservation value are compatible strategies, not opposing positions.
+-   **Diagnosis:** Narrowing *solely* to *sometimes* would make the wording less sweeping while leaving the core argument unsupported. Its criticism depends on a false account of the position being criticized. Removing that account leaves the defensible observation that conservation also occurs in human-altered landscapes and removes the stated reason for rejecting priorities established by conservation evidence.
+:::
+
+**Stopping point:** You can separate the paragraph's defensible observation from its unsupported characterization of conservation science, identify the substitution on which the argument depends, use evidence to evaluate that support, and explain why a false account of the opposing position requires rejection or reconstruction.
+
+## Take-home points
+
+-   A useful claim is a precise, appropriately scoped, consequential, and supportable declarative statement that a reasonable person could disagree with.
+-   An argument connects evidence and other support to a conclusion. Formal logic calls each supporting statement a premise, but the important task is to identify what support is actually being offered.
+-   A logical chain makes the missing middle visible. Each connection needs an accurate relationship and a defensible reason.
+-   Patterns, processes, scales, and measurements must remain distinct unless an explicit bridge connects them.
+-   A claim train arranges claims so that each establishes the basis or need for the next.
+-   The strength and scope of the language must match the strength and scope of the evidence.
+
+## References
+
+Doak, D. F., et al. 2014. What is the future of conservation? *Trends in Ecology & Evolution* 29:77--81.
+
+Kareiva, P., and M. Marvier. 2012. What is conservation science? *BioScience* 62:962--969.
+
+Noss, R. F. 1991. Sustainability and wilderness. *Conservation Biology* 5:120--122.
+
+Noss, R. F., et al. 2012. Bolder thinking for conservation. *Conservation Biology* 26:1--4.
+
+Perry, E. F., J. C. Manolis, and D. E. Andersen. 2008. Reduced predation at interior nests in clustered all-purpose territories of Least Flycatchers (*Empidonax minimus*). *The Auk* 125:643--650.
+
+Sperry, J. H., D. G. Barron, and P. J. Weatherhead. 2012. Snake behavior and seasonal variation in nest survival of northern cardinals *Cardinalis cardinalis*. *Journal of Avian Biology* 43:496--502.
+
+Stracey, C. M. 2011. Resolving the urban nest predator paradox: The role of alternative foods for nest predators. *Biological Conservation* 144:1545--1552.

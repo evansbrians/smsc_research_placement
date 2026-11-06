@@ -1,0 +1,110 @@
+---
+title: "Learning from published introductions"
+---
+
+The excerpts below show how first sentences, first paragraphs, and final introduction paragraphs perform different rhetorical jobs. The labels evaluate those jobs, not the importance of the paper.
+
+Evaluate examples against the following criteria before reading the commentary:
+
+| Location | Questions to ask |
+|---|---|
+| First sentence | Does it establish an appropriate scope, introduce the problem, and give the reader a reason to continue? |
+| First paragraph | Does it move from context to a consequential problem without becoming a general encyclopedia entry? |
+| Final introduction paragraph | Can the reader distinguish the question, explanatory hypothesis, observable prediction, and test? |
+| Any paragraph | Does each sentence contribute reasoning, evidence, analysis, or transition to the paragraph's claim? |
+
+::: {.callout-tip title="Activity before commentary"}
+Choose at least one excerpt from each section. Cover or scroll past the commentary, rate the excerpt against the criteria above, and identify the specific language responsible for your rating. Then compare your reasoning with the commentary. A difference is useful when you can explain it.
+:::
+
+## The first sentence
+
+The first sentence establishes the introduction's broadest useful scope. It should identify the topic, begin to define the problem, and give the reader a reason to continue.
+
+### Strong against the criteria
+
+> “One of the most dramatic changes that has occurred in forests of eastern North America during the twentieth century is the increase in the dominance of red maple (Acer rubrum L.; Lorimer 1984, Abrams 1992).” – The Red Maple Paradox (Abrams 1998).
+
+The sentence identifies a specific, consequential change and frames it as a phenomenon that requires explanation.
+
+### Mostly effective
+
+> “Vegetation patterns are the result of complex interactions between climate, terrain, soil, water availability, biota (Whittaker 1975) and alterations resulting from wind and fire (Pickett and White 1985).” -- Neutral models for the analysis of broad-scale landscape pattern (Garner et al. 1987).
+
+The sentence defines the broad causes of vegetation patterns, but it does not yet identify a tension, consequence, or problem. Its scope is clear. The reason for continuing depends on what follows.
+
+### Limited for this purpose
+
+> “The following is a critique of how ecologists are designing and analyzing their field experiments.” – Pseudoreplication and the Design of Ecological Field Experiments (Hurlbert 1984).
+
+The sentence announces the paper's purpose but does not identify the problem with current experimental practice or explain why the critique is needed.
+
+### Poorly aligned with the paragraph's job
+
+> “A few government agencies, such as the USDA (Shapouri, Duffuld, and Wang, 2002), support ethanol production.” -- Ethanol Fuels: Energy Balance, Economics, and Environmental Impacts are Negative (Pimentel 2003).
+
+The sentence begins with a narrow example before establishing the broader energy, economic, or environmental problem. It also reports support from selected agencies without explaining the disagreement or consequence that motivates the paper.
+
+An effective opening establishes an appropriate scope and makes the problem visible. Drama is optional.
+
+## The first paragraph
+
+The first paragraph moves from the opening scope to a consequential problem and prepares the argument that follows.
+
+Structure:
+
+- First sentence: Establish the scope and begin defining the problem.
+- Middle sentences: Explain the problem and provide the minimum background needed to understand it.
+- Last sentence: State the consequence or unresolved issue that the rest of the introduction must develop.
+
+### Strong against the criteria
+
+> “A distinguishing characteristic of many ecological data sets, whether comprised of data measuring binary presence/ absence, counts of abundance, proportional occupancy rates or continuous population densities, is their tendency to contain a large proportion of zero values (Clarke & Green 1988, Fig. 1). When this number of zeros is so large that the data do not readily fit standard distributions (e.g. normal, Poisson, binomial, negative-binomial and beta), the data set is referred to as ‘zero-inflated’ (Heilbron 1994; Tu 2002). Zero inflation is often the result of a large number of ‘true zero’ observations caused by the real ecological effect of interest. For example, the study of rare organisms or events will often lead to the collection and analysis of data with a high frequency at zero (Welsh et al. 1996). However, the term can also be applied to data sets with excess zeros caused by ‘false-zero’ observations because of sampling or observer errors in the course of data collection. Failure to account for either source of zero inflation will cause bias in parameter estimates and their associated measures of uncertainty (Lambert 1992; MacKenzie et al. 2002).”-- Zero tolerance ecology: improving ecological inference by modelling the source of zero observations (Martin et al. 2005).
+
+The paragraph defines zero inflation, distinguishes two processes that can produce it, and ends with the inferential consequence of ignoring either process. Each step prepares the next part of the argument.
+
+### Mostly effective
+
+> “High-quality spatial data, often sampled across a spatially continuous matrix of quadrats, are increasingly available to geographical ecologists. Major new sources are improved automated data capture technology (e.g. satellite remote-sensing) and well-organised species surveys. While this is obviously to be welcomed, the uncritical application of simple statistical methods to these spatial data may in fact obscure more than it reveals. This is primarily a consequence of the presence of spatial autocorrelation in these geographical data.” – Red Shifts and Red Herrings in Geographical Ecology (Lennon 2000).
+
+The paragraph moves from increasing data availability to the risk of applying inappropriate analyses. The final sentence names spatial autocorrelation but does not yet explain how it produces the stated problem, leaving the causal connection incomplete.
+
+### Engaging but poorly aligned with the paragraph's job
+
+> “A zombie is a reanimated human corpse that feeds on living human flesh [1]. Stories about zombies originated in the Afro-Caribbean spiritual belief system of Vodou (anglicised voodoo). These stories described people as being controlled by a powerful sorcerer. The walking dead became popular in the modern horror fiction mainly because of the success of George A. Romero’s 1968 film, Night of the Living Dead [2]. There are several possible etymologies of the word zombie. One of the possible origins is jumbie, which comes from the Carribean term for ghost. Another possible origin is the word nzambi which in Kongo means ‘spirit of a dead person’. According to the Merriam-Webster dictionary, the word zombie originates from the word zonbi, used in the Louisiana Creole or the Haitian Creole. According to the Creole culture, a zonbi represents a person who died and was then brought to life without speech or free will.”– When Zombies Attack!: Mathematical Modelling of an Outbreak of Zombie Infection (Munz et al. 2009).
+
+The unexpected topic may attract attention, but the paragraph remains focused on zombie history and word origins rather than establishing the disease-modeling problem. The detail delays the rhetorical work that the first paragraph needs to perform.
+
+## The final paragraph: question, hypotheses, and predictions
+
+### Clear objectives and directional predictions
+
+> “The main objective of this study was to determine whether access to a Mycorrhizal Network (MN) enhances seedling establishment and carbon or nitrogen transferred between ectomycorrhizal fungi (EM) plants, and whether this varies by donor tree size. We also determined the degree of EM similarity (i.e., potential for MN formation) between Douglas-fir trees and seedlings and how restricting access to MNs affected the EM status (i.e., colonization, richness, and diversity) of seedlings. The following hypotheses were tested: greater access to a MN results in greater (1) seedling survival, (2) growth and physiological responses, (3) carbon and nitrogen transfer from donor to receiver, (4) EM similarity between trees and seedlings, and (5) EM status of seedlings. We also hypothesized that the magnitude of carbon transferred is positively correlated with donor tree size. We tested these hypotheses in dry, uneven-aged Douglas-fir forests at the grassland interface in southern interior British Columbia, Canada. These forests were appropriate systems for such a study because regeneration success is limited both by drought stress and mycorrhizal colonization (Simard et al. 2003, Teste et al. 2006); seedlings preferentially regenerate in the understory of mature trees that commonly survive fire disturbances (Vyse et al. 2006, Klenner et al. 2008), and earlier studies suggest there is high potential for MNs to link together multiple Douglas-fir cohorts, suggesting a regeneration facilitation mechanism (Simard and Durall 2004, Twieg et al. 2007).” Access to mycorrhizal networks and roots of trees: importance for seedling survival and resource transfer (Teste et al. 2009).
+
+The objectives are clear, but the statements that the authors call hypotheses are directional comparisons between access to mycorrhizal networks and measured seedling responses. Under the QHPT terminology used in these lessons, those statements are predictions. The final sentences suggest possible mechanisms--drought relief, mycorrhizal colonization, and regeneration facilitation--but do not formulate one of them as a mechanistic answer to the research question. This is a useful reminder that published papers do not use *hypothesis* and *prediction* consistently.
+
+### Clear objective but incomplete QHP
+
+> “The objective of this study is to explore interrelationships between gradients of human population geography and patterns of biotic homogenization across North America. We use estimates of species invasions and extinctions for political divisions of North America and the predictive model of Olden and Poff (2003) to predict patterns biotic homogenization/ differentiation for 5 major taxonomic groups – land birds, freshwater fish, terrestrial mammals, plants, and reptiles and amphibians. Estimates of faunal and floral homogenization are then associated with human population size and urbanization across these regions with the goal of better understanding the correlative nature of this relationship at broad spatial scales for multiple taxonomic groups.” Forecasting faunal and floral homogenization associated with human population geography in North America (Olden et al. 2006).
+
+The objectives for the above are clear, but the authors have replaced hypotheses with methods. 
+
+### Predictions without a visible question
+
+> “In this study, we predicted that agricultural disturbances within forested landscapes had a greater influence on avian community structure than silvicultural disturbances. In addition, we investigated whether the spatial extent of disturbance was more important than or interacted with the type of disturbance within forested landscapes. Three potential underlying mechanisms responsible for landscape associations with avian community structure were investigated: (1) variation in microhabitat, (2) variation in microclimate, and (3) variation in nesting success.” Influence of landscape composition on avian community structure and associated mechanisms (Rodewald and Yahner 2001).
+
+The writers clearly state a directional prediction and list three candidate mechanisms, but the research question is not visible. The mechanisms are also presented as items to investigate rather than as explanatory hypotheses that answer that question. The reader has to reconstruct the QHP from the surrounding introduction.
+
+## Activity: diagnose and revise
+
+Choose one excerpt that is limited or poorly aligned.
+
+1.  State the job that the sentence or paragraph needs to perform.
+2.  Label the existing material using TREAT or QHP, as appropriate.
+3.  Identify what is missing, misplaced, or too detailed.
+4.  Revise the excerpt without adding claims that the original authors did not support.
+5.  Explain in 1-2 sentences why the revision better performs the rhetorical job.
+
+Ask whether the paragraph's clarity comes from explicit labels or from the logical relationship among its claims. Your own proposal should make the logic visible without turning the final paragraph into a list of vocabulary words.
+
+**Stopping point:** Your revision preserves what the source can support, performs the intended rhetorical job more clearly, and includes a brief explanation of what you changed and why. A reader should be able to identify the claim or QHP without relying on labels embedded in the prose.

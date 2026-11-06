@@ -1,0 +1,80 @@
+<script>
+// Hover definitions for glossary terms marked [text]{.term}
+document.addEventListener("DOMContentLoaded", () => {
+  const data = document.getElementById("glossary-popups");
+  if (!data) return;
+
+  const definitions = new Map(
+    JSON.parse(data.textContent).map((d) => [d.key, d])
+  );
+
+  const popup = document.createElement("div");
+  popup.className = "term-popup";
+  popup.id = "term-popup";
+  popup.setAttribute("role", "tooltip");
+  document.body.appendChild(popup);
+
+  let current = null;
+
+  const escapeText = (text) =>
+    text.replace(/[&<>"]/g, (c) => ({"&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;"}[c]));
+
+  const hide = () => {
+    popup.classList.remove("visible");
+    current = null;
+  };
+
+  const show = (el) => {
+    const d = el._glossary;
+    popup.innerHTML =
+      '<span class="term-popup-term">' + escapeText(d.term) + "</span>" + d.definition;
+    popup.style.left = "0px";
+    popup.style.top = "0px";
+    popup.classList.add("visible");
+
+    const rect = el.getBoundingClientRect();
+    const box = popup.getBoundingClientRect();
+    const margin = 8;
+    let top = rect.bottom + margin;
+    if (top + box.height > window.innerHeight - margin) {
+      top = rect.top - box.height - margin;
+    }
+    let left = rect.left;
+    left = Math.min(left, window.innerWidth - box.width - margin);
+    left = Math.max(left, margin);
+
+    popup.style.top = top + "px";
+    popup.style.left = left + "px";
+    current = el;
+  };
+
+  document.querySelectorAll("span.term").forEach((el) => {
+    const key = (el.dataset.term || el.getAttribute("term") || el.textContent)
+      .replace(/\s+/g, " ")
+      .trim()
+      .toLowerCase();
+    const d = definitions.get(key);
+    if (!d) {
+      console.warn("[glossary-popups] No glossary entry for: " + key);
+      return;
+    }
+    el._glossary = d;
+    el.tabIndex = 0;
+    el.setAttribute("aria-describedby", "term-popup");
+    el.addEventListener("mouseenter", () => show(el));
+    el.addEventListener("mouseleave", hide);
+    el.addEventListener("focus", () => show(el));
+    el.addEventListener("blur", hide);
+    el.addEventListener("click", (e) => {
+      e.stopPropagation();
+      show(el);
+    });
+  });
+
+  document.addEventListener("click", hide);
+  document.addEventListener("keydown", (e) => {
+    if (e.key === "Escape") hide();
+  });
+  window.addEventListener("scroll", () => current && hide(), {passive: true});
+});
+</script>
