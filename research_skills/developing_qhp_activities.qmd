@@ -1,5 +1,5 @@
 ---
-title: "Activity: Reverse engineering your QHP"
+title: "Reverse engineering your QHP"
 engine: knitr
 ---
 
