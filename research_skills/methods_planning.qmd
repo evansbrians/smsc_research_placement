@@ -14,7 +14,7 @@ The organization of a methods section depends on the project. The parts below ar
 Orient the reader to where and when the work will occur and why the system is appropriate for the research question. Depending on the project, include:
 
 -   The study region or system.
--   The spatial and temporal extent.
+-   The geographic area and time period covered by the study.
 -   Characteristics needed to understand the design.
 -   A brief rationale for using this system.
 
@@ -24,23 +24,30 @@ Do not turn this part into a general natural-history description. Include only c
 
 Explain what will be observed and how those observations will be selected. Identify:
 
--   The observational or experimental units.
+-   What will be observed or manipulated, such as nests, birds, plots, or sites.
 -   How sites, individuals, records, or time periods will be selected.
 -   The number and arrangement of observations, if known.
--   Treatments, comparison groups, gradients, or repeated observations.
--   Important nesting or grouping, such as nights within individuals or plots within sites.
+-   Conditions imposed by the researcher, groups being compared, measured ranges from low to high, or repeated observations.
+-   Whether some observations are connected because they come from the same individual, site, or time period, such as several nights observed for one bird or several plots within one site.
 
-This part should allow the reader to distinguish the **study area**, the **sampling units**, and the **unit of analysis**. These are often not the same thing.
+You may encounter several technical terms for the things being studied:
 
-### Data sources and acquisition
+-   An **observational unit** is one thing that is measured, such as one nest, bird, plot, or survey response.
+-   An **experimental unit** is the smallest thing independently assigned to a treatment. If an entire plot receives a treatment, the plot is the experimental unit even when many plants are measured inside it.
+-   A **sampling unit** is the thing selected when the sample is chosen. Researchers might select sites and then observe several nests within each selected site.
+-   The **unit of analysis** is what counts as one case in the comparison or statistical analysis. It may be a nest, individual, site, or time period.
 
-Describe where the data will come from. This may include field observations, sensors, existing databases, surveys, spatial layers, laboratory measurements, or combinations of sources. Include:
+These units may be the same, but they do not have to be. For example, a researcher could select parks, observe several nests in each park, and compare nest outcomes while accounting for the park in which each nest occurs.
+
+### Data sources and collection
+
+Describe where the data will come from. This may include field observations, sensors, existing databases, surveys, maps or other geographic datasets, laboratory measurements, or combinations of sources. Include:
 
 -   The source or collection procedure.
 -   Dates or versions when they matter.
--   Relevant spatial and temporal resolution.
--   Inclusion and exclusion criteria.
--   Citations for established datasets or protocols.
+-   The geographic and time resolution, when relevant. For example, a map may use 30-m pixels, while observations may be recorded daily or monthly.
+-   Rules for which observations will be included or excluded.
+-   Citations for established datasets or data-collection procedures.
 
 Avoid software commands and routine file-management details. Include choices that affect what the data represent or which observations enter the study.
 
@@ -50,36 +57,36 @@ Define the variables needed to test each prediction. For each important variable
 
 -   The underlying concept.
 -   How that concept will be measured or represented.
--   The units and scale of measurement.
--   Whether it serves as a predictor, response, grouping variable, or important alternative explanation.
+-   The measurement units and level of detail, such as meters, percent cover, or daily counts.
+-   Whether it is a predictor, a response, an important alternative explanation, or an identifier showing which observations came from the same site, individual, or year. This type of identifier is sometimes called a **grouping variable**.
 -   Any limitation in how the measurement represents the concept.
 
-For example, impervious surface represents one feature of urban development. Human activity, food subsidies, noise, and vegetation require other measurements. Explain both the dimension represented by a variable and the dimensions it leaves unmeasured.
+For example, impervious surface represents one part of urban development. Human activity, food subsidies, noise, and vegetation require other measurements. Explain both what a variable represents and what it leaves unmeasured.
 
 ### Trace the process into a measurement
 
-When a study uses an observable variable to represent a broader process, make the operational chain explicit:
+When a study uses an observable variable to represent a broader process, make the measurement chain explicit:
 
 1.  **Phenomenon:** What part of the system are you trying to understand?
 2.  **Process:** What causal pathway is proposed to produce the response?
-3.  **Measurement or proxy:** What observable variable represents that process?
+3.  **Measurement or proxy:** What observable variable represents that process? A proxy is an indirect measurement used when the process itself cannot be observed directly.
 4.  **Analysis:** What comparison or estimate will be made from the variable?
 5.  **Claim:** What will that result allow you to conclude?
 
-The weakest connection is often between the process and its measurement. Ask what assumptions make the measurement a useful indicator, which dimensions it misses, and whether it operates at the same spatial and temporal scale as the proposed process. Do not let the conclusion silently expand from the measured variable to the entire phenomenon.
+The weakest connection is often between the process and its measurement. Ask what assumptions make the measurement a useful indicator, which parts of the process it misses, and whether the measurement covers the relevant area and time period. Do not let the conclusion silently expand from the measured variable to the entire phenomenon.
 
 ### Data preparation
 
-Describe processing steps that materially change the meaning, scale, or comparability of the data. Examples include:
+Describe processing steps that meaningfully change what the data represent, their level of detail, or how easily different sources can be compared. Examples include:
 
--   Defining the area around a sampling unit.
--   Aggregating repeated observations.
--   Aligning spatial or temporal resolution.
--   Calculating a derived variable.
--   Applying a biologically meaningful inclusion rule.
+-   Defining the area around each sampled nest, individual, plot, or site.
+-   Combining repeated observations into daily, monthly, individual-level, or site-level summaries.
+-   Making data collected at different geographic detail or time intervals comparable.
+-   Calculating a new variable from existing measurements.
+-   Applying a rule tied to the biological question when deciding which records to include.
 -   Addressing missing observations.
 
-Do not narrate routine data wrangling. Instead, explain which records were linked, by what identifier, and why that linkage was necessary.
+Do not narrate routine file cleaning or software steps. Instead, explain which records were linked, what identifier connected them, and why that connection was necessary.
 
 ### Analysis
 
@@ -87,15 +94,15 @@ Connect each analysis to a prediction. A reader should be able to identify:
 
 -   The response and predictor variables.
 -   The comparison or relationship being evaluated.
--   The unit of analysis.
--   Grouped or repeated observations that the analysis must account for.
--   Important alternative explanations or covariates.
+-   What counts as one case in the analysis.
+-   Whether observations are connected because they come from the same individual, site, or time period.
+-   Important alternative explanations that should be considered.
 -   The output that will be interpreted.
--   Assumptions or limitations that materially affect inference.
+-   Conditions the analysis assumes and limits on the conclusions it can support.
 
 The name of a statistical model is not an explanation of the analysis. State what the analysis will allow you to compare or estimate and how that output relates to the prediction.
 
-Return to [Scientific inference](scientific_inference.qmd) while planning this part. Ask whether the proposed comparison can distinguish the focal mechanism from important alternatives, whether the measurements operate at the same scale as the claim, and whether the conclusion you hope to draw stays within what the design can support.
+Return to [Scientific inference](scientific_inference.qmd) while planning this part. Ask whether the proposed comparison can distinguish the focal mechanism from important alternatives, whether the measurements represent the same place, time period, and biological level as the claim, and whether the conclusion stays within what the design can support.
 
 ## Make a methods-section map
 
@@ -111,7 +118,7 @@ Create one note for each proposed paragraph or subsection. Record:
 A useful starting set is:
 
 -   **Study system and sampling:** Orient the reader and define the observations.
--   **Data sources and acquisition:** Explain where the information comes from.
+-   **Data sources and collection:** Explain where the information comes from.
 -   **Variables and preparation:** Define what will be measured and how it will be represented.
 -   **Analysis:** Explain how the predictions will be evaluated.
 
@@ -132,16 +139,16 @@ TREAT still helps in a methods section, but the letters perform somewhat differe
 | TREAT element | Its job in a methods paragraph |
 |---|---|
 | **T: Topic sentence** | State the paragraph's procedural job or the design choice it explains. |
-| **R: Reasoning** | Explain why the choice is appropriate for the question, prediction, scale, or study system. |
-| **E: Evidence or execution detail** | Supply the concrete information needed to understand or reproduce the procedure: sampling units, dates, sources, measurements, criteria, or protocol citations. |
-| **A: Analysis or alignment** | Explain how the details operationalize a concept, address a prediction, support a comparison, or limit the inference. Do not discuss findings here. |
-| **T: Transition** | Connect this procedure to the next stage of the workflow or to the analysis it makes possible. |
+| **R: Reasoning** | Explain why the choice is appropriate for the question, prediction, geographic area, time period, or study system. |
+| **E: Evidence or execution detail** | Supply the concrete information needed to understand or reproduce the procedure: what was observed, dates, sources, measurements, selection rules, or citations for established procedures. |
+| **A: Analysis or alignment** | Explain how the details turn a concept into a measurement, address a prediction, support a comparison, or limit the conclusion. Do not discuss findings here. |
+| **T: Transition** | Connect this procedure to the measurement or analysis it makes possible. |
 
 Not every methods paragraph needs all five elements, and they do not need to occur once each. A straightforward procedural paragraph may be mostly **T-E-E-A**. A paragraph explaining an unusual design choice may need more **R**. An analysis paragraph may cycle through prediction, model details, and the output that will be interpreted.
 
 ### Example: a study-system and sampling paragraph outline
 
-This fictional outline uses the running nest-concealment example. It demonstrates paragraph structure rather than a study design to copy.
+This fictional nest-concealment outline demonstrates paragraph structure rather than a study design to copy.
 
 -   **T:** We will monitor songbird nests across sites selected to represent variation in foliage density while maintaining comparable monitoring effort.
 -   **R:** Variation in foliage density is needed to evaluate the predicted relationship between visual concealment and predation risk.
@@ -158,11 +165,11 @@ The outline leaves the number of sites and nests, focal species, monitoring peri
 -   **T:** We will evaluate whether daily predation risk changes with foliage density in the direction stated by the prediction.
 -   **R:** Nests within the same study site may share conditions that make their outcomes more similar.
 -   **E:** Response = daily predation risk and predictor = foliage density
--   **E:** Grouped structure = nests within study sites
--   **E:** Predator group = visually hunting predators or other identified predators
+-   **E:** Several nests come from each study site, so site membership must be considered in the analysis.
+-   **E:** Compare failures caused by visually hunting predators with failures caused by other identified predators.
 -   **E:** Important alternative explanations `[TBD with mentor]`
--   **E:** Model family and software `[TBD]` and methodological source `[citation]`
--   **A:** The foliage-density coefficient, its uncertainty, and its relationship with predator group will be used to evaluate the prediction. The mensurative design will not by itself establish that visual concealment caused any difference in predation risk.
+-   **E:** Statistical method and software `[TBD]` and citation for the method `[citation]`
+-   **A:** The estimated relationship between foliage density and predation risk, its uncertainty, and its difference among predator types will be used to evaluate the prediction. Because the study observes existing conditions rather than manipulating foliage, it cannot by itself establish that visual concealment caused any difference in predation risk.
 -   **T:** The results can then be compared with the overall prediction and its predator-specific extension.
 
 Here, the **A** tells the reader how an eventual result would connect to the prediction and what inference the design can support.
@@ -174,11 +181,11 @@ Here, the **A** tells the reader how an eventual result would connect to the pre
 
 **1.** Where does the statement “Foliage density will be recorded as percent cover within 1 m of each nest” primarily belong?
 
-`r longmcq(c("Study-system rationale", answer = "Variables and measurements", "Data preparation", "Interpretation of results"))`
+`r longmcq(c("Reason for choosing the study system", answer = "Variables and measurements", "Data preparation", "Interpretation of results"))`
 
-**2.** Where does the statement “The analysis must account for nests grouped within study sites” primarily belong?
+**2.** Where does the statement “Several nests come from each study site, so the analysis must account for their shared site” primarily belong?
 
-`r longmcq(c("Study-system rationale", "Variables and measurements", "Data acquisition", answer = "Analysis"))`
+`r longmcq(c("Reason for choosing the study system", "Variables and measurements", "Data sources and collection", answer = "Analysis"))`
 :::
 
 ## Activity: outline the methods section
@@ -191,7 +198,7 @@ Work from project notes, available data documentation, and decisions made with y
 4.  Mark unresolved decisions with `[TBD]`, missing sources with `[citation]`, and uncertain material with `[?]`.
 5.  Choose one paragraph and convert it into a TREAT writing outline.
 6.  Write only the topic and anchor sentences in full. Keep the remaining material as labeled fragments.
-7.  Use the section map, operational chains, flagged questions, and TREAT outline to focus discussion with your mentor.
+7.  Use the section map, measurement chains, flagged questions, and TREAT outline to focus discussion with your mentor.
 
 Add the mapped methods paragraphs to the proposal outline. Use [Testing your outline's logic](outlining_logic_test.qmd) to check the combined outline for missing or repeated work and to refine its topic sentences.
 
@@ -200,8 +207,8 @@ Add the mapped methods paragraphs to the proposal outline. Use [Testing your out
 Before drafting prose, ask:
 
 -   Does every paragraph have a distinct job?
--   Can the reader distinguish the study system, sampling units, and unit of analysis?
--   Are data sources, measurements, and consequential processing steps visible?
+-   Can the reader tell where the study occurs, what was selected or observed, and what counts as one case in the analysis?
+-   Are data sources, measurements, and data-processing choices that affect meaning visible?
 -   Can each prediction be traced to measurements and an analysis?
 -   Are processes distinguished from their measurements or proxies, and are the assumptions connecting them visible?
 -   Does each proposed claim remain within what the design and measurement can support?
