@@ -1,5 +1,6 @@
 ---
 title: "Research proposal overview"
+engine: knitr
 ---
 
 The structure and paragraph ranges below are planning tools: adapt them to the research problem, the evidence available, and the scope of the proposal.

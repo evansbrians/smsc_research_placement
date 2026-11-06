@@ -1,5 +1,6 @@
 ---
 title: "Searching the literature"
+engine: knitr
 ---
 
 Use a provisional QHP to guide the search. The literature search will show how researchers describe and explain the focal relationship, provide evidence for a literature review, support the evaluation of possible gaps, and help refine the QHP.

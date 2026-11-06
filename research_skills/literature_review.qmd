@@ -1,5 +1,6 @@
 ---
 title: "Synthesizing the literature"
+engine: knitr
 ---
 
 Literature synthesis asks what the collected studies establish about the focal concepts, processes, and relationships. The immediate goal is a set of evidence-linked synthesis notes that can be used to evaluate possible gaps. Decisions about paragraph jobs, order, topic sentences, anchors, and TREAT components belong in [The four-stage outline process](writing_outlines.qmd).

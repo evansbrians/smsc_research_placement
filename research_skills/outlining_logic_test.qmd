@@ -1,5 +1,6 @@
 ---
 title: "Testing your outline's logic"
+engine: knitr
 ---
 
 Use these tests with an introduction outline or with a combined proposal outline. They reveal missing logic, incomplete support, repeated work, and topic sentences that do not advance the argument.

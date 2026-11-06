@@ -1,5 +1,6 @@
 ---
 title: "Activity: Reverse engineering your QHP"
+engine: knitr
 ---
 
 Proposals usually present the **question**, then the **hypothesis**, and then the **prediction**, but developing these elements may be easier in reverse. Begin with the available variables, sketch expected patterns, ask which mechanisms could produce them, and then identify the broader questions those mechanisms answer.

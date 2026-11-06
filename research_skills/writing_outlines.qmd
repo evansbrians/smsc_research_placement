@@ -1,5 +1,6 @@
 ---
 title: "The four-stage outline process"
+engine: knitr
 ---
 
 The four-stage process separates idea generation, organization, evaluation, and sentence planning so that each can be practiced deliberately. With experience, the stages will overlap.

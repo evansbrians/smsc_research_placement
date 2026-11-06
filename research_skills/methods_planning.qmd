@@ -1,5 +1,6 @@
 ---
 title: "Planning and writing a methods section"
+engine: knitr
 ---
 
 The methods section must make visible where information comes from, how observations are produced, and how they will address the research question. You and your mentor will work through the design and analysis together. The writer's task is to organize those decisions and flag what remains unresolved.
