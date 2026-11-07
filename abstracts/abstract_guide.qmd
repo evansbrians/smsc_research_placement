@@ -167,7 +167,16 @@ The abstract below is intentionally repetitive and over-detailed. Reduce it to n
 Nest predation is a major source of reproductive failure in birds, and predators must locate a nest before they can depredate its eggs or nestlings. Vegetation surrounding a nest may affect that process by obscuring the nest itself or the movements of attending adults. Previous studies have related vegetation near nests to nest fate, but the direction and strength of those relationships vary among species, habitats, and foliage measurements. Many nest-fate studies also do not identify the predators responsible for failure, even though predators differ in the sensory cues they use while searching. We therefore investigated whether foliage density could explain variation in predation risk and whether the relationship depended on predator identity. We proposed that dense foliage obstructs the visual cues that predators use to locate nests. We predicted that predation risk would decline as foliage density increased and that the relationship would be strongest for visually hunting predators. We monitored 180 songbird nests across six forest sites for two breeding seasons. We visited nests on a regular schedule, installed cameras to record predation events, measured foliage density within a standardized radius, and recorded nest height, distance to the forest edge, date, and study site. Models of daily predation risk included foliage density, predator group, nest height, edge distance, date, and site. Predation risk declined by an estimated 7% for each 10-percentage-point increase in foliage density. The relationship was strongest for failures attributed to avian predators and weak for failures attributed to snakes or mammals. Cameras identified the predator at 68% of failed nests, which made predator-specific estimates less precise than the overall relationship. These results are consistent with visual concealment because foliage density was most strongly related to failures caused by visually hunting predators. The mensurative design cannot establish that foliage caused the difference because unmeasured nest-site characteristics may influence both vegetation and predation. Standardized foliage measurements and predator identification can help explain why relationships between nest-site vegetation and survival differ among studies. A manipulative test of visual access would provide a stronger test of the proposed mechanism.
 :::
 
-After revising, list the three largest cuts or combinations you made and explain why each preserved the argument. Compare the result with the model abstract, but do not assume that there is only one successful 250-word version.
+After revising, list the three largest cuts or combinations you made and explain why each preserved the argument.
+
+::: {.callout-note collapse="true" title="Diagnostic checklist for the compressed abstract"}
+-   Can a reader identify the gap, objective, primary result, interpretation, and final message without consulting the full paper?
+-   Does each reported result correspond to an objective, hypothesis, or prediction?
+-   Did the largest cuts remove repetition or unnecessary detail rather than a logical step?
+-   Does the interpretation acknowledge the mensurative design and incomplete predator identification?
+-   Does the final message follow from the reported results?
+-   Is the revision no more than 250 words?
+:::
 
 ## Final self-check
 

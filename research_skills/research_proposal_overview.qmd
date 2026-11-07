@@ -11,11 +11,11 @@ The proposal is assigned and evaluated by your professor, not by this guide. Fol
 
 ## Research proposal structure: The big picture
 
-1.  **Introduction** -- 4-8 paragraphs: Why you are doing your study and the QHPT
+1.  **Introduction** -- 4-7 paragraphs: Why you are doing your study and the QHPT
 
     a.  **Umbrella statement** -- 1 paragraph: This paragraph provides the scope of your study while orienting the reader to the broad context of your study and why it is important. The first sentence should establish the broad problem and give the reader a reason to continue.
 
-    b.  **Literature review** -- 2-4 paragraphs: This provides the context for your study. What do readers need to know in order to be able to interpret your research question and hypotheses? Without stating your research question, what is the conceptual framework of your study (what do we already know)? What have other researchers done to address your area of interest? Include species- or location-specific information when it is necessary for the argument, but do not let natural history or local description replace the broader conceptual framework. See [Synthesizing the literature](literature_review.qmd).
+    b.  **Literature review** -- 1-3 paragraphs: This provides the context for your study. What do readers need to know in order to be able to interpret your research question and hypotheses? Without stating your research question, what is the conceptual framework of your study (what do we already know)? What have other researchers done to address your area of interest? Include species- or location-specific information when it is necessary for the argument, but do not let natural history or local description replace the broader conceptual framework. See [Synthesizing the literature](literature_review.qmd).
 
     c.  **Conceptual holes in our understanding** -- 1-2 paragraphs: Which aspects of your area of interest remain unexplored or underexplored? What are the lingering questions or conflicts within the literature? Focus specifically on the "holes" that you intend to address with your QHPT (without stating your QHPT). The *holes* should represent a meaningful limitation in our understanding. Repeating a study in a nearby place becomes a gap only when that change in context could alter the process or interpretation.
 

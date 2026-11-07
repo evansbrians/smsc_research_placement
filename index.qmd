@@ -20,12 +20,12 @@ The companion book, [Research skills](../research_skills/index.html), covers dev
 
 ::: {.content-visible when-profile="research_skills"}
 
-This book brings together the research-development materials for your SMSC research placement. It contains four parts:
+This book brings together the research-development materials for your SMSC research placement. It currently contains two parts:
 
 1. **Background**: the QHPT framework and scientific inference
 2. **Developing a research proposal**: understanding the proposal, evaluating logic and paragraph structure, searching and synthesizing the literature, identifying a gap, refining your QHPT, planning methods, and outlining a research proposal
-3. **Scientific presentations**: designing, rehearsing, and revising short and full-length research talks
-4. **Writing an abstract**: planning and compressing a complete research argument into a concise summary
+
+Additional chapters will be added when you begin developing your research presentation and abstract.
 
 The companion book, [R learning materials](../r_learning/index.html), is a self-paced introduction to R, RStudio, and the tidyverse.
 

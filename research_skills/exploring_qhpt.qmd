@@ -3,7 +3,7 @@ title: "The QHPT framework"
 engine: knitr
 ---
 
-The **Question, Hypothesis, Prediction, Test (QHPT) framework** connects four parts of a study: the uncertainty being addressed, a mechanistic answer, the observable pattern expected if that answer is correct, and the study used to evaluate that pattern. Research papers and proposals often bring these parts together near the end of the introduction.
+The **Question, Hypothesis, Prediction, Test (QHPT) framework** connects four parts of a study: the uncertainty being addressed, a mechanistic answer, the observable pattern expected if that answer is correct, and the study used to evaluate that pattern.
 
 ## What you will learn
 
@@ -13,8 +13,6 @@ By the end of the lesson, you should be able to:
 2.  Distinguish a mechanistic scientific hypothesis from a prediction and a statistical hypothesis.
 3.  Define predictor and response variables and identify each within a prediction.
 4.  Evaluate whether a question, hypothesis, prediction, and test form an aligned conceptual and operational sequence.
-5.  Explain why observing a prediction supports but does not prove a hypothesis.
-6.  Identify the assumptions and alternative mechanisms that affect what can be inferred from a test.
 
 ## Elements of the QHPT framework
 
@@ -35,15 +33,21 @@ Throughout these lessons, **QHP** refers to the conceptual sequence of question,
 
 **Response variable**: The measured outcome expected to vary across values or levels of the predictor. In a simple relationship plot, the response is usually placed on the vertical (*y*) axis. The same variable may serve as a response in one relationship and a predictor in another, depending on the question and prediction.
 
-**Hypotheses**: These are potential mechanistic answers to the question, derived from theory and the literature. A strong scientific hypothesis explains *how* or *why* the phenomenon occurs. Frame directional comparisons between predictor and response variables as predictions, using language such as *increases*, *decreases*, *higher*, or *lower* there. Describe theoretically sound, tractable, and relevant alternatives when more than one mechanism could reasonably answer the same question. A statistical hypothesis makes a formal claim about a quantity or distribution, whereas a scientific hypothesis proposes an explanation (Table 2).
+**Hypotheses**: These are potential mechanistic answers to the question, derived from theory and the literature. A strong scientific hypothesis explains *how* or *why* the phenomenon occurs. Frame directional comparisons between predictor and response variables as predictions, using language such as *increases*, *decreases*, *higher*, or *lower* there. Describe theoretically sound, tractable, and relevant alternatives when more than one mechanism could reasonably answer the same question. A statistical hypothesis makes a formal claim about a quantity or distribution, whereas a scientific hypothesis proposes an explanation (Alger 2020, 2022; Table 2).
 
 **Predictions**: If a hypothesis and the assumptions linking it to the study are reasonable, what observable pattern should occur? A strong prediction identifies an outcome that would be difficult to reconcile with the proposed mechanism. A failed prediction challenges the hypothesis-test package. It may expose a problem with the mechanism, an auxiliary assumption, the measurement, or the design. Be sure to provide support for the expected pattern. Note:
 
--   A strong prediction can be plotted (Fig. 1), suggests directionality, and has a clear predictor (i.e., independent) and response (i.e., dependent) variable.
+-   A prediction describes an expected observation. It does not have to forecast an event in the future. For example, a prediction may describe a relationship expected in data that have already been collected.
+
+-   A strong prediction can be plotted (Fig. 1), suggests directionality, and has a clear predictor and response variable.
 
 -   A prediction may be represented by a statistical hypothesis, but the two are not automatically equivalent. A prediction often states: "If `[mechanism and assumptions]` hold, we expect `[predictor]` to have a `[direction]` relationship with `[response]`."
 
 **Tests**: These are the measurements, sampling design, comparison, and analysis used to evaluate the prediction. The introduction usually states the test at a high level, while the methods provide the operational details.
+
+::: {.callout-tip title="Why **predictor variable**?"}
+You have likely encountered several other terms for variables used as predictors (e.g., independent variables, explanatory variables, covariates, and factors). Their meanings vary across fields and contexts (see Grace-Martin n.d.). We use **predictor variable** because it describes a variable used to predict variation in a response without implying that the variable was manipulated, causes the response, or is statistically independent of other predictors.
+:::
 
 **Table 2**. How do hypotheses and predictions differ?
 
@@ -55,7 +59,7 @@ Throughout these lessons, **QHP** refers to the conceptual sequence of question,
 | How to test | Indirectly | Directly |
 | Evaluation | Supported, challenged, or left unresolved by the test | Observed pattern is consistent or inconsistent with the stated expectation |
 
-*Source: Alger, B.E. 2019. Defense of the scientific hypothesis: From reproducibility crisis to big data*
+*Sources: Alger (2019, 2020, 2022).*
 
 ![](images/qhpt_prediction_plot.png){fig-alt="Plot of a predicted relationship between a predictor and a response variable" width="100%"}
 
@@ -81,27 +85,10 @@ Interpretation:
 
 The elements remain aligned even though the authors use *hypothesis* to refer collectively to alternatives and place the prediction in the following paragraph. Reconstruct the QHPT according to the work each statement does.
 
-### Compare two other structures
+::: {.callout-tip title="Finding predictions in published papers"}
+Authors often signal a prediction with phrases such as *we predict*, *we expect*, and *if ..., then ...*. Look for these cues when searching for a prediction!
 
-Perry et al. (2008) investigated why Least Flycatchers cluster their territories. Their final introductory paragraph provides clear HPT alignment, but the question must be recovered from earlier in the introduction.
-
-| Paper | Question and gap | Mechanistic hypothesis | Prediction and test |
-|---|---|---|---|
-| Perry et al. (2008) | Why do Least Flycatchers cluster their territories? The final paragraph of the introduction begins with the proposed mechanism rather than restating this question. | Alarm calling by clustered flycatchers deters predators. | Predation should be higher at solitary nests, in small clusters, and at cluster edges. Available nests allowed a test of the edge prediction. |
-| Stracey (2011) | Why can urban birds experience low nest predation where potential nest predators are abundant? | Predator identity and behavior matter more than total potential-predator abundance. Strong predators may be absent, predators may switch to other foods, or birds may defend nests effectively. | Different mechanisms predict different predator identities across urban and non-urban nests. Video cameras were used to identify predators and compare habitats. |
-
-Perry provides clear alignment among a hypothesis, its predictions, and the available test, but its final paragraph alone does not model a complete QHP sequence because the question appears earlier in the introduction.
-
-## Why a confirmed prediction is not proof
-
-If your prediction comes true, that does not prove your hypothesis, because another mechanism may predict the same pattern. If your prediction fails under a sensitive and appropriate test, the hypothesis is challenged -- but the failed prediction can also expose a faulty assumption, weak measurement, inadequate variation, or a mismatch between the design and the proposed mechanism.
-
-Karl Popper (1959) argued that scientific hypotheses must be **falsifiable**: they must forbid at least some observable outcomes. In practice, researchers test a hypothesis together with assumptions about measurement, sampling, and analysis. This is why the QHPT framework asks you to describe both the result that would count against the mechanism and the conditions under which the test can be trusted.
-
-Confirmation is not worthless. A confirmed prediction is still evidence for your hypothesis. It counts for more when the prediction was risky and for little when every plausible rival predicts the same thing.
-
-::: {.callout-warning title="A common pattern in papers"}
-"We predicted lower nest survival near forest edges, and this is what we found, supporting the hypothesis that edge-associated predators drive nest failure." The result is also predicted if edges are hotter (thermoregulation), have less shrub cover (concealment), or attract less experienced breeders. As written, the argument treats predators as the only possible explanation. Its force depends on how well the rival mechanisms were ruled out.
+Some authors use *hypothesis* for a predicted difference or relationship between variables. That statement functions as a prediction within the QHPT framework, even when the paper calls it a hypothesis. Look earlier in the paper for the scientific hypothesis: the proposed mechanism that explains how or why the predicted pattern should arise. The mechanism may be stated directly or may need to be reconstructed from the authors' argument.
 :::
 
 ## Videos: Defense of the scientific hypothesis
@@ -139,17 +126,17 @@ The research question matters: a hypothesis must answer a particular question. U
 
 `r mcq(c("Hypothesis", "Prediction", answer = "Neither"))`
 
-**Research question B: How does foliage density influence whether visually hunting predators find nests?**
+**Research question B: Why might parental visitation influence nest predation by snakes?**
 
-**B1.** Foliage conceals nests by obstructing the visual cues that predators use to locate them.
+**B1.** Snakes use movement cues produced by parental activity to locate nests.
 
 `r mcq(c(answer = "Hypothesis", "Prediction", "Neither"))`
 
-**B2.** Nests surrounded by denser foliage will be detected less frequently than nests surrounded by sparse foliage.
+**B2.** We hypothesized that nests with higher parental visitation rates would be found sooner by snakes than nests with lower visitation rates.
 
 `r mcq(c("Hypothesis", answer = "Prediction", "Neither"))`
 
-**B3.** Vegetation is important for nesting birds.
+**B3.** Parental behavior determines nesting success.
 
 `r mcq(c("Hypothesis", "Prediction", answer = "Neither"))`
 :::
@@ -158,54 +145,23 @@ The research question matters: a hypothesis must answer a particular question. U
 -   **A1: H.** It answers question A with a mechanism--cats consume eggs and nestlings--without comparing a predictor and response.
 -   **A2: P.** It identifies cat use as the predictor, daily nest survival as the response, and the expected direction of the relationship.
 -   **A3: N.** It is too vague to explain how cats affect birds or to identify an observable relationship.
--   **B1: H.** It answers question B by explaining how foliage interferes with the process of visual detection.
--   **B2: P.** It identifies foliage density as the predictor, detection frequency as the response, and the expected direction.
--   **B3: N.** It neither explains a mechanism nor states a measurable relationship.
+-   **B1: H.** It answers question B with a cue-following mechanism and does not embed the expected predictor-response relationship.
+-   **B2: P.** Despite the authors' use of *hypothesized*, the statement compares time to discovery across parental visitation rates in the direction implied by B1. It therefore functions as a prediction.
+-   **B3: N.** *Determines* sounds causal but does not explain how parental behavior affects success or state a precise pattern.
 :::
 
 ::: now_you
 {{< fa user-circle size=2x >}} [Now you!]{style="font-size: 1.25em; padding-left: 0.5em;"}
 
-**Test your understanding: hypothesis or prediction?**
+**Check the complete sequence**
 
-Classify each statement as a hypothesis, a prediction, or neither. Use the question above each group when deciding whether a proposed mechanism answers the question.
+The question is: *How does foliage surrounding a nest alter the ability of visual predators to find it?* Which hypothesis, prediction, and test form the most closely aligned sequence?
 
-**Research question C: Why might parental visitation influence nest predation by snakes?**
-
-**C1.** Snakes use movement cues produced by parental activity to locate nests.
-
-`r mcq(c(answer = "Hypothesis", "Prediction", "Neither"))`
-
-**C2.** Nests with higher parental visitation rates will be found sooner by snakes than nests with lower visitation rates.
-
-`r mcq(c("Hypothesis", answer = "Prediction", "Neither"))`
-
-**C3.** Parental behavior determines nesting success.
-
-`r mcq(c("Hypothesis", "Prediction", answer = "Neither"))`
-
-**Research question D: How might bird feeders alter predation on nearby songbird nests?**
-
-**D1.** Bird feeders subsidize generalist consumers, creating a pathway through which squirrels and jays also encounter nests.
-
-`r mcq(c(answer = "Hypothesis", "Prediction", "Neither"))`
-
-**D2.** Song sparrow nests near feeders will experience higher predation rates than nests farther from feeders.
-
-`r mcq(c("Hypothesis", answer = "Prediction", "Neither"))`
-
-**D3.** Feeders cause nest predation.
-
-`r mcq(c("Hypothesis", "Prediction", answer = "Neither"))`
+`r longmcq(c(answer = "Dense foliage obstructs visual cues used by predators → discovery risk declines as foliage density increases → measure foliage density, identify visual-predator visits with cameras, and compare discovery risk across the foliage gradient", "Dense foliage will be associated with lower discovery risk → foliage obstructs visual cues → compare the abundance of adult birds among sites", "Predators use visual cues to find nests → discovery risk increases with foliage density → compare nest height among bird species", "Foliage density differs among nests → visual predators cause nest failure → count every predator observed within each study site"))`
 :::
 
-::: {.callout-note collapse="true" title="Explanations for questions C and D"}
--   **C1: H.** It answers question C with a cue-following mechanism and does not embed the expected predictor-response relationship.
--   **C2: P.** It compares time to discovery across parental visitation rates in the direction implied by C1.
--   **C3: N.** *Determines* sounds causal but does not explain how parental behavior affects success or state a precise pattern.
--   **D1: H.** It answers question D with a resource-subsidy pathway connecting feeders, generalist consumers, and encounters with nests.
--   **D2: P.** It identifies distance from feeders as the predictor, predation rate as the response, and the expected direction.
--   **D3: N.** It names an effect without explaining a mechanism or specifying a testable relationship.
+::: {.callout-note collapse="true" title="Explanation"}
+The first sequence aligns all four elements. The hypothesis explains how foliage could affect discovery, the prediction states the expected relationship, and the test measures that relationship while identifying visits by the relevant predators.
 :::
 
 ## Take-home points
@@ -215,13 +171,15 @@ Classify each statement as a hypothesis, a prediction, or neither. Use the quest
 -   A prediction identifies a predictor variable, a response variable, and an expected pattern or direction. Calling a variable a predictor does not establish that it causes the response.
 -   A test connects the conceptual QHP sequence to measurements, a sampling design, a comparison, and an analysis.
 -   The question, hypothesis, prediction, and test should form an aligned sequence in which each element follows from the one before it.
--   An observed prediction provides evidence for a hypothesis without proving it because alternative mechanisms may produce the same pattern.
--   A failed prediction may challenge the mechanism, an assumption, the measurement, or the study design.
 
 ## References
 
-Perry, E. F., J. C. Manolis, and D. E. Andersen. 2008. Reduced predation at interior nests in clustered all-purpose territories of Least Flycatchers (*Empidonax minimus*). *The Auk* 125:643--650.
+Alger, B. E. 2019. *Defense of the scientific hypothesis: From reproducibility crisis to big data*. Oxford University Press, New York.
+
+Alger, B. E. 2020. Scientific hypothesis-testing strengthens neuroscience research. *eNeuro* 7:ENEURO.0357-19.2020. [https://doi.org/10.1523/ENEURO.0357-19.2020](https://doi.org/10.1523/ENEURO.0357-19.2020).
+
+Alger, B. E. 2022. Neuroscience needs to test both statistical and scientific hypotheses. *Journal of Neuroscience* 42:8432--8438. [https://doi.org/10.1523/JNEUROSCI.1134-22.2022](https://doi.org/10.1523/JNEUROSCI.1134-22.2022).
+
+Grace-Martin, K. n.d. [Confusing statistical terms #1: The many names of independent variables](https://www.theanalysisfactor.com/the-many-names-of-independent-variables/). *The Analysis Factor*.
 
 Sperry, J. H., D. G. Barron, and P. J. Weatherhead. 2012. Snake behavior and seasonal variation in nest survival of northern cardinals *Cardinalis cardinalis*. *Journal of Avian Biology* 43:496--502.
-
-Stracey, C. M. 2011. Resolving the urban nest predator paradox: The role of alternative foods for nest predators. *Biological Conservation* 144:1545--1552.

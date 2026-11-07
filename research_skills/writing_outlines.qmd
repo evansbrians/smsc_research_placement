@@ -7,6 +7,8 @@ The four-stage process separates idea generation, organization, evaluation, and 
 
 The most important separation is between **generation** and **evaluation**. If you judge, organize, and phrase each idea while trying to retrieve it, brainstorming becomes drafting. Early ideas should be easy to revise, combine, or discard. Work privately during the first stage if expecting an immediate reader makes you edit too soon.
 
+Treat each stage as a pass rather than a one-way sequence. Complete the work of the current stage without mixing in the next kind of decision. If a later stage reveals a missing idea, weak relationship, or misplaced piece of evidence, return to the appropriate earlier stage, revise the material there, and then carry it forward again.
+
 ## Stage 1. Brainstorming
 
 **Goal**: Generate raw material without judgment.
@@ -89,7 +91,7 @@ If the blank page still feels too large, use a bounded ingredient set. List mate
 
 -   Polish or edit your wording
 
--   Add any new ideas
+-   Add untested ideas directly to the paragraph outline. Return them to Stage 1 or 2 before deciding whether they belong.
 
 *Note: The Recycling Bin may contain strong ideas whose role falls outside the current paragraph's job.*
 
@@ -125,7 +127,7 @@ If the blank page still feels too large, use a bounded ingredient set. List mate
 
 -   Polish or edit your wording
 
--   Add any new ideas
+-   Add new ideas directly to the writing outline. Return them to an earlier stage so that they can be generated, grouped, and evaluated before incorporation.
 
 *Note: Fragments are expected below the topic sentence.*
 
@@ -142,6 +144,8 @@ You may be **under-outlined** if you would still need to decide what the paragra
 The outline should make drafting possible, not make drafting redundant.
 
 As these decisions become internalized, the stages may overlap. The framework is temporary scaffolding for judgment, not a permanent workflow.
+
+The same return loop applies during the logic test. If the test reveals missing reasoning, evidence, or an alternative explanation, record the problem, return to the stage where that material should be developed, and then rebuild the affected part of the outline. Finding a missing idea is evidence that the outline is working.
 
 ::: now_you
 {{< fa user-circle size=2x >}} [Now you!]{style="font-size: 1.25em; padding-left: 0.5em;"}

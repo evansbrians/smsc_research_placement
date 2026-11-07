@@ -12,9 +12,10 @@ Use these questions while planning methods and again when interpreting results: 
 By the end of the lesson, you should be able to:
 
 1.  Distinguish a direct observation, an empirical pattern, and an inference about process.
-2.  Identify when a conclusion exceeds the places, times, organisms, or scales represented by the evidence.
-3.  Explain why comparison, random assignment, replication, and multiple lines of evidence affect inferential strength.
-4.  Revise a scientific claim so that its observation, inference, scope, and alternatives are visible.
+2.  Explain why observing a predicted pattern supports but does not prove a hypothesis.
+3.  Identify when a conclusion exceeds the places, times, organisms, or scales represented by the evidence.
+4.  Explain why comparison, random assignment, replication, and multiple lines of evidence affect inferential strength.
+5.  Revise a scientific claim so that its observation, inference, scope, and alternatives are visible.
 
 ## Observations and inferences
 
@@ -77,9 +78,21 @@ Scientific inferences usually move through distinct levels:
 
 Each level claims more than the level below it, and each requires more support. A description needs careful measurement. A pattern needs enough cases, collected in comparable ways, to show that the regularity is not a coincidence of a few nests. A claim that the pattern extends to unobserved cases also requires a sampling argument. A process needs evidence that the proposed mechanism, and not some other mechanism, produced the pattern.
 
-*Note:* Recall that the QHPT framework uses the same distinction. A hypothesis describes a process, and a prediction describes the pattern that the process should produce (see [The QHPT framework](exploring_qhpt.qmd)). When we observe a predicted pattern, we have evidence at the pattern level. Reaching the process level requires showing that rival mechanisms do not explain the same pattern equally well.
+The QHPT framework uses the same distinction. A hypothesis describes a process, and a prediction describes the pattern that the process should produce (see [The QHPT framework](exploring_qhpt.qmd)).
 
 A common error in student writing is to describe a pattern and then describe it in the language of process. "Nests near trails failed more often, showing that trails increase predation" moves from pattern to process in a single clause, with no evidence for the mechanism. Before writing a process claim, identify evidence for both the observed pattern and the proposed mechanism.
+
+## Why a confirmed prediction is not proof
+
+When a predicted pattern is observed, it provides evidence for the hypothesis that generated the prediction. It does not prove the hypothesis because another mechanism may predict the same pattern. Reaching the process level requires showing that rival mechanisms do not explain the pattern equally well.
+
+Karl Popper (1959) argued that scientific hypotheses must be **falsifiable**: they must rule out at least some observable outcomes. In practice, researchers test a hypothesis together with assumptions about measurement, sampling, and analysis. A failed prediction challenges this hypothesis-test package. The failure may expose a problem with the mechanism, an assumption, the measurement, or the design.
+
+A confirmed prediction provides stronger evidence when the prediction was risky: few alternative mechanisms predict the same result. It provides weaker evidence when every plausible alternative predicts that result.
+
+::: {.callout-warning title="A common pattern in papers"}
+"We predicted lower nest survival near forest edges, and this is what we found, supporting the hypothesis that edge-associated predators drive nest failure." The result is also predicted if edges are hotter, have less shrub cover, or attract less experienced breeders. The strength of the inference depends on how well the study distinguishes the edge-associated predator mechanism from these alternatives.
+:::
 
 ## The scope of an inference
 
@@ -174,6 +187,14 @@ The revision is longer, and each addition provides information the reader needs 
 Please find one sentence in a paper you are reading, or in your own notes, that states a conclusion. Rewrite it so that it separates the observation from the inference, states the scope, and names at least one alternative explanation.
 :::
 
+::: {.callout-note collapse="true" title="One possible revision"}
+**Original:** Urban wood thrushes breed earlier because cities are warmer.
+
+**Revision:** Among the wood thrushes observed, females in the urban plots began laying eggs earlier than females in the rural plots. This pattern is consistent with warmer urban temperatures advancing breeding, although differences in food availability or in the birds occupying each habitat could also explain the timing difference.
+
+The revision states the observed comparison before offering an explanation, limits the conclusion to the birds and plots studied, and identifies alternatives that the evidence would need to distinguish.
+:::
+
 Use this self-check on your revision:
 
 -   Can a reader underline the observed result without also underlining the explanation?
@@ -188,6 +209,7 @@ Use this self-check on your revision:
 -   Description is an important scientific goal, but a writer must not present an inference as though it were directly observed.
 -   Inferences move from description to pattern to process, and each step requires more support.
 -   Observing a predicted pattern is evidence at the pattern level. Reaching the process level requires ruling out rival mechanisms.
+-   A failed prediction may challenge the proposed mechanism, an assumption, the measurement, or the study design.
 -   Every inference has a scope in place, time, organism, and scale, and a conclusion should not exceed it.
 -   A pattern across groups does not necessarily describe the individuals within those groups.
 -   Manipulation can establish that an imposed change causes a response, while mensurative studies show whether the proposed process corresponds to the phenomenon under natural conditions. The strongest explanation often draws on both.
@@ -198,5 +220,7 @@ Use this self-check on your revision:
 Hill, A. B. 1965. The environment and disease: association or causation? *Proceedings of the Royal Society of Medicine* 58:295–300.
 
 Paine, R. T. 1966. Food web complexity and species diversity. *American Naturalist* 100:65–75.
+
+Popper, K. R. 1959. *The logic of scientific discovery*. Hutchinson, London.
 
 Sperry, J. H., D. G. Barron, and P. J. Weatherhead. 2012. Snake behavior and seasonal variation in nest survival of northern cardinals *Cardinalis cardinalis*. *Journal of Avian Biology* 43:496--502.

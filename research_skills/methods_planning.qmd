@@ -22,22 +22,26 @@ Do not turn this part into a general natural-history description. Include only c
 
 ### Study design and sampling
 
-Explain what will be observed and how those observations will be selected. Identify:
+Explain what will be observed or changed and how the observations will be selected. Identify:
 
 -   What will be observed or manipulated, such as nests, birds, plots, or sites.
 -   How sites, individuals, records, or time periods will be selected.
 -   The number and arrangement of observations, if known.
--   Conditions imposed by the researcher, groups being compared, measured ranges from low to high, or repeated observations.
+-   Any conditions imposed by the researcher, groups being compared, ranges being measured, or observations being repeated.
 -   Whether some observations are connected because they come from the same individual, site, or time period, such as several nights observed for one bird or several plots within one site.
 
-You may encounter several technical terms for the things being studied:
+Describe this structure in ordinary language first. For example: *We will select parks, monitor several nests in each park, and compare nest outcomes while recognizing that nests in the same park share local conditions.* This tells the reader what was selected, what was observed, and which observations are connected.
+
+::: {.callout-note collapse="true" title="Technical terms you may encounter"}
+Several technical terms distinguish what is selected, measured, changed, and compared:
 
 -   An **observational unit** is one thing that is measured, such as one nest, bird, plot, or survey response.
 -   An **experimental unit** is the smallest thing independently assigned to a treatment. If an entire plot receives a treatment, the plot is the experimental unit even when many plants are measured inside it.
 -   A **sampling unit** is the thing selected when the sample is chosen. Researchers might select sites and then observe several nests within each selected site.
 -   The **unit of analysis** is what counts as one case in the comparison or statistical analysis. It may be a nest, individual, site, or time period.
 
-These units may be the same, but they do not have to be. For example, a researcher could select parks, observe several nests in each park, and compare nest outcomes while accounting for the park in which each nest occurs.
+These may refer to the same thing, but they do not have to. Use a technical term when it helps you and your mentor resolve an important design decision or when the assignment requires it.
+:::
 
 ### Data sources and collection
 
@@ -45,7 +49,7 @@ Describe where the data will come from. This may include field observations, sen
 
 -   The source or collection procedure.
 -   Dates or versions when they matter.
--   The geographic and time resolution, when relevant. For example, a map may use 30-m pixels, while observations may be recorded daily or monthly.
+-   How much area and time each observation represents, when relevant. For example, a map value may describe a 30 × 30 m area, while field observations may be recorded daily or monthly.
 -   Rules for which observations will be included or excluded.
 -   Citations for established datasets or data-collection procedures.
 
@@ -57,31 +61,31 @@ Define the variables needed to test each prediction. For each important variable
 
 -   The underlying concept.
 -   How that concept will be measured or represented.
--   The measurement units and level of detail, such as meters, percent cover, or daily counts.
--   Whether it is a predictor, a response, an important alternative explanation, or an identifier showing which observations came from the same site, individual, or year. This type of identifier is sometimes called a **grouping variable**.
+-   What one recorded value represents and its units, such as meters, percent cover, or a daily count.
+-   Whether it is a predictor, a response, an important alternative explanation, or an identifier showing which observations came from the same site, individual, or year.
 -   Any limitation in how the measurement represents the concept.
 
 For example, impervious surface represents one part of urban development. Human activity, food subsidies, noise, and vegetation require other measurements. Explain both what a variable represents and what it leaves unmeasured.
 
 ### Trace the process into a measurement
 
-When a study uses an observable variable to represent a broader process, make the measurement chain explicit:
+When a study uses an observable variable to represent a broader process, make the connection explicit:
 
 1.  **Phenomenon:** What part of the system are you trying to understand?
-2.  **Process:** What causal pathway is proposed to produce the response?
-3.  **Measurement or proxy:** What observable variable represents that process? A proxy is an indirect measurement used when the process itself cannot be observed directly.
-4.  **Analysis:** What comparison or estimate will be made from the variable?
-5.  **Claim:** What will that result allow you to conclude?
+2.  **Proposed process:** What could produce the expected response?
+3.  **Measurement:** What will you observe to represent that process?
+4.  **Comparison:** What relationship or difference will you evaluate?
+5.  **Allowable claim:** What could that result support?
 
-The weakest connection is often between the process and its measurement. Ask what assumptions make the measurement a useful indicator, which parts of the process it misses, and whether the measurement covers the relevant area and time period. Do not let the conclusion silently expand from the measured variable to the entire phenomenon.
+An indirect measurement used to represent a process is often called a **proxy**. The weakest connection is often between the process and this measurement. Ask why the measurement is a useful indicator, what parts of the process it misses, and whether it represents the relevant area and time period. Keep the conclusion focused on what was measured unless other evidence supports the broader interpretation.
 
 ### Data preparation
 
-Describe processing steps that meaningfully change what the data represent, their level of detail, or how easily different sources can be compared. Examples include:
+Describe processing steps that meaningfully change what a record or value represents or allow different sources to be compared. Examples include:
 
 -   Defining the area around each sampled nest, individual, plot, or site.
 -   Combining repeated observations into daily, monthly, individual-level, or site-level summaries.
--   Making data collected at different geographic detail or time intervals comparable.
+-   Making data collected for different areas or time intervals comparable.
 -   Calculating a new variable from existing measurements.
 -   Applying a rule tied to the biological question when deciding which records to include.
 -   Addressing missing observations.
@@ -94,11 +98,10 @@ Connect each analysis to a prediction. A reader should be able to identify:
 
 -   The response and predictor variables.
 -   The comparison or relationship being evaluated.
--   What counts as one case in the analysis.
--   Whether observations are connected because they come from the same individual, site, or time period.
+-   What counts as one case and whether some cases are connected because they come from the same individual, site, or time period.
 -   Important alternative explanations that should be considered.
 -   The output that will be interpreted.
--   Conditions the analysis assumes and limits on the conclusions it can support.
+-   Assumptions needed for the analysis and limits on the conclusions it can support.
 
 The name of a statistical model is not an explanation of the analysis. State what the analysis will allow you to compare or estimate and how that output relates to the prediction.
 
@@ -139,7 +142,7 @@ TREAT still helps in a methods section, but the letters perform somewhat differe
 | TREAT element | Its job in a methods paragraph |
 |---|---|
 | **T: Topic sentence** | State the paragraph's procedural job or the design choice it explains. |
-| **R: Reasoning** | Explain why the choice is appropriate for the question, prediction, geographic area, time period, or study system. |
+| **R: Reasoning** | Explain why the choice is appropriate for the question, prediction, place, time period, or study system. |
 | **E: Evidence or execution detail** | Supply the concrete information needed to understand or reproduce the procedure: what was observed, dates, sources, measurements, selection rules, or citations for established procedures. |
 | **A: Analysis or alignment** | Explain how the details turn a concept into a measurement, address a prediction, support a comparison, or limit the conclusion. Do not discuss findings here. |
 | **T: Transition** | Connect this procedure to the measurement or analysis it makes possible. |
@@ -150,12 +153,12 @@ Not every methods paragraph needs all five elements, and they do not need to occ
 
 This fictional nest-concealment outline demonstrates paragraph structure rather than a study design to copy.
 
--   **T:** We will monitor songbird nests across sites selected to represent variation in foliage density while maintaining comparable monitoring effort.
+-   **T:** We will monitor songbird nests across sites selected to include a range of foliage densities while maintaining comparable monitoring effort.
 -   **R:** Variation in foliage density is needed to evaluate the predicted relationship between visual concealment and predation risk.
 -   **E:** Study region, site boundaries, and focal species `[TBD]`
--   **E:** Site-selection criteria and range of foliage density `[TBD]`
+-   **E:** Site-selection criteria and foliage-density range `[TBD]`
 -   **E:** Number of sites and nests, nest-finding procedure, and monitoring period `[TBD]`
--   **A:** The design provides observations across the focal foliage gradient while recording nest height, edge distance, date, and site as possible alternative explanations.
+-   **A:** The design provides observations across the foliage-density range while recording nest height, edge distance, date, and site as possible alternative explanations.
 -   **T:** We will measure nest fate, predator identity, and foliage density using the procedures described below.
 
 The outline leaves the number of sites and nests, focal species, monitoring period, and analysis flagged for discussion. Its completed work is identifying the paragraph's job and the information the finished paragraph will need.
@@ -194,7 +197,7 @@ Work from project notes, available data documentation, and decisions made with y
 
 1.  Create a methods-section map and give each proposed paragraph one job.
 2.  Place the information already available beneath the appropriate paragraph.
-3.  For each important variable, trace the phenomenon, process, measurement or proxy, analysis, and allowable claim. Mark the weakest connection.
+3.  For each important variable, trace the phenomenon, proposed process, measurement, comparison, and allowable claim. Mark the weakest connection.
 4.  Mark unresolved decisions with `[TBD]`, missing sources with `[citation]`, and uncertain material with `[?]`.
 5.  Choose one paragraph and convert it into a TREAT writing outline.
 6.  Write only the topic and anchor sentences in full. Keep the remaining material as labeled fragments.
