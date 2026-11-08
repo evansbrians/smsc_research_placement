@@ -5,10 +5,6 @@ engine: knitr
 
 The structure and paragraph ranges below are planning tools: adapt them to the research problem, the evidence available, and the scope of the proposal.
 
-::: {.callout-note title="Use the assignment prompt first"}
-The proposal is assigned and evaluated by your professor, not by this guide. Follow any required sections, length, format, or evaluation criteria supplied by the professor. The structure below helps you and your mentor develop and organize the scientific content when the assignment leaves those decisions open. Paragraph ranges and section labels are starting points, not requirements to reproduce.
-:::
-
 ## Research proposal structure: The big picture
 
 1.  **Introduction** -- 4-7 paragraphs: Why you are doing your study and the QHPT
@@ -23,29 +19,29 @@ The proposal is assigned and evaluated by your professor, not by this guide. Fol
 
         i.  **Question**: The big-picture uncertainty being addressed. Questions are derived from theory and the literature and represent an important idea that advances your field of study. When useful, state a broadly applicable conceptual question and then explain how your study organism and location provide an appropriate system in which to address it. Some projects require explicitly system-specific questions. Clarity and alignment matter more than following a grammatical rule.
 
-        ii. **Hypotheses**: These are potential mechanistic answers to the question, derived from theory and the literature. A strong scientific hypothesis explains how or why the phenomenon occurs. Write directional comparisons between predictor and response variables as predictions. Describe theoretically sound, tractable, and relevant alternatives when more than one mechanism could answer the same question. Statistical hypotheses are formal claims about quantities or distributions and should not be substituted for the scientific explanation.
+        ii. **Hypotheses**: These are potential mechanistic answers to the question, derived from theory and the literature. A strong scientific hypothesis explains how or why the phenomenon occurs. Write directional comparisons between predictor and response variables as predictions. Describe theoretically sound, relevant alternatives that the study could evaluate when more than one mechanism could answer the same question. Statistical hypotheses are formal claims about quantities or distributions and should not be substituted for the scientific explanation.
 
         iii. **Predictions**: If a hypothesis and the assumptions linking it to your system are reasonable, what observable pattern do you expect? What result would be difficult to reconcile with the proposed mechanism? Be sure to support the expected pattern with theory and literature. *Note: A strong quantitative prediction can often be plotted, suggests directionality, and has a clear predictor and response variable.*
 
-        iv. **Tests**: These represent the statistical and experimental "nuts and bolts" that describe how your predictions will be evaluated with the data. Stay big picture here (you will describe this in more detail in the methods).
+        iv. **Tests**: Briefly identify the measurements, comparison, and analysis that will be used to evaluate each prediction. The methods section provides the exact procedures.
 
         v.  **Implications**: 1-2 sentences that offer a strong, but reasonable and accurate, statement about why your project is the most important project *ever* (i.e., how will it contribute to our understanding of the issue). Tie the content back to the "holes in our understanding" and umbrella statement. Content should also include (and sometimes be framed as) broader benefits to your research program and society at large.
 
 2.  **Methods** -- What you will do in your study and how the procedures relate to your QHPT
 
-    Use [Planning and writing a methods section](methods_planning.qmd) to organize the methodological decisions that you work out with your mentor, flag unresolved details, and transfer TREAT to methods paragraphs.
+    Use [Writing your methods section](methods_planning.qmd) to organize the methodological decisions developed with your mentor, flag unresolved details, and apply the paragraph-structure framework to methods paragraphs.
 
     a.  **Study area and site selection** -- 1 paragraph:
 
-        i.  Describe your study region (i.e., the extent of your study) and why this region is appropriate for addressing your research question and hypothesis.
+        i.  Describe your study region, the area it covers, and why this region is appropriate for addressing your research question and hypothesis.
 
         ii. If location data are used, describe how the locations were selected (if a subset of available locations) within the context of the research question, hypothesis, and prediction. For example, if I'm exploring the influence of historic redlining policies on current socioeconomic distributions, and I choose to study Baltimore, MD, and Durham, NC, I need to justify my choice of those cities and describe how this choice provides the opportunity to test my prediction.
 
     b.  **Study design, sampling, data sources, and measurements**: Describe what will be observed, how observations will be selected, where the data will come from, and how the important concepts will be measured. Separate these jobs into paragraphs when combining them would make the procedure difficult to follow.
 
-    c.  **Data preparation**: Describe steps that materially change the meaning, scale, or comparability of the data. Mundane wrangling steps (e.g., "I will mutate the data frames to add a column") should not be included.
+    c.  **Data preparation**: Describe steps that materially change the meaning, scale, or comparability of the data. Do not include routine software commands (e.g., "I will mutate the data frames to add a column").
 
-    d.  **Analysis**: Framing each analysis as a test of a prediction, describe the predictor, response, comparison, and output that will be interpreted. If you are proposing to apply a model, describe the assumptions and limitations that materially affect inference.
+    d.  **Analysis**: Framing each analysis as a test of a prediction, describe the predictor, response, comparison, and estimated relationship or difference that will be interpreted. If you are proposing to apply a model, describe the assumptions and limitations that materially affect inference.
 
 3.  **Research timeline**: What you expect to do in each phase of the project. Be sure to include any deliverables at each phase, if applicable.
 
@@ -58,15 +54,33 @@ The proposal is assigned and evaluated by your professor, not by this guide. Fol
 
 **1.** Where does this material primarily belong?
 
-> Relationships between foliage density and nest survival vary among species and habitats.
+> Nest predation is a major source of reproductive failure in birds and can shape where and when birds reproduce.
 
-`r longmcq(c("Umbrella paragraph", answer = "Literature review", "Conceptual-hole paragraph", "Methods"))`
+`r longmcq(c(answer = "Umbrella paragraph", "Literature review", "Conceptual-hole paragraph", "QHPT paragraph", "Methods"))`
 
 **2.** Where does this material primarily belong?
 
-> We will compare daily predation risk across the observed foliage-density gradient while accounting for nests grouped within study sites.
+> Visually hunting predators can use exposed nest contents and the movements of attending adults as cues when locating nests.
 
-`r longmcq(c("Umbrella paragraph", "Literature review", "Conceptual-hole paragraph", answer = "Methods"))`
+`r longmcq(c("Umbrella paragraph", answer = "Literature review", "Conceptual-hole paragraph", "QHPT paragraph", "Methods"))`
+
+**3.** Where does this material primarily belong?
+
+> Relationships between foliage and nest survival vary among studies, while inconsistent foliage measurements and limited predator identification leave the concealment mechanism unresolved.
+
+`r longmcq(c("Umbrella paragraph", "Literature review", answer = "Conceptual-hole paragraph", "QHPT paragraph", "Methods"))`
+
+**4.** Where does this material primarily belong?
+
+> Dense foliage obstructs the visual cues predators use to locate nests. We therefore predict that visually hunting predators will find nests less often as foliage density increases.
+
+`r longmcq(c("Umbrella paragraph", "Literature review", "Conceptual-hole paragraph", answer = "QHPT paragraph", "Methods"))`
+
+**5.** Where does this material primarily belong?
+
+> We will compare daily predation risk across the observed range of foliage densities while accounting for nests grouped within study sites.
+
+`r longmcq(c("Umbrella paragraph", "Literature review", "Conceptual-hole paragraph", "QHPT paragraph", answer = "Methods"))`
 :::
 
 ## General notes on proposal writing

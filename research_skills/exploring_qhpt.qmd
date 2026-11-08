@@ -12,11 +12,11 @@ By the end of the lesson, you should be able to:
 1.  Explain the roles of the question, hypothesis, prediction, and test in the QHPT framework.
 2.  Distinguish a mechanistic scientific hypothesis from a prediction and a statistical hypothesis.
 3.  Define predictor and response variables and identify each within a prediction.
-4.  Evaluate whether a question, hypothesis, prediction, and test form an aligned conceptual and operational sequence.
+4.  Evaluate whether a question, hypothesis, prediction, and test form an aligned sequence.
 
 ## Elements of the QHPT framework
 
-Throughout these lessons, **QHP** refers to the conceptual sequence of question, hypothesis, and prediction. **QHPT** includes the operational test: the measurements, design, comparison, and analysis used to evaluate the prediction.
+Throughout these lessons, **QHP** refers to the sequence of question, hypothesis, and prediction. **QHPT** adds the measurements, design, comparison, and analysis used to evaluate the prediction.
 
 **Table 1**. The QHPT format in brief.
 
@@ -29,13 +29,13 @@ Throughout these lessons, **QHP** refers to the conceptual sequence of question,
 
 **Question**: The big-picture uncertainty being addressed. Questions are derived from theory and the literature and represent an important idea that advances the field. A useful strategy is to state a broadly applicable conceptual question, then explain how the study organism and location provide an appropriate system in which to address it. Some projects require an explicitly system-specific question. Clarity and alignment matter more than following a grammatical rule.
 
-**Predictor variable**: The variable used to define the conditions, groups, or gradient across which a response is expected to vary. In a simple relationship plot, the predictor is usually placed on the horizontal (*x*) axis. A predictor may be observed or manipulated. Calling it a predictor does not by itself establish that it causes the response.
+**Predictor variable**: The variable used to define the conditions, groups, or range across which a response is expected to vary. In a simple relationship plot, the predictor is usually placed on the horizontal (*x*) axis. A predictor may be observed or manipulated. Calling it a predictor does not by itself establish that it causes the response.
 
 **Response variable**: The measured outcome expected to vary across values or levels of the predictor. In a simple relationship plot, the response is usually placed on the vertical (*y*) axis. The same variable may serve as a response in one relationship and a predictor in another, depending on the question and prediction.
 
-**Hypotheses**: These are potential mechanistic answers to the question, derived from theory and the literature. A strong scientific hypothesis explains *how* or *why* the phenomenon occurs. Frame directional comparisons between predictor and response variables as predictions, using language such as *increases*, *decreases*, *higher*, or *lower* there. Describe theoretically sound, tractable, and relevant alternatives when more than one mechanism could reasonably answer the same question. A statistical hypothesis makes a formal claim about a quantity or distribution, whereas a scientific hypothesis proposes an explanation (Alger 2020, 2022; Table 2).
+**Hypotheses**: These are potential mechanistic answers to the question, derived from theory and the literature. A strong scientific hypothesis explains *how* or *why* the phenomenon occurs. Frame directional comparisons between predictor and response variables as predictions, using language such as *increases*, *decreases*, *higher*, or *lower* there. Describe theoretically sound, relevant alternatives that the study could evaluate when more than one mechanism could reasonably answer the same question. A statistical hypothesis makes a formal claim about a quantity or distribution, whereas a scientific hypothesis proposes an explanation (Alger 2020, 2022; Table 2).
 
-**Predictions**: If a hypothesis and the assumptions linking it to the study are reasonable, what observable pattern should occur? A strong prediction identifies an outcome that would be difficult to reconcile with the proposed mechanism. A failed prediction challenges the hypothesis-test package. It may expose a problem with the mechanism, an auxiliary assumption, the measurement, or the design. Be sure to provide support for the expected pattern. Note:
+**Predictions**: If a hypothesis and the assumptions linking it to the study are reasonable, what observable pattern should occur? A strong prediction identifies an outcome that would be difficult to reconcile with the proposed mechanism. A failed prediction challenges the hypothesis together with the assumptions used to derive and test it. The failure may reflect a problem with the mechanism, an assumption connecting it to the expected pattern, the measurement, or the design. Be sure to provide support for the expected pattern. Note:
 
 -   A prediction describes an expected observation. It does not have to forecast an event in the future. For example, a prediction may describe a relationship expected in data that have already been collected.
 
@@ -43,7 +43,7 @@ Throughout these lessons, **QHP** refers to the conceptual sequence of question,
 
 -   A prediction may be represented by a statistical hypothesis, but the two are not automatically equivalent. A prediction often states: "If `[mechanism and assumptions]` hold, we expect `[predictor]` to have a `[direction]` relationship with `[response]`."
 
-**Tests**: These are the measurements, sampling design, comparison, and analysis used to evaluate the prediction. The introduction usually states the test at a high level, while the methods provide the operational details.
+**Tests**: These are the measurements, the method used to select observations, the comparison, and the analysis used to evaluate the prediction. The introduction usually summarizes the test, while the methods provide the exact procedures.
 
 ::: {.callout-tip title="Why **predictor variable**?"}
 You have likely encountered several other terms for variables used as predictors (e.g., independent variables, explanatory variables, covariates, and factors). Their meanings vary across fields and contexts (see Grace-Martin n.d.). We use **predictor variable** because it describes a variable used to predict variation in a response without implying that the variable was manipulated, causes the response, or is statistically independent of other predictors.
@@ -157,7 +157,7 @@ The research question matters: a hypothesis must answer a particular question. U
 
 The question is: *How does foliage surrounding a nest alter the ability of visual predators to find it?* Which hypothesis, prediction, and test form the most closely aligned sequence?
 
-`r longmcq(c(answer = "Dense foliage obstructs visual cues used by predators → discovery risk declines as foliage density increases → measure foliage density, identify visual-predator visits with cameras, and compare discovery risk across the foliage gradient", "Dense foliage will be associated with lower discovery risk → foliage obstructs visual cues → compare the abundance of adult birds among sites", "Predators use visual cues to find nests → discovery risk increases with foliage density → compare nest height among bird species", "Foliage density differs among nests → visual predators cause nest failure → count every predator observed within each study site"))`
+`r longmcq(c(answer = "Dense foliage obstructs visual cues used by predators → discovery risk declines as foliage density increases → measure foliage density, identify visual-predator visits with cameras, and compare discovery risk across the range of foliage densities", "Dense foliage will be associated with lower discovery risk → foliage obstructs visual cues → compare the abundance of adult birds among sites", "Predators use visual cues to find nests → discovery risk increases with foliage density → compare nest height among bird species", "Foliage density differs among nests → visual predators cause nest failure → count every predator observed within each study site"))`
 :::
 
 ::: {.callout-note collapse="true" title="Explanation"}
@@ -169,7 +169,7 @@ The first sequence aligns all four elements. The hypothesis explains how foliage
 -   A research question identifies the uncertainty or phenomenon that the study seeks to explain.
 -   A scientific hypothesis provides a mechanistic answer to the research question, whereas a prediction states the observable relationship expected if that mechanism operates.
 -   A prediction identifies a predictor variable, a response variable, and an expected pattern or direction. Calling a variable a predictor does not establish that it causes the response.
--   A test connects the conceptual QHP sequence to measurements, a sampling design, a comparison, and an analysis.
+-   A test connects the QHP to measurements, a method for selecting observations, a comparison, and an analysis.
 -   The question, hypothesis, prediction, and test should form an aligned sequence in which each element follows from the one before it.
 
 ## References

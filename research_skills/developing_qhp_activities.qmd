@@ -7,11 +7,23 @@ Proposals usually present the **question**, then the **hypothesis**, and then th
 
 Keep the activities separate. Rough plots, relationship sentences, and possible mechanisms should be easy to revise or discard. Save polishing for after you have explored the alternatives.
 
+## A complete reverse path
+
+Sperry et al. (2012) provide an example of how the pieces can be developed in reverse:
+
+1.  **Variables:** time within the breeding season, rat-snake activity, and cardinal nest survival.
+2.  **Expected relationship:** a plot of nest survival against rat-snake activity would show lower nest survival during periods of greater snake activity.
+3.  **Prediction:** Cardinal nest survival will be lower during periods of greater rat-snake activity.
+4.  **Hypothesis:** Breeding timing determines whether nesting birds are exposed during periods when rat snakes are active.
+5.  **Question:** Why does the association between snake activity and nest survival differ among bird species?
+
+The development path is **variables → plotted relationship → prediction → hypothesis → question**. A proposal presents the resulting ideas in the more familiar order of **question → hypothesis → prediction**.
+
 ## Activity 1: Map and plot expected relationships
 
 Begin with the variables that are available or likely to be available. At this point, do not explain *why* a relationship should occur.
 
-1.  List the variables that could play a meaningful role in the focal system.
+1.  List the variables that could play a meaningful role in the relationship being studied.
 2.  Label possible **predictor** and **response** variables. A variable may play different roles in different relationships.
 3.  Choose one predictor-response pair at a time.
 4.  Place the predictor on the horizontal axis and the response on the vertical axis.
@@ -52,16 +64,16 @@ Now ask what could produce each predicted pattern. Generate more than one mechan
 
 For each prediction:
 
-1.  Make a small ingredient set: the environmental or system condition, an organismal or physical response, and the focal outcome.
+1.  List three components: an environmental condition or other feature of the study system, an organismal or physical response, and the outcome being explained.
 2.  Choose one condition and one response and ask, “Could this response connect the condition to the pattern?” Reject the pairing and try another when it does not make ecological sense.
-3.  Build a because ladder: “The condition changes what the organism or system experiences because ______. That changes the response because ______. That response produces the expected pattern because ______.”
+3.  Build a because ladder: “The condition changes the environment experienced by the organism, or the state of the physical system, because ______. That change affects the response because ______. That response produces the expected pattern because ______.”
 4.  If you can see the outcome but not the pathway, work backward: “What would have to happen immediately before this outcome for it to occur?”
 5.  Write a mechanistic answer without repeating the directional predictor-response comparison.
 6.  Generate plausible alternative mechanisms that could yield the same prediction before evaluating which explanation is strongest.
 
 Avoid directional phrases such as *increases*, *decreases*, *higher*, and *lower* in the hypothesis. Those words make the hypothesis sound like another prediction or a statistical hypothesis. A scientific hypothesis should explain how or why the phenomenon occurs.
 
-In your notes, place the focal hypothesis and any alternatives directly beneath the prediction they could explain. Keep each mechanism on its own line. This arrangement makes it easier to see when several hypotheses produce the same prediction.
+In your notes, place the proposed hypothesis and any alternatives directly beneath the prediction they could explain. Keep each mechanism on its own line. This arrangement makes it easier to see when several hypotheses produce the same prediction.
 
 Each *because* should add causal information. If it only restates the condition or the pattern, the middle of the explanation is still missing. Stop extending the ladder when an informed reader can follow the proposed process.
 
@@ -102,3 +114,7 @@ Suppose you predict that predation risk will decline as foliage density surround
 
 `r longmcq(c(answer = "How does vegetation structure alter the ability of predators to locate nests?", "Is foliage density measured as a percentage?", "Will dense nests have lower predation risk?", "How many nests can be monitored?"))`
 :::
+
+## References
+
+Sperry, J. H., D. G. Barron, and P. J. Weatherhead. 2012. Snake behavior and seasonal variation in nest survival of northern cardinals *Cardinalis cardinalis*. *Journal of Avian Biology* 43:496--502.

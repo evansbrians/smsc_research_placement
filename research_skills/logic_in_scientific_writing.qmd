@@ -468,7 +468,7 @@ The verbs in a scientific paper make claims about the strength of the evidence. 
 |---|---|---|---|
 | Treating a prediction as proof | A hypothesis is inferred from observing its predicted pattern | "confirms that," "proves" | Name rival mechanisms and show where their predictions differ |
 | Correlation as causation | An association is treated as a cause | "X drives Y" | Write "is associated with" and address confounding variables |
-| Hasty generalization | A broad claim rests on few or unrepresentative cases | "Species X cannot ..." | Match the claim to the sites, years, and species sampled |
+| Hasty generalization | A broad claim rests on too few or unrepresentative observations or studies | "Species X cannot ..." | Match the claim to the sites, years, and species sampled |
 | Absence of evidence | An imprecise or nonsignificant result is treated as evidence of no meaningful effect | "X had no effect" | Report the effect estimate and uncertainty, and state what effect sizes the data can and cannot rule out |
 | Appeal to authority | A claim is treated as true because of who made it | "Experts agree" | Cite the evidence, not the reputation |
 | Cherry-picking | Only supporting evidence is cited | Every citation agrees | Represent conflicting results fairly |

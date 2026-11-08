@@ -1,0 +1,147 @@
+---
+title: "Designing your study"
+engine: knitr
+---
+
+A study design connects the QHPT and gap to the observations, measurements, and comparisons needed to evaluate them. You and your mentor will make these decisions together. This lesson helps make the decisions visible, identify the connections among them, and flag what remains unresolved.
+
+## Begin with the QHPT and gap
+
+Start with the literature-informed QHPT and the gap it addresses. For each prediction, identify:
+
+-   The relationship or difference that must be evaluated.
+-   The predictor and response variables.
+-   The observations needed to represent those variables.
+-   Important alternative explanations.
+-   The result that would support the prediction and a result that would be difficult to reconcile with it.
+
+Then check the gap. Every part of the gap should connect to a variable, measurement, comparison, or analysis in the proposed study. A gap that the design cannot address should be narrowed, revised, or removed.
+
+## Choose the study system, area, and timing
+
+Decide where and when the work will occur and why the system is appropriate for the research question. Depending on the project, identify:
+
+-   The study region or system.
+-   The geographic area and time period covered by the study.
+-   Characteristics needed to understand the design.
+-   Why this system provides an appropriate opportunity to evaluate the QHPT.
+
+Include context that affects the sampling, measurements, comparisons, or limits of the study. General natural-history details can wait unless they influence one of those decisions.
+
+## Decide what will be observed or changed
+
+Identify what the study will observe or change and how the observations will be selected:
+
+-   What will be observed or changed, such as nests, birds, plots, or sites.
+-   How sites, individuals, records, or time periods will be selected.
+-   The number and arrangement of observations, if known.
+-   Any conditions imposed by the researcher, groups being compared, ranges being measured, or observations being repeated.
+-   Whether some observations are connected because they come from the same individual, site, or time period.
+
+Describe this structure in ordinary language first. For example: *We will select parks, monitor several nests in each park, and compare nest outcomes while recognizing that nests in the same park share local conditions.* This description identifies what was selected, what was observed, and which observations are connected.
+
+::: {.callout-note collapse="true" title="Technical terms you may encounter"}
+Several technical terms distinguish what is selected, measured, changed, and compared:
+
+-   An **observational unit** is an individual entity on which a measurement is recorded, such as one nest, bird, plot, or survey respondent.
+-   An **experimental unit** is the smallest entity independently assigned to a treatment. If an entire plot receives a treatment, the plot is the experimental unit even when many plants are measured inside it.
+-   A **sampling unit** is the entity selected when the sample is chosen. Researchers might select sites and then observe several nests within each selected site.
+-   The **unit of analysis** is the level at which comparisons are made or conclusions are drawn. It may be a nest, individual, site, or time period.
+
+These may refer to the same thing, but they do not have to. Use a technical term when it helps you and your mentor resolve an important design decision or when the assignment requires it.
+:::
+
+## Identify data sources and collection procedures
+
+Decide where the data will come from. Sources may include field observations, sensors, existing databases, surveys, maps or other geographic datasets, laboratory measurements, or combinations of sources. Record:
+
+-   The source or collection procedure.
+-   Dates or versions when they matter.
+-   How much area and time each observation represents, when relevant. For example, a map value may describe a 30 × 30 m area, while field observations may be recorded daily or monthly.
+-   Rules for which observations will be included or excluded.
+-   Citations needed for established datasets or data-collection procedures.
+
+Focus on choices that affect what the data represent or which observations enter the study. Software commands and routine file-management details do not belong in the study design.
+
+## Define variables and measurements
+
+Define the variables needed to evaluate each prediction. For each important variable, record:
+
+-   The underlying concept.
+-   How that concept will be measured or represented.
+-   What one recorded value represents and its units, such as meters, percent cover, or a daily count.
+-   Whether it is a predictor, a response, an important alternative explanation, or an identifier showing which observations came from the same site, individual, or year.
+-   Any limitation in how the measurement represents the concept.
+
+For example, impervious surface represents one part of urban development. Human activity, food subsidies, noise, and vegetation require other measurements. State both what a variable represents and what it leaves unmeasured.
+
+## Trace the process into a measurement
+
+When a study uses an observable variable to represent a broader process, make the connection explicit:
+
+1.  **Phenomenon:** What part of the system are you trying to understand?
+2.  **Proposed process:** What could produce the expected response?
+3.  **Measurement:** What will you observe to represent that process?
+4.  **Comparison:** What relationship or difference will you evaluate?
+5.  **Supported conclusion:** What conclusion could that result support?
+
+An indirect measurement used to represent a process is often called a **proxy**. The weakest connection is often between the process and this measurement. Ask why the measurement is a useful indicator, what parts of the process it misses, and whether it represents the relevant area and time period. Keep the conclusion focused on what was measured unless other evidence supports the broader interpretation.
+
+## Plan data preparation
+
+Identify processing steps that meaningfully change what a record or value represents or allow different sources to be compared. Examples include:
+
+-   Defining the area around each sampled nest, individual, plot, or site.
+-   Combining repeated observations into daily, monthly, individual-level, or site-level summaries.
+-   Making data collected for different areas or time intervals comparable.
+-   Calculating a new variable from existing measurements.
+-   Applying a rule tied to the biological question when deciding which records to include.
+-   Addressing missing observations.
+
+Focus on what records must be connected or transformed and why. Routine file cleaning and software steps can be worked out after the scientific decisions are clear.
+
+## Plan the analysis
+
+Connect each planned analysis to a prediction. Identify:
+
+-   The response and predictor variables.
+-   The comparison or relationship being evaluated.
+-   What each observation in the analysis represents, such as one measurement of a nest, bird, plot, site, or time period, and whether repeated observations are connected because they come from the same individual or site.
+-   Important alternative explanations that should be considered.
+-   The estimated relationship, difference, or other result that will be interpreted.
+-   Assumptions needed for the analysis and limits on the conclusions it can support.
+
+The name of a statistical model does not explain the analysis. State what the analysis will allow you to compare or estimate and how that result relates to the prediction.
+
+Use [Scientific inference](scientific_inference.qmd) to ask whether the comparison can distinguish the proposed mechanism from important alternatives, whether the measurements represent the same place, time period, and level of observation as the claim, and whether the conclusion stays within what the design can support.
+
+::: now_you
+{{< fa user-circle size=2x >}} [Now you!]{style="font-size: 1.25em; padding-left: 0.5em;"}
+
+**Place the design decision**
+
+**1.** Which decision defines how a concept will be represented in the data?
+
+`r longmcq(c("Choose the study region", answer = "Record foliage density as percent cover within 1 m of each nest", "Select the months included in the study", "Choose the number of parks"))`
+
+**2.** Which decision belongs to the planned analysis?
+
+`r longmcq(c("Record the dates of nest checks", "Describe the source of the foliage data", answer = "Account for nests that share the same study site", "Define the boundaries of each park"))`
+:::
+
+## Activity: build a study-design map
+
+For each prediction, record:
+
+1.  The observations or conditions that will be compared.
+2.  The places, time periods, organisms, and levels of observation represented.
+3.  How observations will be selected or conditions will be changed.
+4.  The predictor, response, and important alternative explanations.
+5.  The measurement used for each concept and the units of each variable.
+6.  The phenomenon → process → measurement → comparison → supported conclusion chain.
+7.  The estimated relationship, difference, or other result that will be used to evaluate the prediction.
+8.  Decisions that still need to be worked out with your mentor.
+
+Look across the map for gaps. Each prediction needs observations, measurements, and a comparison. Each measurement needs a clear meaning. Each proposed conclusion must remain within what the design can support.
+
+**Stopping point:** The study-design map connects every prediction to observations, measurements, and an analysis, and it makes unresolved decisions visible for discussion with your mentor. The completed map becomes an input to [Writing your methods section](methods_planning.qmd).

@@ -3,13 +3,17 @@ title: "Searching the literature"
 engine: knitr
 ---
 
-Use a provisional QHP to guide the search. The literature search will show how researchers describe and explain the focal relationship, provide evidence for a literature review, support the evaluation of possible gaps, and help refine the QHP.
+Use a provisional QHP to guide the search. The literature search will show how researchers describe and explain the relationship being studied, provide evidence for a literature review, support the evaluation of possible gaps, and help refine the QHP.
 
 Use Web of Science to identify a useful set of papers, learn the vocabulary used by researchers who study the system, and determine what the literature currently supports. A focused search serves these goals better than attempting to find every paper ever written about the topic (that way lies madness).
 
-**An important stopping rule:** Build an accurate account of how the literature explains the focal relationship. Do not search for evidence that merely confirms the provisional QHP or try to prove that nobody has studied an exact combination of organism, variable, and location.
+**An important stopping rule:** Build an accurate account of how the literature explains the relationship being studied. Do not search for evidence that merely confirms the provisional QHP or try to prove that nobody has studied an exact combination of organism, variable, and location.
 
-## Step 1: Break your idea into searchable concepts
+## Find the literature
+
+The first six steps help you find a focused set of papers and refine the search as you learn how researchers describe the organism, process, and relationship being studied.
+
+### Step 1: Break your idea into searchable concepts
 
 Before opening Web of Science, use the provisional QHP to identify 2-4 major concepts. For each concept, list synonyms, alternate spellings, and related terms that an author might use. Try these terms in separate searches rather than combining everything into one complicated search statement.
 
@@ -28,7 +32,7 @@ Keep the first searches simple:
 
 **Stopping rule:** You have identified 2-4 major concepts and at least 2-5 possible terms for each concept.
 
-## Step 2: Run a focused Advanced Search
+### Step 2: Run a focused Advanced Search
 
 Open **Advanced Search** in Web of Science. Choose **Topic** as the search field when the interface asks where to search, then enter a small number of ordinary terms or phrases. For example, begin with:
 
@@ -60,7 +64,7 @@ Keep a simple search log so that useful searches do not disappear into your brow
 
 **Stopping rule:** The first page contains several papers that are plausibly relevant, even if many results are not useful. You do not need a perfect search before moving on!
 
-## Step 3: Sort the results in more than one way
+### Step 3: Sort the results in more than one way
 
 Sorting is not cosmetic -- it changes which part of the literature becomes visible first. Review at least the first 10-20 results under each of the following sorts:
 
@@ -79,11 +83,11 @@ As you scan the results, look for:
 -   A recent paper that shows where the field is now.
 -   A paper that uses a method, variable, or conceptual framing that may help your project.
 
-Create a folder or subfolder in Zotero and save promising citations there. At the title-and-abstract level, also note whether each paper is testing a **mechanism**, describing a **pattern**, or evaluating an **intervention**.
+Create a folder or subfolder in Zotero and save promising citations there. While screening titles and abstracts, also note whether each paper tests a **mechanism**, describes a **pattern**, or evaluates the effect of a deliberate change.
 
 **Stopping rule:** You have selected 3-5 promising seed papers and can explain why each one is useful.
 
-## Step 4: Use Related Records to escape your vocabulary
+### Step 4: Use Related Records to escape your vocabulary
 
 Keyword searches can only find the language that you thought to use. **Related Records** helps you find papers that may use different words but participate in a similar scholarly conversation.
 
@@ -93,15 +97,15 @@ For the first several related records:
 
 1.  Read the title and abstract.
 2.  Note useful terms that did not appear in your original search.
-3.  Save papers that address the same mechanism or relationship from a different system or perspective.
+3.  Save papers that address the same mechanism or relationship in a different organism, place, or set of conditions.
 
 **Stopping rule:** You have identified at least one useful new search term and 1-3 related papers that your initial searches did not retrieve.
 
-## Step 5: Track citations backward and forward
+### Step 5: Track citations backward and forward
 
-Once you find a highly relevant paper, use it as a node in the literature rather than treating it as a dead end.
+Once you find a highly relevant paper, use it as a starting point for citation tracking.
 
-### Backward citation tracking
+#### Backward citation tracking
 
 Select **Cited References** or examine the paper's reference list. This takes you backward to the work that the authors used to build their argument. Look backward to find:
 
@@ -110,7 +114,7 @@ Select **Cited References** or examine the paper's reference list. This takes yo
 -   Earlier methods or data sources.
 -   The original evidence supporting a sentence that is especially important to your QHP.
 
-### Forward citation tracking
+#### Forward citation tracking
 
 Select the paper's **Times Cited** count to view **Citing Articles**. This takes you forward to newer work that cited the seed paper. Look forward to find:
 
@@ -119,11 +123,11 @@ Select the paper's **Times Cited** count to view **Citing Articles**. This takes
 -   Disagreements, limitations, or corrections.
 -   More recent syntheses of the topic.
 
-Do not follow every citation! Follow the branches that help you evaluate the QHP or explain the focal relationship.
+Do not follow every citation! Follow citations that help you evaluate the QHP or explain the relationship being studied.
 
 **Stopping rule:** For at least two seed papers, you have examined both the cited references and the citing articles and saved the most useful papers from each direction.
 
-## Step 6: Revise the search and your QHP
+### Step 6: Revise the search and your QHP
 
 Literature searching is iterative. Your first search teaches you how researchers describe the system, and your next search should use what you learned.
 
@@ -131,8 +135,8 @@ Repeat the Advanced Search using what you learned:
 
 -   Adding useful synonyms from keywords and Related Records.
 -   Replacing vague terms with the terms used in relevant papers.
--   Removing concepts that are not central to the focal relationship.
--   Searching directly for a mechanism, moderator, or context suggested by the literature.
+-   Removing concepts that are not central to the relationship being studied.
+-   Searching directly for a mechanism, condition, or setting suggested by the literature.
 
 Then revisit the QHP and the emerging account of the literature:
 
@@ -145,30 +149,34 @@ Be willing to revise or abandon parts of the provisional QHP. The purpose of the
 
 **Stopping rule:** You can describe what changed between your off-the-dome QHP and your literature-informed QHP.
 
-## Step 7: Screen and appraise the evidence
+## Build the evidence base
+
+The first six steps identify and refine a useful set of papers. The next two steps determine what those papers contribute to the study and organize the evidence for synthesis.
+
+### Step 7: Screen and appraise the evidence
 
 Use titles and abstracts to screen citations efficiently. Read the full paper before deciding that a finding supports your argument or citing it.
 
 For each promising paper, record:
 
 -   **Reason for inclusion:** Which part of the QHP or literature-review claim does it inform?
--   **Source and design:** Is it a primary study, synthesis, review, model, manipulative study, or mensurative study?
--   **Directness:** Does it test the focal mechanism, measure only the expected pattern, or provide an analogy from another system?
--   **Scale and context:** At what spatial, temporal, biological, and social scales was the study conducted?
--   **Strengths and limitations:** What features increase or reduce confidence in the inference?
--   **Applicability:** Which parts of the finding are likely to transfer to your proposed system, and which may not?
+-   **Type of evidence and study design:** Does the paper report new observations, synthesize prior studies, develop a model, or present a conceptual argument? If it reports new data, does it measure existing conditions or change a condition deliberately?
+-   **Connection to the QHP:** Does it test the proposed mechanism, measure only the expected pattern, or provide relevant evidence from another organism or setting?
+-   **Organisms, places, and time periods:** Which organisms or groups were studied, where and when were they studied, and at what **level of observation** were data collected: individuals, populations, communities, or another level?
+-   **Strengths and limitations:** What features increase or reduce confidence in the conclusion?
+-   **Relevance to the proposed study:** Which parts of the finding are likely to apply to the organisms and conditions in the proposed study, and which may not?
 -   **Decision:** Include, exclude, or retain for background only.
 
 For papers that are central to the argument, also extract a short causal fragment:
 
 1.  The ecological condition the authors consider important.
-2.  The organismal, physical, or system response that changes.
+2.  The organismal, physical, or environmental response that changes.
 3.  The reason the condition is proposed to affect that response.
-4.  The context in which the connection is expected to hold.
+4.  The conditions under which the connection is expected to hold.
 
-Keep the process distinct from its measurement. Record the process the authors discuss, the observable variable or proxy they use, and the claim they make from the analysis. Mark the connection that requires the strongest assumption. This is often the paper's inferential bottleneck.
+Keep the process distinct from its measurement. Record the process the authors discuss, the observable variable or substitute measure they use, and the claim they make from the analysis. Mark the connection that requires the strongest assumption. This is often the weakest connection between the evidence and the conclusion.
 
-When excluding a paper, record a short reason such as wrong outcome, inappropriate scale, duplicate dataset, or no direct evidence. Base the decision on the paper's fit with the current argument. The study may remain scientifically sound.
+When excluding a paper, record a short reason such as wrong outcome, different organism or conditions, duplicate dataset, or no direct evidence. Base the decision on the paper's fit with the current argument. The study may remain scientifically sound.
 
 ::: {.callout-warning title="Database coverage has limits"}
 Web of Science does not contain every useful source, and no single search captures every vocabulary. If important authors, journals, regions, or kinds of evidence appear to be missing, consult your mentor and supplement the search with an appropriate discipline-specific database or repository. Document what you searched.
@@ -176,9 +184,9 @@ Web of Science does not contain every useful source, and no single search captur
 
 **Stopping rule:** Every paper that you plan to cite has been read in full, has a documented role in the argument, and is not being used to support a claim that it reports only secondhand.
 
-## Step 8: Build a literature-synthesis table
+### Step 8: Build a literature-synthesis table
 
-**Goal:** Systematically extract how knowledge has been generated across studies. This ensures that gaps emerge from patterns in methods, scales, and questions -- not from intuition or a single paper.
+**Goal:** Systematically extract how knowledge has been generated across studies. This ensures that gaps emerge from patterns in methods, organisms, places, time periods, and questions -- not from intuition or a single paper.
 
 Set up a literature-synthesis table in Google Sheets or Excel with the following columns:
 
@@ -186,26 +194,26 @@ Set up a literature-synthesis table in Google Sheets or Excel with the following
 2.  Research question
 3.  Hypotheses
 4.  Predictions
-5.  Scale addressed (e.g., nest site, territory, habitat patch, landscape)
+5.  Organisms, places, and time periods studied, and the level of observation represented
 6.  Process and how it was measured or represented
 7.  Study design and evidence type
 8.  Key findings and interpretation
-9.  Important assumptions or inferential bottlenecks
-10. Directness and applicability to your QHP
+9.  Important assumptions or weak connections between evidence and conclusion
+10. Connection to the QHP and relevance to the proposed study
 11. Unresolved questions and next steps
 
 Use full-text reading to complete the table wherever possible. Once you have roughly 10-15 papers close to your system, read across the table rather than continuing to collect papers automatically. Ask:
 
--   Which mechanisms, variables, scales, or contexts recur?
+-   Which mechanisms, variables, places, time periods, organisms, or levels of observation recur?
 -   Which parts of the relationship are usually studied separately?
--   What does the literature hold fixed, leave implicit, or represent with a broad proxy?
+-   What does the literature hold fixed, leave implicit, or represent with a broad substitute measure?
 -   Where do findings disagree?
 -   Which unresolved questions or explanatory limitations recur across multiple papers?
 -   Does a possible limitation recur across the literature, or is it specific to one study?
--   Are apparently conflicting findings explained by differences in design, measurement, scale, or context?
+-   Are apparently conflicting findings explained by differences in design, measurement, place, time period, organism, or level of observation?
 
 ::: {.callout-tip title="Completion self-check"}
-I can describe how the literature currently explains the focal relationship, identify recurring disagreements or limitations, and explain how the evidence changed the provisional QHP.
+I can describe how the literature currently explains the relationship being studied, identify recurring disagreements or limitations, and explain how the evidence changed the provisional QHP.
 :::
 
 ::: now_you
@@ -213,7 +221,7 @@ I can describe how the literature currently explains the focal relationship, ide
 
 **Choose the search move**
 
-**1.** A useful seed paper describes your focal relationship with unfamiliar terminology. Which action is most likely to reveal papers that participate in the same scholarly conversation despite using different words?
+**1.** A useful seed paper describes the relationship you are studying with unfamiliar terminology. Which action is most likely to reveal papers that participate in the same scholarly conversation despite using different words?
 
 `r longmcq(c("Add every term from the abstract to one search.", answer = "Open Related Records and examine papers with shared cited references.", "Sort once by publication date and stop.", "Restrict the search to the seed paper's study species."))`
 

@@ -105,9 +105,9 @@ We can look for missing steps in our logic with the questions below. A missing l
 
 3.  Between each pair of topic sentences, add a short phrase describing why a claim follows from the previous one:
 
-    -   Positive connections: because, therefore, specifically, which means that
+    -   Causal or inferential connections: because, therefore, specifically, which means that
 
-    -   Negative connections: despite, although, while, however
+    -   Contrasting or qualifying connections: despite, although, while, however
 
     -   Other relationships: is measured by, is associated with, is inferred from, or changes the scale from ______ to ______
 
@@ -121,7 +121,7 @@ We can look for missing steps in our logic with the questions below. A missing l
 
     -   A broad process has silently become a measurement or proxy
 
-    -   The spatial, temporal, or organizational scale has changed without a bridge
+    -   The spatial or temporal scale, or the level of observation, has changed without a bridge
 
     -   The claims are in the wrong order
 
@@ -143,11 +143,11 @@ Use the following labels when outlining:
 
 -   **T = topic sentence/claim**: The proposition the paragraph is trying to establish
 
--   **R = reasoning**: Reasoning behind the topic sentence (claim) or sub-claim. This can also be used to define any ambiguous terms in your claim.
+-   **R = reasoning**: The reasoning needed to connect the topic claim or a subclaim to its support. It can also define a term needed to understand the claim.
 
 -   **E = evidence/example**: Information used to support the claim
 
--   **A = bridge/analysis**: The reasoning that explains how the evidence supports the claim or why it matters
+-   **A = analysis**: The explanation of how the evidence supports or qualifies the claim and why it matters
 
 -   **T = transition/anchor**: What the paragraph has established and how that result becomes available to the larger argument
 

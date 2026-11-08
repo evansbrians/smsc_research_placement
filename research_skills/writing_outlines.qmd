@@ -35,11 +35,11 @@ Treat each stage as a pass rather than a one-way sequence. Complete the work of 
 
 *Note: If your brain starts judging relevance, jot the idea down and keep going. Your job at this stage is to postpone relevance, not eliminate it.*
 
-If the blank page still feels too large, use a bounded ingredient set. List material under a few concrete prompts: important conditions, organismal or system responses, evidence, measurements, possible outcomes, uncertainties, and alternative explanations. Select and connect ingredients rather than trying to retrieve the entire argument at once.
+If the blank page still feels too large, organize notes under a few concrete prompts: important conditions, organismal or system responses, evidence, measurements, possible outcomes, uncertainties, and alternative explanations. Work through one prompt at a time rather than trying to retrieve the entire argument at once.
 
-**Observable output**: A flat list of bullets that is messy and potentially repetitive!
+**What this stage produces**: A flat list of bullets that is messy and potentially repetitive!
 
-**I am done when** ... the relevant ingredient categories have material in them and the task no longer depends on holding all of the ideas in working memory.
+**I am done when** ... the relevant prompts have notes beneath them and the task no longer depends on holding all of the ideas in working memory.
 
 ## Stage 2. Grouping and arranging
 
@@ -67,7 +67,7 @@ If the blank page still feels too large, use a bounded ingredient set. List mate
 
 *Note: If you feel the urge to delete something, that's a sign that you're doing the next stage too early.*
 
-**Observable output**: A bulleted list where bullets are clustered into loose groups. Groups may overlap, feel redundant, and it's totally okay if the end product is messy!
+**What this stage produces**: A bulleted list where bullets are clustered into loose groups. Groups may overlap, feel redundant, and it's totally okay if the end product is messy!
 
 **I am done when** ... every bullet has a category, even if the classification is awkward.
 
@@ -95,13 +95,13 @@ If the blank page still feels too large, use a bounded ingredient set. List mate
 
 *Note: The Recycling Bin may contain strong ideas whose role falls outside the current paragraph's job.*
 
-**Observable output**: A bulleted list that includes a short paragraph descriptor and a tight set of bullets that clearly belong. At this point you should also have a Recycling Bin!
+**What this stage produces**: A bulleted list that includes a short paragraph descriptor and a tight set of bullets that clearly belong. At this point you should also have a Recycling Bin!
 
 **I am done when** ... I know what the paragraph is about and every retained bullet is there for a reason.
 
 ## Stage 4. Writing outline
 
-**Goal**: Convert your outline into a sentence-ready execution plan. *Note: Not all paragraphs require all of the elements listed below. Use only what is appropriate for the purpose of the paragraph.*
+**Goal**: Convert your outline into a detailed plan for drafting. *Note: Not all paragraphs require all of the elements listed below. Use only what is appropriate for the purpose of the paragraph.*
 
 **Instructions**. Do:
 
@@ -131,11 +131,11 @@ If the blank page still feels too large, use a bounded ingredient set. List mate
 
 *Note: Fragments are expected below the topic sentence.*
 
-**Observable output**: A bulleted list bounded by a complete-but-messy topic sentence and anchor sentence, with evidence/support and evaluation fragments between them.
+**What this stage produces**: A bulleted list bounded by a complete-but-messy topic sentence and anchor sentence, with evidence/support and evaluation fragments between them.
 
 **I am done when** ... Future Me could draft the paragraph without having to solve the argument again.
 
-### The draftability threshold
+### When the outline is ready for drafting
 
 Outlining is useful while it resolves reasoning. Begin drafting when the remaining difficulty is primarily how to express the ideas.
 
@@ -163,7 +163,7 @@ The same return loop applies during the logic test. If the test reveals missing 
 
 ## Activity: outline the proposal introduction
 
-Use the four stages with a literature-synthesis packet, a tentative gap, and a literature-informed QHP.
+Use the four stages with your literature-synthesis notes, a tentative gap, and a literature-informed QHP.
 
 1.  **Brainstorm:** List the broad context, working synthesis statements, evidence, qualifications, gap reasoning, question, mechanistic hypothesis, prediction, proposed test, and implications.
 2.  **Group and arrange:** Group material into the umbrella, literature review, gap, and QHP components. Keep the question, hypothesis, and prediction distinct.

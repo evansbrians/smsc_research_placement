@@ -22,8 +22,8 @@ The companion book, [Research skills](../research_skills/index.html), covers dev
 
 This book brings together the research-development materials for your SMSC research placement. It currently contains two parts:
 
-1. **Background**: the QHPT framework and scientific inference
-2. **Developing a research proposal**: understanding the proposal, evaluating logic and paragraph structure, searching and synthesizing the literature, identifying a gap, refining your QHPT, planning methods, and outlining a research proposal
+1. **Developing your study (DYS)**: developing and refining a QHP, searching and synthesizing the literature, identifying a defensible gap, evaluating scientific inference, and designing the study
+2. **Developing your research proposal (DYP)**: understanding the proposal, evaluating logic and paragraph structure, constructing a writing outline, writing the methods section, and testing the outline's logic
 
 Additional chapters will be added when you begin developing your research presentation and abstract.
 

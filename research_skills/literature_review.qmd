@@ -3,11 +3,11 @@ title: "Synthesizing the literature"
 engine: knitr
 ---
 
-Literature synthesis asks what the collected studies establish about the focal concepts, processes, and relationships. The immediate goal is a set of evidence-linked synthesis notes that can be used to evaluate possible gaps. Decisions about paragraph jobs, order, topic sentences, anchors, and TREAT components belong in [The four-stage outline process](writing_outlines.qmd).
+Literature synthesis asks what the collected studies establish about the concepts, processes, and relationships needed to understand the proposed study. The immediate goal is a set of evidence-linked synthesis notes that can be used to evaluate possible gaps.
 
 Begin with the papers and evidence recorded during [Searching the literature](literature_search.qmd). Read across those papers to identify areas of agreement, disagreement, qualification, and uncertainty. Return to searching when the available evidence cannot support or evaluate an important part of the emerging account.
 
-## Identify the focal ideas
+## Identify the components of the explanation
 
 Begin with the literature-informed QHP. List the ideas needed to understand the proposed mechanism and expected relationship:
 
@@ -15,38 +15,38 @@ Begin with the literature-informed QHP. List the ideas needed to understand the 
 2.  Which mechanisms could explain it?
 3.  Which expected patterns follow from those mechanisms?
 4.  How have the central concepts been measured or represented?
-5.  At which spatial, temporal, and biological scales have they been studied?
+5.  Which places, time periods, organisms, and levels of observation have been studied?
 6.  Which organisms, systems, or contexts may affect the relationship?
 
-Use these questions to create a short list of focal ideas. A focal idea may be a process, relationship, measurement problem, source of variation, or boundary condition. Keep these as working categories for reading across studies. Their eventual relationship to paragraphs will be decided during outlining.
+Use these questions to list the components needed for the explanation. A component may be a process, relationship, measurement problem, source of variation, or condition under which a relationship changes. Use these components to organize comparisons across studies. Their eventual relationship to paragraphs will be decided during outlining.
 
 ## Read across papers
 
-Use the literature-synthesis table and full-text notes from the search lesson. For each focal idea, compare the studies that inform it:
+Use the literature-synthesis table and full-text notes from the search lesson. For each component of the explanation, compare the studies that inform it:
 
 -   Which findings are consistent across studies?
 -   Which findings conflict or vary among contexts?
 -   Which studies test the proposed mechanism directly?
 -   Which studies document only the expected pattern?
--   How does each study measure the focal concept or process?
--   Which differences in design, scale, organism, or setting could explain different results?
+-   How does each study measure the relevant concept or process?
+-   Which differences in design, place, time period, organism, or level of observation could explain different results?
 -   Which assumptions connect the measurements to the authors' conclusions?
 -   Which important parts of the explanation still lack evidence?
 
-One paper may inform several focal ideas, and several papers may provide different parts of the same explanation. For example, one study may establish a change in environmental conditions, another an organismal response, and another the consequence for the focal outcome. Record the contribution that each paper actually makes without extending it to the entire explanation.
+One paper may inform several components, and several papers may provide different parts of the same explanation. For example, one study may establish a change in environmental conditions, another an organismal response, and another the consequence for the outcome being explained. Record the contribution that each paper actually makes without extending it to the entire explanation.
 
 ## Write working synthesis statements
 
 A **working synthesis statement** records a conclusion that the combined literature currently supports. It is a tool for comparing evidence and exposing uncertainty. Its wording can remain rough because it is not yet a topic sentence.
 
-For each focal idea, record:
+For each component of the explanation, record:
 
 -   A working synthesis statement.
 -   The studies and findings that support it directly.
 -   Evidence that conflicts with or qualifies it.
--   The organisms, places, times, and scales represented by the evidence.
+-   The organisms, places, time periods, and levels of observation represented by the evidence.
 -   Differences in measurement or study design that affect comparison.
--   The assumptions or inferential limits attached to the statement.
+-   The assumptions or limits on the conclusion.
 -   Additional evidence that would strengthen, narrow, or overturn it.
 
 Aim for an accurate statement of the current evidence rather than the strongest possible generalization. A finding reported secondhand can help locate the original paper, while the original paper should supply the evidence used in the synthesis.
@@ -75,7 +75,7 @@ Evaluate each working statement before carrying it forward:
 2.  Are multiple citations based on independent studies or the same underlying dataset?
 3.  Does each source support the attached claim, or does it only cite another source for that finding?
 4.  Are conflicting results represented fairly?
-5.  Does the statement stay within the organisms, places, periods, and scales represented by the evidence?
+5.  Does the statement stay within the organisms, places, time periods, and levels of observation represented by the evidence?
 6.  Do differences in measurement make the studies difficult to compare?
 7.  What evidence would make the statement narrower, broader, or untenable?
 
@@ -94,17 +94,17 @@ Which statement synthesizes evidence rather than listing studies?
 ::: now_you
 {{< fa user-circle size=2x >}} [Now you!]{style="font-size: 1.25em; padding-left: 0.5em;"}
 
-**Build a literature-synthesis packet**
+**Build a set of synthesis notes**
 
-1.  Select two to four focal ideas from the QHP and the literature-synthesis table.
-2.  Group the relevant studies under each focal idea. A study may appear in more than one group.
-3.  Write one working synthesis statement for each focal idea.
-4.  Attach the direct evidence, conflicting evidence, scope, measurements, and inferential limits to each statement.
+1.  Select two to four components from the QHP and the literature-synthesis table.
+2.  Group the relevant studies under each component. A study may appear in more than one group.
+3.  Write one working synthesis statement for each component.
+4.  Attach the direct evidence, conflicting evidence, organisms, places, time periods, measurements, and limits on the conclusion to each statement.
 5.  Identify the part of each statement that rests on the strongest assumption.
 6.  List any targeted searches or full-text reading needed to evaluate the statement.
 7.  Revise the QHP when the synthesis changes the plausible mechanism, expected pattern, or appropriate scope.
 :::
 
-The completed packet provides the evidence needed to evaluate possible gaps in [Gap hunting](gap_hunting.qmd). It also supplies the synthesis notes used to determine paragraph jobs and construct a writing outline in [The four-stage outline process](writing_outlines.qmd).
+The completed synthesis notes provide the evidence needed to evaluate possible gaps in [Gap hunting](gap_hunting.qmd). They also supply the material used to determine paragraph jobs and construct a writing outline in [The four-stage outline process](writing_outlines.qmd).
 
-**Stopping point:** You can state what the literature currently supports for each focal idea, identify the evidence and boundaries attached to each statement, represent important disagreements, and name the searches or reading still needed. Paragraph decisions remain for the four-stage outline process.
+**Stopping point:** You can state what the literature currently supports for each component of the explanation, identify the evidence and limits attached to each statement, represent important disagreements, and name the searches or reading still needed. Paragraph decisions remain for the four-stage outline process.

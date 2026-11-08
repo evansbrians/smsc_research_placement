@@ -1,111 +1,11 @@
 ---
-title: "Planning and writing a methods section"
+title: "Writing your methods section"
 engine: knitr
 ---
 
-The methods section must make visible where information comes from, how observations are produced, and how they will address the research question. You and your mentor will work through the design and analysis together. The writer's task is to organize those decisions and flag what remains unresolved.
+The study-design map developed in [Designing your study](designing_your_study.qmd) connects the QHPT to the observations, measurements, comparisons, and analyses needed to evaluate it. This lesson focuses on making those decisions clear to a reader.
 
-## The parts of a methods section
-
-The organization of a methods section depends on the project. The parts below are common, but they do not always require separate headings or paragraphs. Combine, separate, or reorder them when that makes the procedure easier to follow.
-
-### Study system, area, and timing
-
-Orient the reader to where and when the work will occur and why the system is appropriate for the research question. Depending on the project, include:
-
--   The study region or system.
--   The geographic area and time period covered by the study.
--   Characteristics needed to understand the design.
--   A brief rationale for using this system.
-
-Do not turn this part into a general natural-history description. Include only context needed to understand the sampling, measurements, or limits of the study.
-
-### Study design and sampling
-
-Explain what will be observed or changed and how the observations will be selected. Identify:
-
--   What will be observed or manipulated, such as nests, birds, plots, or sites.
--   How sites, individuals, records, or time periods will be selected.
--   The number and arrangement of observations, if known.
--   Any conditions imposed by the researcher, groups being compared, ranges being measured, or observations being repeated.
--   Whether some observations are connected because they come from the same individual, site, or time period, such as several nights observed for one bird or several plots within one site.
-
-Describe this structure in ordinary language first. For example: *We will select parks, monitor several nests in each park, and compare nest outcomes while recognizing that nests in the same park share local conditions.* This tells the reader what was selected, what was observed, and which observations are connected.
-
-::: {.callout-note collapse="true" title="Technical terms you may encounter"}
-Several technical terms distinguish what is selected, measured, changed, and compared:
-
--   An **observational unit** is one thing that is measured, such as one nest, bird, plot, or survey response.
--   An **experimental unit** is the smallest thing independently assigned to a treatment. If an entire plot receives a treatment, the plot is the experimental unit even when many plants are measured inside it.
--   A **sampling unit** is the thing selected when the sample is chosen. Researchers might select sites and then observe several nests within each selected site.
--   The **unit of analysis** is what counts as one case in the comparison or statistical analysis. It may be a nest, individual, site, or time period.
-
-These may refer to the same thing, but they do not have to. Use a technical term when it helps you and your mentor resolve an important design decision or when the assignment requires it.
-:::
-
-### Data sources and collection
-
-Describe where the data will come from. This may include field observations, sensors, existing databases, surveys, maps or other geographic datasets, laboratory measurements, or combinations of sources. Include:
-
--   The source or collection procedure.
--   Dates or versions when they matter.
--   How much area and time each observation represents, when relevant. For example, a map value may describe a 30 × 30 m area, while field observations may be recorded daily or monthly.
--   Rules for which observations will be included or excluded.
--   Citations for established datasets or data-collection procedures.
-
-Avoid software commands and routine file-management details. Include choices that affect what the data represent or which observations enter the study.
-
-### Variables and measurements
-
-Define the variables needed to test each prediction. For each important variable, make clear:
-
--   The underlying concept.
--   How that concept will be measured or represented.
--   What one recorded value represents and its units, such as meters, percent cover, or a daily count.
--   Whether it is a predictor, a response, an important alternative explanation, or an identifier showing which observations came from the same site, individual, or year.
--   Any limitation in how the measurement represents the concept.
-
-For example, impervious surface represents one part of urban development. Human activity, food subsidies, noise, and vegetation require other measurements. Explain both what a variable represents and what it leaves unmeasured.
-
-### Trace the process into a measurement
-
-When a study uses an observable variable to represent a broader process, make the connection explicit:
-
-1.  **Phenomenon:** What part of the system are you trying to understand?
-2.  **Proposed process:** What could produce the expected response?
-3.  **Measurement:** What will you observe to represent that process?
-4.  **Comparison:** What relationship or difference will you evaluate?
-5.  **Allowable claim:** What could that result support?
-
-An indirect measurement used to represent a process is often called a **proxy**. The weakest connection is often between the process and this measurement. Ask why the measurement is a useful indicator, what parts of the process it misses, and whether it represents the relevant area and time period. Keep the conclusion focused on what was measured unless other evidence supports the broader interpretation.
-
-### Data preparation
-
-Describe processing steps that meaningfully change what a record or value represents or allow different sources to be compared. Examples include:
-
--   Defining the area around each sampled nest, individual, plot, or site.
--   Combining repeated observations into daily, monthly, individual-level, or site-level summaries.
--   Making data collected for different areas or time intervals comparable.
--   Calculating a new variable from existing measurements.
--   Applying a rule tied to the biological question when deciding which records to include.
--   Addressing missing observations.
-
-Do not narrate routine file cleaning or software steps. Instead, explain which records were linked, what identifier connected them, and why that connection was necessary.
-
-### Analysis
-
-Connect each analysis to a prediction. A reader should be able to identify:
-
--   The response and predictor variables.
--   The comparison or relationship being evaluated.
--   What counts as one case and whether some cases are connected because they come from the same individual, site, or time period.
--   Important alternative explanations that should be considered.
--   The output that will be interpreted.
--   Assumptions needed for the analysis and limits on the conclusions it can support.
-
-The name of a statistical model is not an explanation of the analysis. State what the analysis will allow you to compare or estimate and how that output relates to the prediction.
-
-Return to [Scientific inference](scientific_inference.qmd) while planning this part. Ask whether the proposed comparison can distinguish the focal mechanism from important alternatives, whether the measurements represent the same place, time period, and biological level as the claim, and whether the conclusion stays within what the design can support.
+A methods section explains where information comes from, how observations are produced, and how they will address the research question. Its organization depends on the project. Common jobs include orienting the reader to the study system, explaining the design and sampling, identifying data sources, defining variables and measurements, describing meaningful data preparation, and connecting each analysis to a prediction. These jobs do not always require separate headings or paragraphs.
 
 ## Make a methods-section map
 
@@ -125,7 +25,7 @@ A useful starting set is:
 -   **Variables and preparation:** Define what will be measured and how it will be represented.
 -   **Analysis:** Explain how the predictions will be evaluated.
 
-Add, remove, split, or combine notes to match the project. The map describes the writing work. You will decide the methods with your mentor.
+Add, remove, split, or combine notes to match the project. The map describes the writing work and exposes unresolved design decisions for discussion with your mentor.
 
 Use the working flags introduced in the outlining lesson:
 
@@ -143,11 +43,11 @@ TREAT still helps in a methods section, but the letters perform somewhat differe
 |---|---|
 | **T: Topic sentence** | State the paragraph's procedural job or the design choice it explains. |
 | **R: Reasoning** | Explain why the choice is appropriate for the question, prediction, place, time period, or study system. |
-| **E: Evidence or execution detail** | Supply the concrete information needed to understand or reproduce the procedure: what was observed, dates, sources, measurements, selection rules, or citations for established procedures. |
+| **E: Evidence or procedural detail** | Supply the concrete information needed to understand or reproduce the procedure: what was observed, dates, sources, measurements, selection rules, or citations for established procedures. |
 | **A: Analysis or alignment** | Explain how the details turn a concept into a measurement, address a prediction, support a comparison, or limit the conclusion. Do not discuss findings here. |
 | **T: Transition** | Connect this procedure to the measurement or analysis it makes possible. |
 
-Not every methods paragraph needs all five elements, and they do not need to occur once each. A straightforward procedural paragraph may be mostly **T-E-E-A**. A paragraph explaining an unusual design choice may need more **R**. An analysis paragraph may cycle through prediction, model details, and the output that will be interpreted.
+Not every methods paragraph needs all five elements, and they do not need to occur once each. A straightforward procedural paragraph may be mostly **T-E-E-A**. A paragraph explaining an unusual design choice may need more **R**. An analysis paragraph may cycle through prediction, model details, and the estimated relationship or difference that will be interpreted.
 
 ### Example: a study-system and sampling paragraph outline
 
@@ -180,15 +80,15 @@ Here, the **A** tells the reader how an eventual result would connect to the pre
 ::: now_you
 {{< fa user-circle size=2x >}} [Now you!]{style="font-size: 1.25em; padding-left: 0.5em;"}
 
-**Place the methods detail**
+**Identify the TREAT job**
 
-**1.** Where does the statement “Foliage density will be recorded as percent cover within 1 m of each nest” primarily belong?
+**1.** Which TREAT job is performed by “Variation in foliage density is needed to evaluate the predicted relationship between visual concealment and predation risk”?
 
-`r longmcq(c("Reason for choosing the study system", answer = "Variables and measurements", "Data preparation", "Interpretation of results"))`
+`r longmcq(c("Topic sentence", answer = "Reasoning", "Evidence or procedural detail", "Transition"))`
 
-**2.** Where does the statement “Several nests come from each study site, so the analysis must account for their shared site” primarily belong?
+**2.** Which TREAT job is performed by “Foliage density will be recorded as percent cover within 1 m of each nest”?
 
-`r longmcq(c("Reason for choosing the study system", "Variables and measurements", "Data sources and collection", answer = "Analysis"))`
+`r longmcq(c("Topic sentence", "Reasoning", answer = "Evidence or procedural detail", "Transition"))`
 :::
 
 ## Activity: outline the methods section
@@ -197,7 +97,7 @@ Work from project notes, available data documentation, and decisions made with y
 
 1.  Create a methods-section map and give each proposed paragraph one job.
 2.  Place the information already available beneath the appropriate paragraph.
-3.  For each important variable, trace the phenomenon, proposed process, measurement, comparison, and allowable claim. Mark the weakest connection.
+3.  Bring forward each phenomenon → process → measurement → comparison → supported conclusion chain from the study-design map. Mark the weakest connection.
 4.  Mark unresolved decisions with `[TBD]`, missing sources with `[citation]`, and uncertain material with `[?]`.
 5.  Choose one paragraph and convert it into a TREAT writing outline.
 6.  Write only the topic and anchor sentences in full. Keep the remaining material as labeled fragments.
@@ -210,7 +110,7 @@ Add the mapped methods paragraphs to the proposal outline. Use [Testing your out
 Before drafting prose, ask:
 
 -   Does every paragraph have a distinct job?
--   Can the reader tell where the study occurs, what was selected or observed, and what counts as one case in the analysis?
+-   Can the reader tell where the study occurs, what was selected or observed, and what each observation in the analysis represents?
 -   Are data sources, measurements, and data-processing choices that affect meaning visible?
 -   Can each prediction be traced to measurements and an analysis?
 -   Are processes distinguished from their measurements or proxies, and are the assumptions connecting them visible?

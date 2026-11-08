@@ -13,13 +13,13 @@ By the end of the lesson, you should be able to:
 
 1.  Distinguish a direct observation, an empirical pattern, and an inference about process.
 2.  Explain why observing a predicted pattern supports but does not prove a hypothesis.
-3.  Identify when a conclusion exceeds the places, times, organisms, or scales represented by the evidence.
+3.  Identify when a conclusion exceeds the places, times, organisms, spatial or temporal scales, or levels of observation represented by the evidence.
 4.  Explain why comparison, random assignment, replication, and multiple lines of evidence affect inferential strength.
 5.  Revise a scientific claim so that its observation, inference, scope, and alternatives are visible.
 
 ## Observations and inferences
 
-An **observation** is a record of what was seen, measured, or counted. An **empirical pattern** summarizes multiple observations in the cases studied. An **inference** extends beyond those recorded cases or proposes an explanation for them. The distinction is easiest to see side by side:
+An **observation** is a record of what was seen, measured, or counted. An **empirical pattern** summarizes a relationship or regularity among observations. An **inference** extends beyond the observations collected or proposes an explanation for them. The distinction is easiest to see side by side:
 
 | Observation or empirical pattern | Inference |
 |---|---|
@@ -29,7 +29,7 @@ An **observation** is a record of what was seen, measured, or counted. An **empi
 
 Each inference in the right column could be wrong even if the observation beside it is correct. An empty nest may have been abandoned, and its eggs removed later by a scavenger. A snake that visits a nest may not be the animal that emptied it. Dense shrubs may grow where predators are scarce for some other reason.
 
-Description is an important scientific goal, and careful observations may reveal previously unknown patterns. Inference allows us to generalize those patterns beyond the cases observed or explain why they occurred. The problem arises when we present an inference as though it were an observation, because the reader then cannot see the step that needs support.
+Description is an important scientific goal, and careful observations may reveal previously unknown patterns. Inference allows us to generalize those patterns beyond the organisms, places, or times observed or explain why they occurred. The problem arises when we present an inference as though it were an observation, because the reader then cannot see the step that needs support.
 
 ### An inferential bridge made visible
 
@@ -42,7 +42,7 @@ The observations are seasonal records of snake activity and nest fate. The infer
 ::: now_you
 {{< fa user-circle size=2x >}} [Now you!]{style="font-size: 1.25em; padding-left: 0.5em;"}
 
-Please decide whether each statement is a direct observation, an empirical pattern in the cases studied, or an inference.
+Please decide whether each statement is a direct observation, an empirical pattern among the observations collected, or an inference.
 
 **1.** Among the wood thrushes observed, females in the urban plots began laying eggs earlier than females in the rural plots.
 
@@ -72,11 +72,11 @@ Please decide whether each statement is a direct observation, an empirical patte
 
 Scientific inferences usually move through distinct levels:
 
--   A **description** reports what was observed in particular cases. *Twelve of 30 nests near trails failed.*
--   A **pattern** is a regularity across cases. *Nests near trails failed more often than nests far from trails.*
+-   A **description** reports what was observed in the sampled organisms, places, or time periods. *Twelve of 30 nests near trails failed.*
+-   A **pattern** is a regularity among observations. *Nests near trails failed more often than nests far from trails.*
 -   A **process** is the mechanism that produces a pattern. *Predators use trails as travel routes and find nests along them.*
 
-Each level claims more than the level below it, and each requires more support. A description needs careful measurement. A pattern needs enough cases, collected in comparable ways, to show that the regularity is not a coincidence of a few nests. A claim that the pattern extends to unobserved cases also requires a sampling argument. A process needs evidence that the proposed mechanism, and not some other mechanism, produced the pattern.
+Each level claims more than the level below it, and each requires more support. A description needs careful measurement. A pattern needs enough observations, collected in comparable ways, to show that the regularity is not a coincidence of a few nests. A claim that the pattern extends to organisms, places, or times that were not sampled also requires evidence that the sample represents them. A process needs evidence that the proposed mechanism, and not some other mechanism, produced the pattern.
 
 The QHPT framework uses the same distinction. A hypothesis describes a process, and a prediction describes the pattern that the process should produce (see [The QHPT framework](exploring_qhpt.qmd)).
 
@@ -86,7 +86,7 @@ A common error in student writing is to describe a pattern and then describe it 
 
 When a predicted pattern is observed, it provides evidence for the hypothesis that generated the prediction. It does not prove the hypothesis because another mechanism may predict the same pattern. Reaching the process level requires showing that rival mechanisms do not explain the pattern equally well.
 
-Karl Popper (1959) argued that scientific hypotheses must be **falsifiable**: they must rule out at least some observable outcomes. In practice, researchers test a hypothesis together with assumptions about measurement, sampling, and analysis. A failed prediction challenges this hypothesis-test package. The failure may expose a problem with the mechanism, an assumption, the measurement, or the design.
+Karl Popper (1959) argued that scientific hypotheses must be **falsifiable**: they must rule out at least some observable outcomes. In practice, researchers test a hypothesis together with assumptions about measurement, sampling, and analysis. A failed prediction may therefore expose a problem with the mechanism, one of those assumptions, the measurement, or the design.
 
 A confirmed prediction provides stronger evidence when the prediction was risky: few alternative mechanisms predict the same result. It provides weaker evidence when every plausible alternative predicts that result.
 
@@ -96,20 +96,21 @@ A confirmed prediction provides stronger evidence when the prediction was risky:
 
 ## The scope of an inference
 
-Every inference has a **scope**: the places, times, organisms, and scales to which the conclusion applies. An inference is only as broad as the cases that support it.
+Every inference has a **scope**: the places, times, organisms, spatial or temporal scales, and levels of observation to which the conclusion applies. An inference is only as broad as the observations that support it.
 
 Let's take a study of nest survival in suburban yards in Washington, DC, during two breeding seasons, using gray catbirds. At minimum, we can use these observations to describe the sampled catbird nests in those yards and years. Extending the conclusion to other catbird nests in the same setting depends on how those nests were sampled. We may reasonably *propose* that the results apply to other suburban songbirds or other cities, but that broader claim is a new inference that requires its own support, such as similar results from other studies.
 
-Scope has several dimensions, and a claim can exceed its evidence in any of them:
+Scope has several dimensions, and a claim can exceed its evidence in any of them. **Spatial and temporal scale** describe the area and duration represented by an observation or conclusion. **Level of observation** describes whether the observations and conclusion concern individuals, populations, communities, or another level of organization.
 
 | Dimension | Question to ask | Example of overreach |
 |---|---|---|
 | Place | Where were the observations made? | Results from one forest are written as true of "forests." |
 | Time | When were the observations made? | Results from one wet year are written as typical. |
 | Organism | Which species or groups were studied? | Results from catbirds are written as true of "songbirds." |
-| Scale | At what level were the observations made? | A pattern across cities is written as true of individual birds. |
+| Spatial or temporal scale | What area and duration does each observation or result represent? | Vegetation measured within 1 m of nests is used to make a conclusion about the surrounding landscape. |
+| Level of observation | Were observations made on individuals, populations, communities, or another level of organization? | A pattern across cities is written as true of individual birds. |
 
-The last row deserves attention because the error is difficult to see. A pattern measured across groups does not necessarily describe the individuals within those groups. If cities with more free-ranging cats have fewer nesting birds, it does not follow that, within those cities, yards with more cats have fewer nesting birds. The city-level association and the yard-level association may differ or even point in opposite directions. Reasoning from a group-level pattern to an individual- or lower-level relationship is called the **ecological fallacy**. Questions about whether wealth, housing density, or vegetation produced the city-level association are related but distinct questions about confounding.
+The level-of-observation row deserves attention because the error is difficult to see. A pattern measured across groups does not necessarily describe the individuals within those groups. If cities with more free-ranging cats have fewer nesting birds, it does not follow that, within those cities, yards with more cats have fewer nesting birds. The city-level association and the yard-level association may differ or even point in opposite directions. Reasoning from a group-level pattern to an individual- or lower-level relationship is called the **ecological fallacy**. Questions about whether wealth, housing density, or vegetation produced the city-level association concern **confounding**, in which another variable could explain the observed association.
 
 A study of one place can still inform research in other places, provided that we state the scope of the evidence and mark any extension beyond it as an extension.
 
@@ -123,7 +124,7 @@ An inference about cause always rests on a comparison. "Nest survival was 30% in
 
 ### Mensurative and manipulative studies
 
-In a **mensurative (i.e., observational) study**, researchers measure conditions as they occur in nature. Mensurative studies show whether a proposed cause and response vary together under the magnitudes, timing, duration, and environmental context of the phenomenon being studied. Other differences among the observed cases can still provide alternative explanations for the relationship.
+In a **mensurative (i.e., observational) study**, researchers measure conditions as they occur in nature. Mensurative studies show whether a proposed cause and response vary together under the magnitudes, timing, duration, and environmental conditions of the phenomenon being studied. Other differences among the observed organisms, sites, or time periods can still provide alternative explanations for the relationship.
 
 In a **manipulative study**, researchers change a proposed cause and compare the response with places or individuals where they did not make that change. Random assignment, an appropriate comparison group, and independent replication strengthen the design. Random assignment reduces systematic differences between treatment groups. Replication helps separate the treatment effect from the peculiarities of one site or individual.
 
@@ -131,7 +132,7 @@ A well-designed manipulation that produces a response establishes that the impos
 
 Paine (1966) removed the predatory sea star *Pisaster ochraceus* from a stretch of rocky shore in Washington State and compared it with an undisturbed stretch. Where the sea star was removed, mussels and barnacles spread and the number of species declined. The intervention showed that removing the sea star could cause major changes in the intertidal community. Complete removal was an imposed change, and the limited number of shore stretches constrains how broadly the result can be generalized. Mensurative evidence from natural variation in sea-star activity, prey populations, and community composition is needed to determine how the process operates across shorelines.
 
-Many ecological questions cannot be answered by manipulation. No one can assign climate or urbanization to sites at random. In those cases, researchers may use a **natural experiment**, a comparison created by events or rules outside the researcher's control. A natural experiment supports a strong causal inference only when there is a credible reason that the compared cases would otherwise have followed similar paths. The writer must explain why the event approximates assignment and why the most important alternative explanations are unlikely.
+Many ecological questions cannot be answered by manipulation. No one can assign climate or urbanization to sites at random. In those situations, researchers may use a **natural experiment**, a comparison created by events or rules outside the researcher's control. A natural experiment supports a strong causal inference only when there is a credible reason that the compared groups, places, or time periods would otherwise have followed similar paths. The writer must explain why the event approximates assignment and why the most important alternative explanations are unlikely.
 
 ### Multiple lines of evidence
 
@@ -198,19 +199,19 @@ The revision states the observed comparison before offering an explanation, limi
 Use this self-check on your revision:
 
 -   Can a reader underline the observed result without also underlining the explanation?
--   Does the conclusion stay within the sampled places, times, organisms, and scale, or clearly mark an extension beyond them?
+-   Does the conclusion stay within the sampled places, times, organisms, spatial or temporal scale, and level of observation, or clearly mark an extension beyond them?
 -   Does the wording distinguish association from cause?
 -   Is at least one plausible alternative explanation visible?
 -   Does the evidence provide a reason to favor the proposed explanation over the alternative?
 
 ## Take-home points
 
--   An observation records what was seen or measured. An empirical pattern summarizes observations in the cases studied. An inference generalizes or explains those observations.
+-   An observation records what was seen or measured. An empirical pattern summarizes a relationship or regularity among observations. An inference generalizes or explains those observations.
 -   Description is an important scientific goal, but a writer must not present an inference as though it were directly observed.
 -   Inferences move from description to pattern to process, and each step requires more support.
 -   Observing a predicted pattern is evidence at the pattern level. Reaching the process level requires ruling out rival mechanisms.
 -   A failed prediction may challenge the proposed mechanism, an assumption, the measurement, or the study design.
--   Every inference has a scope in place, time, organism, and scale, and a conclusion should not exceed it.
+-   Every inference has a scope in place, time, organism, spatial or temporal scale, and level of observation, and a conclusion should not exceed it.
 -   A pattern across groups does not necessarily describe the individuals within those groups.
 -   Manipulation can establish that an imposed change causes a response, while mensurative studies show whether the proposed process corresponds to the phenomenon under natural conditions. The strongest explanation often draws on both.
 -   In writing, describe observations first, mark inferences with appropriate language, state the scope, and name the alternatives.
